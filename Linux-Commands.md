@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-02-27T03:47:10.210Z
+date: 2021-02-27T03:48:52.494Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
@@ -55,27 +55,3 @@ Rclone :
 rclone move --verbose --transfers 2 [SOURCES] [DEST]
 rclone copy --verbose --transfers 2 [SOURCES] [DEST]
 #rclone move --verbose --transfers 2  '/path/to/source/' 'Backups:Dest/'
-
-
-# Tar :
-
-Pack :
-tar -cfv [FILENAME].tar [SOURCE]
-
-Unpack :
-tar -xfv [FILENAME].tar
-
-View :
-tar -tfv [FILENAME].tar
- -delete
-
-Delete empty directories :
-find -empty -type d -delete
-
-Count empty directories :
-find -empty -type d | wc -l
-
-Create a folder to each files :
-for %i in (*) do md "%~ni"
-for %i in (*) do move "%i" "%~ni"
-pause
