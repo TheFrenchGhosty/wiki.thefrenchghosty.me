@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-02-27T03:48:52.494Z
+date: 2021-02-27T03:57:38.588Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
@@ -16,7 +16,7 @@ Get all extensions and their respective file count in a directory : find ./ -typ
 
 Delete all file of a type : find -type f -name "*.[FILETYPE]" -delete
 
-Clean MediaExt : find -type f -name "*.mp3" -delete && find -type f -name "*.jpg" -delete && find -type f -name "*.png" -delete && find -type f -name "*.jpeg" -delete && find -type f -name "*.MP3" -delete && find -type f -name "*.JPG" -delete && find -type f -name "*.PNG" -delete && find -type f -name "*.JPEG" -delete && find -empty -type f -delete && find -empty -type d -delete
+Clean Music collection : find -type f -name "*.mp3" -delete && find -type f -name "*.jpg" -delete && find -type f -name "*.png" -delete && find -type f -name "*.jpeg" -delete && find -type f -name "*.MP3" -delete && find -type f -name "*.JPG" -delete && find -type f -name "*.PNG" -delete && find -type f -name "*.JPEG" -delete && find -empty -type f -delete && find -empty -type d -delete
 
 Delete empty directories :
 find -empty -type d -delete
@@ -28,6 +28,10 @@ Create a folder to each files :
 for %i in (*) do md "%~ni"
 for %i in (*) do move "%i" "%~ni"
 pause
+
+
+Move every .ext to the current folder:
+find -type f -name "*.ext" -exec mv {}. \;
 
 # Tar :
 
