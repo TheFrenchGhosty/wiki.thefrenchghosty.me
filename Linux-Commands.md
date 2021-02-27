@@ -2,13 +2,13 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-02-27T03:57:38.588Z
+date: 2021-02-27T04:04:36.860Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
 ---
 
-# Data management commands:
+# Data management commands
 
 List folder size : du -h --max-depth=1
 
@@ -33,7 +33,7 @@ pause
 Move every .ext to the current folder:
 find -type f -name "*.ext" -exec mv {}. \;
 
-# Tar :
+# Tar
 
 Pack :
 tar -cfv [FILENAME].tar [SOURCE]
@@ -44,7 +44,7 @@ tar -xfv [FILENAME].tar
 View :
 tar -tfv [FILENAME].tar
 
-# Others:
+# Others
 
 Create SymLink : ln -s [Source] [Name]
 
