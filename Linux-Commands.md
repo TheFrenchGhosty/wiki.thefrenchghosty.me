@@ -2,9 +2,9 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-02-27T04:04:37.924Z
+date: 2021-06-27T13:59:07.511Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
 ---
 
@@ -34,6 +34,15 @@ pause
 
 Move every .ext to the current folder:
 `find -type f -name "*.ext" -exec mv {} . \;`
+
+Unrar recurcively (Source: https://unix.stackexchange.com/a/97203):
+
+`find . -name '*.rar' -execdir unrar e '{}' +`
+
+Unzip recurcively (Source: https://unix.stackexchange.com/a/97203):
+
+`find . -name '*.zip' -execdir unzip -tq '{}' +`
+
 
 # Tar
 
