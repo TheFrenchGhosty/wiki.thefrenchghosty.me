@@ -2,9 +2,9 @@
 title: home
 description: 
 published: true
-date: 2021-02-27T04:06:57.891Z
+date: 2021-02-27T04:11:00.354Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
 ---
 
@@ -12,4 +12,4 @@ dateCreated: 2021-02-27T02:52:19.467Z
 
 ## Content:
 
-[Linux-Commands](./Linux-Comments.md)
+[Linux-Commands](./Linux-Commands.md)

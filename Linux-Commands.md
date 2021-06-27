@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-06-27T13:59:07.511Z
+date: 2021-06-27T13:59:08.945Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
