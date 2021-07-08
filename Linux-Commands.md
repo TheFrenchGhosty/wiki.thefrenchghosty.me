@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-06-27T13:59:08.945Z
+date: 2021-07-08T19:53:29.714Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
@@ -42,6 +42,12 @@ Unrar recurcively (Source: https://unix.stackexchange.com/a/97203):
 Unzip recurcively (Source: https://unix.stackexchange.com/a/97203):
 
 `find . -name '*.zip' -execdir unzip -tq '{}' +`
+
+Rename files the same as its containing folder (Source: https://askubuntu.com/questions/901141/can-i-rename-files-within-a-folder-with-the-name-of-the-parent-folder )
+
+```
+find -type f -exec bash -c 'fp=$(dirname "$1");fn=$(basename "$fp");px="${1##*.}";mv "$1" "$fp"/"$fn"."$px"' sh "{}" \;
+```
 
 
 # Tar
