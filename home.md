@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2021-07-10T20:23:08.257Z
+date: 2021-07-10T20:24:28.359Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
@@ -16,9 +16,9 @@ dateCreated: 2021-02-27T02:52:19.467Z
 
 ### Linux
 
-[Linux-Commands](./Linux-Commands.md)
+[Linux Commands](./Linux-Commands.md)
 
 
 #### Gaming
 
-[Video-Game-Mods](./video-game-mods)
+[Video Game Mods](./Video-Game-Mods.md)
