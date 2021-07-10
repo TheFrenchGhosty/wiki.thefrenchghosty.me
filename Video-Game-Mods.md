@@ -2,7 +2,7 @@
 title: Video Game Mods
 description: 
 published: true
-date: 2021-07-10T21:20:35.360Z
+date: 2021-07-10T21:22:10.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-10T20:21:17.404Z
@@ -35,7 +35,9 @@ Download: http://iaam1404.projectanno.de/start_eng.htm
 
 #### Unofficial Patch:
 
-Description and Download: https://www.pcgamingwiki.com/wiki/Anno_1404#Unofficial_Patch
+Description: https://forums-de.ubisoft.com/showthread.php/103573-ANNO-1404-DoD-Venice-Unofficial-Patch-Release!
+
+Download: https://www.pcgamingwiki.com/wiki/Anno_1404#Unofficial_Patch
 
 
 ---
