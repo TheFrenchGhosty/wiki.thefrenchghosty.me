@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-07-08T20:03:56.286Z
+date: 2021-08-29T13:35:47.705Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
@@ -65,6 +65,11 @@ find . -name '*.zip' -execdir unzip -tq '{}' +
 Rename a file the same as its containing folder (Source: https://askubuntu.com/questions/901141/can-i-rename-files-within-a-folder-with-the-name-of-the-parent-folder )
 ```
 find -type f -exec bash -c 'fp=$(dirname "$1");fn=$(basename "$fp");px="${1##*.}";mv "$1" "$fp"/"$fn"."$px"' sh "{}" \;
+```
+
+Merge 2 folders and rename the duplicates (Source: https://www.linuxquestions.org/questions/showthread.php?p=6257365#post6257365):
+```
+cp --backup=numbered /source/* /destination/
 ```
 
 
