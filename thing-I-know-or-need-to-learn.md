@@ -2,7 +2,7 @@
 title: Things I know / Things I need to learn
 description: 
 published: true
-date: 2021-09-12T21:09:34.416Z
+date: 2021-09-12T21:11:03.638Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-12T21:04:55.849Z
@@ -24,9 +24,9 @@ dateCreated: 2021-09-12T21:04:55.849Z
 
 ### General tools
 
-
 - Git (Basics) - Need to learn how to fix merge conflicts
 - Systemd stack (Moderate) - Need to learn timers and more
+- GNU Screen
 
 
 ### System administration tools
@@ -39,6 +39,7 @@ dateCreated: 2021-09-12T21:04:55.849Z
 ### Security tools
 
 TODO
+
 
 ### Computer Languages
 
@@ -62,6 +63,7 @@ TODO
 
 - tmux
 
+
 ### System administration tools
 
 - Firewalld
@@ -72,20 +74,22 @@ TODO
 - MySQL/MariaDB management
 - Active Directory (Windows)
 
+
 ### Security tools
 
 - Metasploit
 - Armitage
 - sqlmap
 - Hydra
-
 - More advanced tools available on Kali Linux / BlackArch / Parrot OS
+
 
 ### Computer languages
 
 - JavaScript
 - Python
-- Crystal (maybe)
+- Crystal (maybe - only for Invidious)
+
 
 ### "Real" languages
 
