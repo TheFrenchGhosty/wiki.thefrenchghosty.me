@@ -2,7 +2,7 @@
 title: Things I know / Things I need to learn
 description: 
 published: true
-date: 2021-09-12T21:06:57.907Z
+date: 2021-09-12T21:09:34.416Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-12T21:04:55.849Z
@@ -25,51 +25,33 @@ dateCreated: 2021-09-12T21:04:55.849Z
 ### General tools
 
 
-
 - Git (Basics) - Need to learn how to fix merge conflicts
-
 - Systemd stack (Moderate) - Need to learn timers and more
-
 
 
 ### System administration tools
 
-
-
 - Docker (Moderate) - Need to learn about network
-
 - Grafana/Prometheus/Node-Exporter/Cadvisor (Moderate)
-
 - iptables (Basics) - No plan to learn more - Firewalld will replace it
-
 
 
 ### Security tools
 
-
+TODO
 
 ### Computer Languages
 
-
-
 - Shell scripting (Moderate) - Need to learn `sed`/`awk`
-
 - Markdown (Advanced)
-
 - HTML (Moderate)
-
 - CSS (Basics)
-
 
 
 ### "Real" languages
 
-
-
-- French (Advanced)
-
+- French (Native)
 - English (Advanced)
-
 - Spanish (Basics) - No plan to learn more, I can already read most of it
 
 ---
@@ -97,7 +79,7 @@ dateCreated: 2021-09-12T21:04:55.849Z
 - sqlmap
 - Hydra
 
-- More advanced tools available on Kali Linux / BlackArch
+- More advanced tools available on Kali Linux / BlackArch / Parrot OS
 
 ### Computer languages
 
