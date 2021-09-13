@@ -2,7 +2,7 @@
 title: Things I know / Things I need to learn
 description: 
 published: true
-date: 2021-09-12T21:11:03.638Z
+date: 2021-09-13T19:31:38.523Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-12T21:04:55.849Z
@@ -88,6 +88,7 @@ TODO
 
 - JavaScript
 - Python
+- Android development (Kotlin / Java)
 - Crystal (maybe - only for Invidious)
 
 
