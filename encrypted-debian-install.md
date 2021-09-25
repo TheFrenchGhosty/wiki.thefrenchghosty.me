@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-09-25T19:35:43.285Z
+date: 2021-09-25T20:44:14.411Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -116,6 +116,7 @@ Untick everything else (including "Debian desktop environment")
 
 # 3- Post-Install
 
+
 ## Sudo setup
 
 ```
@@ -128,6 +129,21 @@ Scroll down until "User privilege specification"
 Add your user with the same privilege as root
 
 Save
+
+## Locale fix
+
+It's possible that because this setup uses 2 locale, only one is properly setup. This will cause various issues, from warning to software crashing, to fix this:
+
+```
+sudo nano /etc/locale.gen
+```
+Uncomment the secondary locale (UTF-8), in my case, I need to uncomment: `fr_FR.UTF-8 UTF-8`.
+
+Save and regenerate the locale:
+
+```
+sudo locale-gen
+```
 
 ## KDE Plasma Configuration
 
@@ -184,7 +200,7 @@ Your username: Set picture (in my case to a Konqi)
 
 To install everything:
 ```
-apt install krita nfoview qbittorrent mpv smplayer mumble peek thunderbird birdtray micro
+apt install krita nfoview qbittorrent mpv smplayer mumble peek thunderbird birdtray micro keepassxc
 ```
 
 Software list:
@@ -199,18 +215,19 @@ Software list:
 - thunderbird: The best e-mail client
 - birdtray: Allow Thunderbird to go into the tray
 - micro: nano but better, without going to vim
-
+- keepassxc: The best password manager
 
 ### Advanced tools:
 
 To install everything:
 
 ```
-apt install gsmartcontrol whois hardinfo htop neofetch rclone aegisub curl electrum monero filezilla mediainfo-gui mkvtoolnix-gui torbrowser-launcher innoextract neovim
+apt install pulseaudio-module-bluetooth gsmartcontrol whois hardinfo htop neofetch rclone aegisub curl electrum monero filezilla mediainfo-gui mkvtoolnix-gui torbrowser-launcher innoextract neovim
 ```
 
 Software list:
 
+- pulseaudio-module-bluetooth: Audio speaker support for Bluetooth
 - gsmartcontrol: GUI SMART data monitor
 - whois: Get informations on domain name
 - hardinfo: Get informations on your hardware
@@ -227,6 +244,29 @@ Software list:
 - torbrowser-launcher: It's the TOR Browser
 - innoextract: Extract files from Inno setup installer (mainly for GOG games installers)
 - neovim: vim but better, because it's always useful to have
+
+
+## Software that aren't in Debian's repo:
+
+A good installer for .deb files:
+
+```
+sudo apt install gdebi
+```
+
+- Syncthing
+
+Install instruction: https://apt.syncthing.net/
+
+- Element Desktop: The best Matrix client
+
+Install instruction: https://element.io/get-started
+
+- Jellyfin Media Player
+
+Install the .deb manually gdebi-gtk
+
+---
 
 TODO: Find an Audacity alternative in the Debian repos, document the installation of yt-dlp, jdownloader2, rclone-brower, spek-alternative, torrent-file-editor, vscodium, cdemu/kde-cdemu-manager
 
