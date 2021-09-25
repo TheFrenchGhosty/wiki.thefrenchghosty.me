@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-09-25T17:36:56.117Z
+date: 2021-09-25T19:23:37.636Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -161,6 +161,75 @@ apt install sddm-theme-breeze
 
 Theme: Breeze
 
+### Personalization
+
+#### Regionnal Settings
+
+##### Formats
+
+Tick "Detailed Settings"
+
+Time: Set to your locale (in my case fr_FR)
+
+Measurment Units: Set to your locale (in my case fr_FR)
+
+#### Users
+
+Your username: Set picture (in my case to a Konqi)
+
+## Software installation
+
+
+### General tools:
+
+To install everything:
+```
+apt install krita nfoview qbittorrent mpv smplayer mumble peek thunderbird birdtray micro
+```
+
+Software list:
+
+- krita: Photoshop but not by Adobe
+- nfoview: Render NFO files the right way
+- qbittorrent: Torrent stuff the right way
+- mpv: The best media player
+- smplayer: The best frontend to mpv, the best media player
+- mumble: Voice chat but good
+- peek: The best way to record short GIF/WEBM/MP4 to share on the internet
+- thunderbird: The best e-mail client
+- birdtray: Allow Thunderbird to go into the tray
+- micro: nano but better, without going to vim
+
+
+### Advanced tools:
+
+To install everything:
+
+```
+apt install gsmartmontool whois hardinfo htop neofetch rclone aegisub curl electrum monero filezilla mediainfo-gui mkvtoolnix-gui torbrowser-launcher innoextract neovim
+```
+
+Software list:
+
+- gsmartmontool: GUI SMART data monitor
+- whois: Get informations on domain name
+- hardinfo: Get informations on your hardware
+- htop: Everyone's favorites system monitor
+- neofetch: /r/unixporn favorite tool
+- rclone: Interact with cloud storage provider the right way
+- aegisub: The best subtitle editor
+- curl: It's cURL
+- electrum: The best Bitcoin wallet
+- monero: The best Monero wallet
+- filezilla: SFTP the right way
+- mediainfo-gui: Get information about media files
+- mkvtoolnix-gui: The best way to work with video files
+- torbrowser-launcher: It's the TOR Browser
+- innoextract: Extract files from Inno setup installer (mainly for GOG games installers)
+- neovim: vim but better, because it's always useful to have
+
+TODO: Find an Audacity alternative in the Debian repos, document the installation of yt-dlp, jdownloader2, rclone-brower, spek-alternative, torrent-file-editor, vscodium, cdemu/kde-cdemu-manager
+
 ---
 
-TODO
+MORE TODO
