@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2021-07-10T20:24:28.359Z
+date: 2021-09-19T13:21:32.087Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
@@ -12,6 +12,10 @@ dateCreated: 2021-02-27T02:52:19.467Z
 
 
 ## Content
+
+### General
+
+[Things I know / Things I need to learn](./thing-I-know-or-need-to-learn.md)
 
 
 ### Linux

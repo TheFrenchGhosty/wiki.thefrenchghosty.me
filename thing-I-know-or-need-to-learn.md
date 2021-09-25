@@ -2,7 +2,7 @@
 title: Things I know / Things I need to learn
 description: 
 published: true
-date: 2021-09-13T19:31:38.523Z
+date: 2021-09-25T14:36:36.534Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-12T21:04:55.849Z
@@ -77,10 +77,15 @@ TODO
 
 ### Security tools
 
-- Metasploit
-- Armitage
-- sqlmap
+- Nmap
+- Gobuster
+- Burp Suite/zap
 - Hydra
+- SQLMap
+- SearchSploit
+- Metasploit
+- OSINT Framework (https://osintframework.com/)
+- `/dev/` `/proc` (`/dev/tcp` redirect and more)
 - More advanced tools available on Kali Linux / BlackArch / Parrot OS
 
 
