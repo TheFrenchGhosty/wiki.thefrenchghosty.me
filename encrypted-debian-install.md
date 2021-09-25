@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-09-25T17:23:38.851Z
+date: 2021-09-25T17:36:56.117Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -115,5 +115,52 @@ Software to install:
 Untick everything else (including "Debian desktop environment")
 
 # 3- Post-Install
+
+## Sudo setup
+
+```
+su - root
+visudo
+```
+
+Scroll down until "User privilege specification"
+
+Add your user with the same privilege as root
+
+Save
+
+## KDE Plasma Configuration
+
+Open System Settings
+
+### Appearance
+
+Global theme: "Breeze Dark"
+
+### Workspace
+
+#### Workspace behavior
+
+##### General behavior:
+
+Animation speed: Instant
+Click behavior: "Double-click to open files and folders"
+
+##### Screen locking:
+
+Untick: "After X minutes"
+
+
+#### Startup and Shutdown:
+
+```
+apt install sddm-theme-breeze
+```
+
+##### Login Screen (SDDM):
+
+Theme: Breeze
+
+---
 
 TODO
