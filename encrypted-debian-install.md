@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-09-25T19:23:37.636Z
+date: 2021-09-25T19:35:43.285Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -206,12 +206,12 @@ Software list:
 To install everything:
 
 ```
-apt install gsmartmontool whois hardinfo htop neofetch rclone aegisub curl electrum monero filezilla mediainfo-gui mkvtoolnix-gui torbrowser-launcher innoextract neovim
+apt install gsmartcontrol whois hardinfo htop neofetch rclone aegisub curl electrum monero filezilla mediainfo-gui mkvtoolnix-gui torbrowser-launcher innoextract neovim
 ```
 
 Software list:
 
-- gsmartmontool: GUI SMART data monitor
+- gsmartcontrol: GUI SMART data monitor
 - whois: Get informations on domain name
 - hardinfo: Get informations on your hardware
 - htop: Everyone's favorites system monitor
