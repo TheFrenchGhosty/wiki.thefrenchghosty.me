@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-09-26T13:39:11.229Z
+date: 2021-09-26T14:23:58.224Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -142,13 +142,24 @@ Save and regenerate the locale:
 sudo locale-gen
 ```
 
-## KDE Plasma Configuration
+# 4- KDE Plasma Configuration
 
-- Open System Settings
+## System Settings
+
 
 ### Appearance
 
-- Global theme: "Breeze Dark"
+#### Global theme
+
+Choose "Breeze Dark"
+
+#### Fonts: 
+
+##### Fonts:
+
+Adjust all fonts:
+
+Font: DejaVu Sans
 
 ### Workspace
 
@@ -174,6 +185,7 @@ sudo apt install sddm-theme-breeze
 
 - Theme: Breeze
 
+
 ### Personalization
 
 #### Regionnal Settings
@@ -196,7 +208,59 @@ Tick "Detailed Settings"
 - Web browser: Firefox ESR
 - E-mail client: Thunderbird
 
-## Software installation
+
+### Hardware
+
+#### Display and Monitor
+
+Desktop with multiple monitor only: re-arrange the screens in the right order
+
+#### Power Management
+
+##### Energy Saving
+
+Laptop Only:
+
+Disable (for "On AC power" and "On Battery"):
+- Dim screen
+- Screen Energy saving
+- Suspend session
+
+Desktop Only:
+
+Disable:
+- Screen energy saving
+
+
+## Dolphin configuration
+
+### Configure Dolphin
+
+#### Startup
+
+Show on startup: /home/[USERNAME]
+
+## System tray
+
+Clipboard: Clear history (tick "never ask again")
+
+## Application launcher (the "Windows" button)
+
+- Show alternative
+- Choose "Application menu"
+- Click "Switch"
+
+Remove every favorite (above the shutdown button)
+
+## Task manager (the task bar)
+
+- Show alternative
+- Choose "Task Manager"
+- Click "Switch"
+
+Configure task manager: Maximum row: 1
+
+# 5- Software installation
 
 
 ### General tools:
@@ -225,7 +289,7 @@ Software list:
 To install everything:
 
 ```
-apt install pulseaudio-module-bluetooth gsmartcontrol whois hardinfo htop neofetch rclone aegisub curl electrum monero filezilla mediainfo-gui mkvtoolnix-gui torbrowser-launcher innoextract neovim
+apt install pulseaudio-module-bluetooth gsmartcontrol whois hardinfo htop neofetch rclone aegisub curl electrum monero filezilla mediainfo-gui mkvtoolnix-gui torbrowser-launcher innoextract neovim audacity
 ```
 
 Software list:
@@ -247,17 +311,21 @@ Software list:
 - torbrowser-launcher: It's the TOR Browser
 - innoextract: Extract files from Inno setup installer (mainly for GOG games installers)
 - neovim: vim but better, because it's always useful to have
+- audacity: **Note: Audacity has been taken over, Debian still ship a "clean" version but a move to [Tenacity](https://tenacityaudio.org/) or [Sneedcity](https://sneedacity.org/) will be required soon.**
 
+## Software that aren't in Debian's repos:
 
-## Software that aren't in Debian's repo:
-
-A good installer for .deb files:
+Get a good installer for .deb files:
 
 ```
 sudo apt install gdebi
 ```
 
-- Librewolf
+- [Insert name of your VPN provider]
+
+Install instruction: Refer to your provider website
+
+- Librewolf: Firefox but not spyware
 
 Get the AppImage from: https://librewolf-community.gitlab.io/install/
 
@@ -265,17 +333,27 @@ Move it to `~/.AppImage`
 
 Make it executable and run it
 
-- Syncthing
+- Syncthing: The best way to sync files between machines
 
 Install instruction: https://apt.syncthing.net/
+
+Also install a GUI for Syncthing (configure it to start on boot, and to run syncthing when it's started):
+
+```
+sudo apt install syncthing-gtk
+```
 
 - Element Desktop: The best Matrix client
 
 Install instruction: https://element.io/get-started
 
+- VSCodium: VSCode but not spyware
+
+Install instruction: https://vscodium.com/#install
+
 ---
 
-TODO: Find an Audacity alternative in the Debian repos, document the installation of yt-dlp, jdownloader2, rclone-brower, spek-alternative, torrent-file-editor, vscodium, cdemu/kde-cdemu-manager
+TODO: Find an Audacity alternative that is in Debian's repos, document the installation of yt-dlp, jdownloader2, rclone-brower, spek-alternative, torrent-file-editor, cdemu/kde-cdemu-manager
 
 ---
 
