@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-09-25T20:47:07.311Z
+date: 2021-09-26T13:27:48.737Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -170,7 +170,7 @@ Untick: "After X minutes"
 #### Startup and Shutdown:
 
 ```
-apt install sddm-theme-breeze
+sudo apt install sddm-theme-breeze
 ```
 
 ##### Login Screen (SDDM):
@@ -254,6 +254,15 @@ A good installer for .deb files:
 sudo apt install gdebi
 ```
 
+- Librewolf
+
+Get the AppImage from: https://librewolf-community.gitlab.io/install/
+
+Move it to `~/.AppImage`
+
+Make it executable and run it
+
+
 - Syncthing
 
 Install instruction: https://apt.syncthing.net/
@@ -261,10 +270,6 @@ Install instruction: https://apt.syncthing.net/
 - Element Desktop: The best Matrix client
 
 Install instruction: https://element.io/get-started
-
-- Jellyfin Media Player
-
-Install the .deb manually gdebi-gtk
 
 ---
 
