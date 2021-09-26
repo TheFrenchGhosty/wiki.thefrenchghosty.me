@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-09-26T13:27:48.737Z
+date: 2021-09-26T13:39:11.229Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -29,90 +29,89 @@ dd bs=4M if=path/to/debian.iso of=/dev/sdx status=progress oflag=sync
 
 ## Locale and keyboard layout
 
-Language: English
-Location: Your location (in my case: other/Europe/France)
-Locale: en_US.UTF-8
-Keymap: Your keymap (in my case: French)
+- Language: English
+- Location: Your location (in my case: other/Europe/France)
+- Locale: en_US.UTF-8
+- Keymap: Your keymap (in my case: French)
 
 ## Hostname and users
 
-Hostname: debian
-Domain name: [Blank Value] (remove `home`)
-Root: Give it a strong password
-Full name of the user account: [Blank Value]
-Username of the user account: Choose an username
-Password: Give it a strong password
+- Hostname: debian
+- Domain name: [Blank Value] (remove `home`)
+- Root: Give it a strong password
+- Full name of the user account: [Blank Value]
+- Username of the user account: Choose an username
+- Password: Give it a strong password
 
 
 ## Partitioning
 
 (If asked: Force UEFI installation: YES)
 
-Partition method: Manual
+- Partition method: Manual
 
-Choose a your drive
-Create partition table
+- Choose a your drive
+- Create partition table
 
-Choose "FREE SPACE" of this drive
-Create a new partition
-Size: `500 MB`
-Begining
-Name: [Empty Value]
-Use as EXT4 jounrnaling file system"
-Mount as /boot
-Click "Done setting up the partition"
+- Choose "FREE SPACE" of this drive
+- Create a new partition
+- Size: `500 MB`
+- Begining
+- Name: [Empty Value]
+- Use as EXT4 jounrnaling file system"
+- Mount as /boot
+- Click "Done setting up the partition"
 
-Choose "FREE SPACE" of this drive
-Create a new partition
-Size: `500 MB`
-Begining
-Name: [Empty Value]
-Use as "EFI System Partition"
-Click "Done setting up the partition"
+- Choose "FREE SPACE" of this drive
+- Create a new partition
+- Size: `500 MB`
+- Begining
+- Name: [Empty Value]
+- Use as "EFI System Partition"
+- Click "Done setting up the partition"
 
 
-Choose "FREE SPACE" of this drive
-Create a new partition
-Size: all available (default value)
-Name: [Empty Value]
-Use as "Physical volume for encryption"
-Erase data: no
-Click "Done setting up the partition"
+- Choose "FREE SPACE" of this drive
+- Create a new partition
+- Size: all available (default value)
+- Name: [Empty Value]
+- Use as "Physical volume for encryption"
+- Erase data: no
+- Click "Done setting up the partition"
 
 ## Encryption
 
-Configure encrypted volumes
-Write the changes: YES
-Create encrypted volumes
-Choose the crypto partition
-Finish
-Encryption passphrase: Choose one
-Done
+- Configure encrypted volumes
+- Write the changes: YES
+- Create encrypted volumes
+- Choose the crypto partition
+- Finish
+- Encryption passphrase: Choose one
+- Done
 
-Choose the encrypted volume
-Mount point /
-Click "Done setting up the partition"
-Done
+- Choose the encrypted volume
+- Mount point /
+- Click "Done setting up the partition"
+- Done
 
-Click "Finish partitioning and write changes to disk"
-
-When asked to setup swap, choose "No" (we'll setup a swapfile later, that way our swap will be encrypted)
-Write the changes to disk
+- Click "Finish partitioning and write changes to disk"
+- 
+- When asked to setup swap, choose "No" (we'll setup a swapfile later, that way our swap will be encrypted)
+- Write the changes to disk
 
 ## Installation
 
-Mirror country: Choose a country with good internet near you
-Choose deb.debian.org
-Proxy: [blank]
-
-Participate in the package usage survey: No
+- Mirror country: Choose a country with good internet near you
+- Choose deb.debian.org
+- Proxy: [blank]
+- 
+- Participate in the package usage survey: No
 
 Software to install:
 
 - KDE Plasma
 - standard system utilities
-
-Untick everything else (including "Debian desktop environment")
+- Untick everything else (including "Debian desktop environment")
 
 # 3- Post-Install
 
@@ -124,15 +123,13 @@ su - root
 visudo
 ```
 
-Scroll down until "User privilege specification"
-
-Add your user with the same privilege as root
-
-Save
+- Scroll down until "User privilege specification"
+- Add your user with the same privilege as root
+- Save
 
 ## Locale fix
 
-It's possible that because this setup uses 2 locale, only one is properly setup. This will cause various issues, from warning to software crashing, to fix this:
+It's possible that because this setup uses 2 locales, only one is properly setup. This will cause various issues, from warnings to software crashing, to fix this:
 
 ```
 sudo nano /etc/locale.gen
@@ -147,11 +144,11 @@ sudo locale-gen
 
 ## KDE Plasma Configuration
 
-Open System Settings
+- Open System Settings
 
 ### Appearance
 
-Global theme: "Breeze Dark"
+- Global theme: "Breeze Dark"
 
 ### Workspace
 
@@ -159,12 +156,12 @@ Global theme: "Breeze Dark"
 
 ##### General behavior:
 
-Animation speed: Instant
-Click behavior: "Double-click to open files and folders"
+- Animation speed: Instant
+- Click behavior: "Double-click to open files and folders"
 
 ##### Screen locking:
 
-Untick: "After X minutes"
+- Untick: "After X minutes"
 
 
 #### Startup and Shutdown:
@@ -175,7 +172,7 @@ sudo apt install sddm-theme-breeze
 
 ##### Login Screen (SDDM):
 
-Theme: Breeze
+- Theme: Breeze
 
 ### Personalization
 
@@ -185,13 +182,19 @@ Theme: Breeze
 
 Tick "Detailed Settings"
 
-Time: Set to your locale (in my case fr_FR)
-
-Measurment Units: Set to your locale (in my case fr_FR)
+- Time: Set to your locale (in my case fr_FR)
+- Measurment Units: Set to your locale (in my case fr_FR)
 
 #### Users
 
-Your username: Set picture (in my case to a Konqi)
+- Your username: Set picture (in my case to a Konqi)
+
+#### Applications
+
+##### Default Applications
+
+- Web browser: Firefox ESR
+- E-mail client: Thunderbird
 
 ## Software installation
 
@@ -261,7 +264,6 @@ Get the AppImage from: https://librewolf-community.gitlab.io/install/
 Move it to `~/.AppImage`
 
 Make it executable and run it
-
 
 - Syncthing
 
