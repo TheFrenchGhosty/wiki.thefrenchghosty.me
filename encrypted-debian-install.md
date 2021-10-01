@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-09-26T14:23:58.224Z
+date: 2021-10-01T17:42:31.560Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -332,6 +332,10 @@ Get the AppImage from: https://librewolf-community.gitlab.io/install/
 Move it to `~/.AppImage`
 
 Make it executable and run it
+
+- Ungoogled-Chromium: Chromium but not spyware
+
+Install instruction: https://github.com/ungoogled-software/ungoogled-chromium-debian
 
 - Syncthing: The best way to sync files between machines
 
