@@ -2,7 +2,7 @@
 title: Encrypted Debian Install
 description: 
 published: true
-date: 2021-10-01T17:50:20.877Z
+date: 2021-10-01T17:53:21.616Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-25T17:19:15.700Z
@@ -338,6 +338,8 @@ Make it executable and run it
 Install instruction: https://github.com/ungoogled-software/ungoogled-chromium-debian
 
 Also install: https://github.com/NeverDecaf/chromium-web-store to enable extension support
+
+Go into Settings/Appearance: Theme: Use GTK+
 
 - Syncthing: The best way to sync files between machines
 
