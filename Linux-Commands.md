@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-08-29T13:47:06.645Z
+date: 2021-10-17T13:06:11.903Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
@@ -89,6 +89,14 @@ View :
 ```
 tar -tfv [FILENAME].tar
 ```
+
+# Vim
+
+Insert text at the begining of every line
+```
+:%s/^/[REPLACEME]/
+```
+
 
 # Others
 
