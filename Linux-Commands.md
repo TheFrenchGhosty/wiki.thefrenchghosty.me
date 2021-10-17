@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-10-17T13:06:11.903Z
+date: 2021-10-17T13:06:27.709Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
@@ -92,7 +92,7 @@ tar -tfv [FILENAME].tar
 
 # Vim
 
-Insert text at the begining of every line
+Insert text at the begining of every line (Source: https://techglimpse.com/insert-text-beginning-line-vim/ )
 ```
 :%s/^/[REPLACEME]/
 ```
