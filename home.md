@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2021-09-25T17:25:23.971Z
+date: 2021-10-19T17:02:31.113Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
@@ -23,6 +23,8 @@ dateCreated: 2021-02-27T02:52:19.467Z
 [Encrypted Debian Install](./encrypted-debian-install.md)
 
 [Linux Commands](./Linux-Commands.md)
+
+[Arch Linux - XFCE Uninstall](/.arch-linux-xfce-uninstall.md)
 
 
 #### Gaming
