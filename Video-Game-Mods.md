@@ -2,7 +2,7 @@
 title: Video Game Mods
 description: 
 published: true
-date: 2021-07-10T21:22:11.533Z
+date: 2021-10-19T16:56:41.937Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-10T20:21:17.404Z
@@ -168,6 +168,19 @@ Description and Download: https://www.sas1946.com/main/index.php?topic=50919.0
 
 Differences with B.A.T.: https://www.sas1946.com/main/index.php/topic,64622.msg729950.html#msg729950
 
+---
+
+## MX Bikes
+
+### Mods (Get them all):
+
+#### OEM Bike Pack: https://mxb-mods.com/oem-bike-pack
+
+#### Supermoto OEM: https://mxb-mods.com/supermoto-oem-v0-15-1
+
+#### Enduro Bike Pack: https://mxb-mods.com/enduro-bike-pack
+
+---
 
 ## The Elder Scrolls V - Skyrim - Special Edition
 
