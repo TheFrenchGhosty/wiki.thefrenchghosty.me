@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-10-17T13:06:27.709Z
+date: 2021-10-19T16:03:51.931Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
@@ -95,6 +95,12 @@ tar -tfv [FILENAME].tar
 Insert text at the begining of every line (Source: https://techglimpse.com/insert-text-beginning-line-vim/ )
 ```
 :%s/^/[REPLACEME]/
+```
+
+Delete all lines containing `[REPLACEME]` (Source: https://stackoverflow.com/questions/46781951/efficient-way-to-delete-line-containing-certain-text-in-vim-with-prompt )
+
+```
+:g/[REPLACEME]/d
 ```
 
 
