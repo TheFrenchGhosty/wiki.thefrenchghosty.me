@@ -2,7 +2,7 @@
 title: Linux Commands
 description: 
 published: true
-date: 2021-10-19T16:03:51.931Z
+date: 2021-10-19T16:32:23.371Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T03:39:50.359Z
@@ -103,6 +103,11 @@ Delete all lines containing `[REPLACEME]` (Source: https://stackoverflow.com/que
 :g/[REPLACEME]/d
 ```
 
+Sort lines alphabetically (Source: https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim )
+
+```
+:sort
+```
 
 # Others
 
