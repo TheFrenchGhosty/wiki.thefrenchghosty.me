@@ -2,7 +2,7 @@
 title: Things I know / Things I need to learn
 description: 
 published: true
-date: 2021-09-25T14:36:36.534Z
+date: 2021-12-03T21:31:06.402Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-12T21:04:55.849Z
@@ -31,7 +31,7 @@ dateCreated: 2021-09-12T21:04:55.849Z
 
 ### System administration tools
 
-- Docker (Moderate) - Need to learn about network
+- Docker / Docker-Compose (Advanced)
 - Grafana/Prometheus/Node-Exporter/Cadvisor (Moderate)
 - iptables (Basics) - No plan to learn more - Firewalld will replace it
 
