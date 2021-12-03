@@ -2,7 +2,7 @@
 title: Linux's Reserved Network Ports
 description: 
 published: true
-date: 2021-12-03T21:50:26.819Z
+date: 2021-12-03T21:54:55.562Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-03T21:50:26.819Z
@@ -21,9 +21,9 @@ When hosting some services, some ports should be avoided, those ports are:
 
 ## About the "ephemeral ports":
 
-Some distribition have a different lower values for the "ephemeral ports" (usually 49152 instead of 32768).
+Some distribution have a different lower values for the "ephemeral ports" (usually 49152 instead of 32768).
 
-Some distribition have a different higher values for the "ephemeral ports" (usually 60999 or 61000 instead of 65535).
+Some distribution have a different higher values for the "ephemeral ports" (usually 60999 or 61000 instead of 65535).
 
 **To be safe it's easier to assume any port above 32768 is "unsafe" to use *everywhere*.**
 
