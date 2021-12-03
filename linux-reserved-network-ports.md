@@ -2,7 +2,7 @@
 title: Linux's Reserved Network Ports
 description: 
 published: true
-date: 2021-12-03T21:54:55.562Z
+date: 2021-12-03T21:57:43.011Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-03T21:50:26.819Z
@@ -14,7 +14,7 @@ When hosting some services, some ports should be avoided, those ports are:
 
 **0-1023:** The "Well-Known Ports": used/reserved by system processes and core services
 
-**32768–65535:** The "ephemeral ports": automatically allocated by the system to application that needs to bind to a port.
+**32768–65535:** The "ephemeral ports": automatically allocated by the system to application that needs to bind to a port (for outgoing connections).
 
 
 ---
