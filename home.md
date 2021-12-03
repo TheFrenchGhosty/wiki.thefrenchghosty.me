@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2021-10-19T17:02:53.186Z
+date: 2021-12-03T21:52:00.817Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
@@ -25,6 +25,8 @@ dateCreated: 2021-02-27T02:52:19.467Z
 [Linux Commands](./Linux-Commands.md)
 
 [Arch Linux - XFCE Uninstall](./arch-linux-xfce-uninstall.md)
+
+[Linux's Reserved Network Ports](./linux-reserved-network-ports.md)
 
 
 #### Gaming
