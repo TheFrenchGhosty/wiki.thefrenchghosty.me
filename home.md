@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2021-12-03T21:52:00.817Z
+date: 2021-12-04T17:35:13.661Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
@@ -27,6 +27,11 @@ dateCreated: 2021-02-27T02:52:19.467Z
 [Arch Linux - XFCE Uninstall](./arch-linux-xfce-uninstall.md)
 
 [Linux's Reserved Network Ports](./linux-reserved-network-ports.md)
+
+
+### The PussTheCat.org setup
+
+[Bibliogram's Janky Setup](./bibliogram-janky-setup.md)
 
 
 #### Gaming
