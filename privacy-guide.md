@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T18:19:38.090Z
+date: 2021-12-07T18:20:32.988Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -68,7 +68,7 @@ Use (if you use a VPN):
 
 - The one provider by your VPN provider
 
-USe (if you don't use a VPN):
+Use (if you don't use a VPN):
 
 - [Adguard](https://adguard.com/en/adguard-dns/overview.html) (Note: Log some things: https://adguard.com/en/privacy/dns.html )
 
