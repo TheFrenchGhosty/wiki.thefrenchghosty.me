@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T21:52:46.748Z
+date: 2021-12-07T21:55:38.532Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -13,8 +13,12 @@ dateCreated: 2021-12-07T18:04:57.878Z
 # Privacy Guide
 
 
-## Why?
+## How?
 
+This "guide" is just a big list of great software/providers to dig into, the idea is that this is the information I would like to have seen 4 years ago: me from 4 years ago just wanted a list of good things to dig into: this is a list of good things to dig into.
+
+
+## Why?
 
 This guide has been created because privacyguides org and privacytools io made awful decisions and have awful recommendations. There's also various internal issues at privacyguides org [between their own team members](https://mikaela.info/blog/english/2021/11/23/leaving-privacyguides.html).
 
@@ -30,7 +34,6 @@ The "Do not use" category include things recommended by privacyguides org, that,
 
 
 ## Requirements
-
 
 - All software must be open source no exception.
 
