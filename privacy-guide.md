@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T21:56:41.011Z
+date: 2021-12-07T22:01:16.517Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -45,7 +45,7 @@ The "Do not use" category include things recommended by privacyguides org, that,
 
 - All providers *should* ideally have open source servers.
 
-- All providers mustn't be invite only (sorry RiseUp and cTemplar)
+- All providers mustn't be invite only (sorry RiseUp and cTemplar).
 
 # List
 
@@ -58,11 +58,13 @@ Use:
 
 - Your own self-hosted Nextcloud
 
-- Any provider supported (avoid the [GAFAM](https://en.wikipedia.org/wiki/Big_Tech)) by [Rclone](https://rclone.org/docs/) (and [just encrypt with it](https://rclone.org/crypt/))
+- Any provider (that isn't a [GAFAM](https://en.wikipedia.org/wiki/Big_Tech)) supported by [Rclone](https://rclone.org/docs/) (and [just encrypt with it](https://rclone.org/crypt/))
 
 Do not use:
 
 - Any provider not supported by [Rclone](https://rclone.org/docs/)
+
+- Any provider that is a [GAFAM](https://en.wikipedia.org/wiki/Big_Tech))
 
 
 ### DNS Resolver
