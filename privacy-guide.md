@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T18:04:57.878Z
+date: 2021-12-07T18:06:45.526Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -55,7 +55,7 @@ Use:
 
 - Your own self-hosted Nextcloud
 
-- Any provider supported by [Rclone](https://rclone.org/docs/)
+- Any provider supported by [Rclone](https://rclone.org/docs/) (and [just encrypt with it](https://rclone.org/crypt/))
 
 Do not use:
 
