@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T21:55:38.532Z
+date: 2021-12-07T21:56:41.011Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -13,7 +13,7 @@ dateCreated: 2021-12-07T18:04:57.878Z
 # Privacy Guide
 
 
-## How?
+## What?
 
 This "guide" is just a big list of great software/providers to dig into, the idea is that this is the information I would like to have seen 4 years ago: me from 4 years ago just wanted a list of good things to dig into: this is a list of good things to dig into.
 
