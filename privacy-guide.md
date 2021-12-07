@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T22:01:16.517Z
+date: 2021-12-07T22:37:12.108Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -58,13 +58,13 @@ Use:
 
 - Your own self-hosted Nextcloud
 
-- Any provider (that isn't a [GAFAM](https://en.wikipedia.org/wiki/Big_Tech)) supported by [Rclone](https://rclone.org/docs/) (and [just encrypt with it](https://rclone.org/crypt/))
+- Any provider (that isn't a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech): Amazon-Apple-Google-Microsoft or [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859) or Yandex) supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/))
 
 Do not use:
 
 - Any provider not supported by [Rclone](https://rclone.org/docs/)
 
-- Any provider that is a [GAFAM](https://en.wikipedia.org/wiki/Big_Tech))
+- Any provider that isn't a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech): Amazon-Apple-Google-Microsoft or [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859) or Yandex
 
 
 ### DNS Resolver
