@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T18:20:32.988Z
+date: 2021-12-07T21:52:46.748Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -16,9 +16,9 @@ dateCreated: 2021-12-07T18:04:57.878Z
 ## Why?
 
 
-This guide has been created because privacyguides org and privacytools io made awful decisions and recommend awful things **that even their own team members disagree with** (https://mikaela.info/blog/english/2021/11/23/leaving-privacyguides.html)
+This guide has been created because privacyguides org and privacytools io made awful decisions and have awful recommendations. There's also various internal issues at privacyguides org [between their own team members](https://mikaela.info/blog/english/2021/11/23/leaving-privacyguides.html).
 
-Some examples of bad decisions I contested:
+Some examples of awful decisions I contested:
 
 - Removal of LineageOS: https://github.com/privacyguides/privacyguides.org/pull/294#issuecomment-988092870
 - Removal of Posteo: https://github.com/privacyguides/privacyguides.org/pull/369#issuecomment-988094653
@@ -32,11 +32,11 @@ The "Do not use" category include things recommended by privacyguides org, that,
 ## Requirements
 
 
-- All software must be open source, no exception.
+- All software must be open source no exception.
 
 - All providers mustn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand.
 
-- All providers *shouldn't* ideally be based in Switzerland.
+- All providers *shouldn't* ideally be based in Switzerland (reason: Switzerland privacy died in 2018, they now basically have their own ["NSA-like" agency](https://neflabs.com/article/swiss-nsa-march/), providers are just using "Switzerland" in their marketing because the country still has a reputation of being private - while it's not).
 
 - All providers must have open source clients (or use an open standard, like e-mail).
 
@@ -72,15 +72,17 @@ Use (if you don't use a VPN):
 
 - [Adguard](https://adguard.com/en/adguard-dns/overview.html) (Note: Log some things: https://adguard.com/en/privacy/dns.html )
 
-- [Quad9](https://quad9.net/) (Note: Based in Switzerland)
+- [Quad9](https://quad9.net/) (Note: Based in Switzerland, no log)
+
+- [AhaDNS](https://ahadns.com/) (Note: Hobby project, no log)
 
 Do not use:
 
-- Cloudflare: it's [Cloudflare](https://git.disroot.org/dCF/deCloudflare)
+- Cloudflare: it's [Cloudflare](https://git.disroot.org/dCF/deCloudflare/src/branch/master/readme/en.md).
 
 - NextDNS: USA-based
 
-- UncensoredDNS: DNS requests are too sensitive to give to an hobby project.
+- UncensoredDNS: Hobby project + No privacy policy.
 
 
 ### Email provider
@@ -99,7 +101,7 @@ Use:
 
 Do not use:
 
-- Protonmail: Sketchy (potentially a honeypot), alledgedly weird fundings sources tied to Israel inteligence agencies.
+- Protonmail: Sketchy (allegedly a honeypot), allegedly weird fundings sources tied to Israel inteligence agencies ([digdeeper.neocities.org analysis](https://digdeeper.neocities.org/ghost/email.html#ProtonMail) - Mental Outlaw's video about: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
 - StartMail: Made Startpage, and sold it to an advertising company.
 
@@ -143,7 +145,7 @@ Do not use:
 
 ### VPN
 
-Note: A good rules is to avoid any VPN that has referals and/or advertise (basically 99% of them).
+Note: A good rules is to avoid any VPN that has referals and/or advertise and/or do fake "time limited" sales (basically 99% of them).
 
 Use:
 
@@ -153,7 +155,7 @@ Use:
 
 Do not use:
 
-- ProtonVPN: Like Protonmail: Sketchy (potentially a honeypot), alledgedly weird fundings sources tied to Israel inteligence agencies.
+- ProtonVPN: like Protonmail, sketchy (allegedly a honeypot), allegedly weird fundings sources tied to Israel inteligence agencies ([digdeeper.neocities.org analysis](https://digdeeper.neocities.org/ghost/email.html#ProtonMail) - Mental Outlaw's video about: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
 
 # Software
