@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T18:06:45.526Z
+date: 2021-12-07T18:19:38.090Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -34,7 +34,7 @@ The "Do not use" category include things recommended by privacyguides org, that,
 
 - All software must be open source, no exception.
 
-- All providers musn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand.
+- All providers mustn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand.
 
 - All providers *shouldn't* ideally be based in Switzerland.
 
@@ -55,7 +55,7 @@ Use:
 
 - Your own self-hosted Nextcloud
 
-- Any provider supported by [Rclone](https://rclone.org/docs/) (and [just encrypt with it](https://rclone.org/crypt/))
+- Any provider supported (avoid the [GAFAM](https://en.wikipedia.org/wiki/Big_Tech)) by [Rclone](https://rclone.org/docs/) (and [just encrypt with it](https://rclone.org/crypt/))
 
 Do not use:
 
@@ -80,7 +80,7 @@ Do not use:
 
 - NextDNS: USA-based
 
-- UncensoredDNs: DNS requests are to sensitive to give to an hobby project.
+- UncensoredDNS: DNS requests are too sensitive to give to an hobby project.
 
 
 ### Email provider
@@ -93,7 +93,7 @@ Use:
 
 - [Mailbox](https://mailbox.org/en/) (Note: 100% closed source)
 
-- [Tutanota](https://tutanota.com/) (Note: No IMAP/POP3, using their *open source* client is required, server code is closed source)
+- [Tutanota](https://tutanota.com/) (Note: No IMAP/POP3, using their *open source* client is required, server code is 100% closed source)
 
 - [Disroot](https://disroot.org/en/services/email) (Note: Hobby project, but **should** [last](https://forum.disroot.org/t/will-disroot-last/101/2). I still wouldn't recommended it as a main provider.)
 
@@ -123,7 +123,7 @@ Use:
 
 - Any Fediverse-compatible project (Mastodon, diaspora*, Friendica, GNU social, Pleroma, Pixelfed...)
 
-- [Lemmy](https://join-lemmy.org/) (Note: Projects owners/creators are heavily politically biased)
+- [Lemmy](https://join-lemmy.org/) (Note: Projects owners/creators are heavily politically biased and use Lemmy to "push" their political opinions)
 
 Do not use:
 
@@ -143,7 +143,7 @@ Do not use:
 
 ### VPN
 
-Note: A good rules is to avoid any VPN that has referals and/or advertise (basically 90% of them).
+Note: A good rules is to avoid any VPN that has referals and/or advertise (basically 99% of them).
 
 Use:
 
