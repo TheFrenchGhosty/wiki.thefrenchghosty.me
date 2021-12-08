@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-08T17:54:39.934Z
+date: 2021-12-08T18:17:21.627Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -57,6 +57,8 @@ Use:
 
 - Your own self-hosted Nextcloud
 - Any provider (that isn't: a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech) - Amazon-Apple-Google-Microsoft), in a [Five Eyes country](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand - ([Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859)) or in Russia (Yandex) supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/))
+- [Cryptee](https://crypt.ee/) (Note: expensive, not audited, not supported by Rclone)
+- [Filen](https://filen.io/) (Note: really young, not audited, not supported by Rclone)
 
 Do not use:
 
