@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-08T14:20:13.901Z
+date: 2021-12-08T14:39:46.316Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -155,7 +155,7 @@ Do not use:
 Use:
 
 - [Librewolf](https://librewolf.net/) (Note: follow [this](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration))
-- Firefox properly [configured](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration)
+- Firefox properly [configured](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration) (Note: it directly "encourages" [Mozilla's behaviour](https://digdeeper.neocities.org/ghost/mozilla.html))
 - [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
 - [Bromite](https://www.bromite.org/)
 
@@ -225,7 +225,7 @@ Use:
 
 Do not use:
 
-- Thunderbird: Mozilla + Bloated + Heavy use of analytics/spyware
+- Thunderbird: It directly "encourages" [Mozilla's behaviour](https://digdeeper.neocities.org/ghost/mozilla.html) + Bloated + Heavy use of analytics/spyware
 
 #### Mobile
 
