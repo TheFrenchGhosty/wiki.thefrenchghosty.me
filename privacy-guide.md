@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-08T11:41:17.171Z
+date: 2021-12-08T14:12:40.685Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -16,6 +16,8 @@ dateCreated: 2021-12-07T18:04:57.878Z
 ## What?
 
 This "guide" is just a big list of great software/providers to dig into, the idea is that this is the information I would like to have seen 4 years ago: me from 4 years ago just wanted a list of good things to dig into: this is a list of good things to dig into.
+
+**License:** The content of this guide is released under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) to everyone, *except* the current and past team members of privacyguides org and privacytools io (except [Mikaela](https://github.com/Mikaela)), reuse is allowed following this license, as long as the content doesn't end up on privacyguides org, privacytools io and any provider that isn't listed in the providers list.
 
 
 ## Why?
@@ -36,15 +38,10 @@ The "Do not use" category include things recommended by privacyguides org, that,
 ## Requirements
 
 - All software must be open source no exception.
-
 - All providers mustn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand.
-
 - All providers *shouldn't* ideally be based in Switzerland (reason: Switzerland privacy died in 2018, they now basically have their own ["NSA-like" agency](https://neflabs.com/article/swiss-nsa-march/), providers are just using "Switzerland" in their marketing because the country still has a reputation of being private - while it's not).
-
 - All providers must have open source clients (or use an open standard, like e-mail).
-
 - All providers *should* ideally have open source servers.
-
 - All providers mustn't be invite only (sorry RiseUp and cTemplar).
 
 # List
@@ -57,13 +54,11 @@ The "Do not use" category include things recommended by privacyguides org, that,
 Use:
 
 - Your own self-hosted Nextcloud
-
 - Any provider (that isn't a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech): Amazon-Apple-Google-Microsoft or [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859) or Yandex) supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/))
 
 Do not use:
 
 - Any provider not supported by [Rclone](https://rclone.org/docs/)
-
 - Any provider that isn't a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech): Amazon-Apple-Google-Microsoft or [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859) or Yandex
 
 
@@ -76,17 +71,13 @@ Use (if you use a VPN):
 Use (if you don't use a VPN):
 
 - [Adguard](https://adguard.com/en/adguard-dns/overview.html) (Note: Log some things: https://adguard.com/en/privacy/dns.html )
-
 - [Quad9](https://quad9.net/) (Note: Based in Switzerland, no log)
-
 - [AhaDNS](https://ahadns.com/) (Note: Hobby project, no log)
 
 Do not use:
 
 - Cloudflare: it's [Cloudflare](https://git.disroot.org/dCF/deCloudflare/src/branch/master/readme/en.md).
-
 - NextDNS: USA-based
-
 - UncensoredDNS: Hobby project + No privacy policy.
 
 
@@ -97,17 +88,13 @@ Resource: https://digdeeper.neocities.org/ghost/email.html
 Use:
 
 - [Posteo](https://posteo.de/en) (Note: No custom domains allowed, but 100% open source)
-
 - [Mailbox](https://mailbox.org/en/) (Note: 100% closed source)
-
 - [Tutanota](https://tutanota.com/) (Note: No IMAP/POP3, using their *open source* client is required, server code is 100% closed source)
-
 - [Disroot](https://disroot.org/en/services/email) (Note: Hobby project, but **should** [last](https://forum.disroot.org/t/will-disroot-last/101/2). I still wouldn't recommended it as a main provider.)
 
 Do not use:
 
 - Protonmail: Sketchy (allegedly a honeypot), allegedly weird fundings sources tied to Israel inteligence agencies ([digdeeper.neocities.org analysis](https://digdeeper.neocities.org/ghost/email.html#ProtonMail) - Mental Outlaw's video about: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
-
 - StartMail: Made Startpage, and sold it to an advertising company.
 
 
@@ -129,7 +116,6 @@ Social networks are fundamentaly not private by design, but if you have to use o
 Use:
 
 - Any Fediverse-compatible project (Mastodon, diaspora*, Friendica, GNU social, Pleroma, Pixelfed...)
-
 - [Lemmy](https://join-lemmy.org/) (Note: Projects owners/creators are heavily politically biased and use Lemmy to "push" their political opinions)
 
 Do not use:
@@ -155,7 +141,6 @@ Note: A good rules is to avoid any VPN that has referals and/or advertise and/or
 Use:
 
 - [Mullvad](https://mullvad.net/)
-
 - [IVPN](https://www.ivpn.net/)
 
 Do not use:
@@ -170,11 +155,8 @@ Do not use:
 Use:
 
 - [Librewolf](https://librewolf.net/) (Note: follow [this](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration))
-
 - Firefox properly [configured](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration)
-
 - [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
-
 - [Bromite](https://www.bromite.org/)
 
 Do not use:
@@ -184,12 +166,11 @@ Do not use:
 
 ### Operating Systems
 
-#### Desktop
+#### PC
 
 Use:
 
 - Any FOSS GNU/Linux distribution (except anything Ubuntu-based (except Linux Mint))
-
 - Any FOSS BSD distrubution
 
 Do not use:
@@ -201,7 +182,6 @@ Do not use:
 Use:
 
 - [GrapheneOS](https://grapheneos.org/) (Note: really low amount of devices supported)
-
 - [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://teddit.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
 
 - Any FOSS GNU/Linux distribution
@@ -209,7 +189,6 @@ Use:
 Do not use:
 
 - Any rom that ship with MicroG (CalyxOS...): MicroG is pointless and encourage the use of spyware, just stick to open source software
-
 - DivestOS: The project is FAR too young, and has no track record, also doesn't support OTA update
 
 
@@ -229,7 +208,6 @@ Do not use:
 Use:
 
 - [Joplin](https://joplinapp.org/)
-
 - Plain text files
 
 Do not use:
@@ -239,6 +217,8 @@ Do not use:
 
 ### Email Clients
 
+#### PC
+
 Use:
 
 - [Claws Mail](https://www.claws-mail.org/)
@@ -247,14 +227,24 @@ Do not use:
 
 - Thunderbird: Mozilla + Bloated + Heavy use of analytics/spyware
 
+#### Mobile
+
+Use:
+
+- [K-9 Mail](https://f-droid.org/packages/com.fsck.k9/)
+- [FairEmail](https://f-droid.org/packages/eu.faircode.email/)
+
+Do not use:
+
+- Anything else
+
+
 ### File Encryption Software
 
 Use:
 
 - [Veracrypt](https://veracrypt.fr/)
-
 - [Rclone](https://rclone.org/crypt/)
-
 - A 7-zip encrypted archive
 
 Do not use:
@@ -267,15 +257,70 @@ Do not use:
 Use:
 
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi)
-
 - [OnionShare](https://onionshare.org/)
-
 - [Filebrowser](https://filebrowser.org/)
 
 Do not use:
 
 - Anything else
 
----
+### Metadata Removal Tools
 
-TODO: finish this list
+#### PC
+
+Use:
+
+- [ExifCleaner](https://exifcleaner.com/)
+
+Do not use:
+
+- Anything else
+
+#### Mobile
+
+Use:
+
+- [Scrambled Exif](https://f-droid.org/packages/com.jarsilio.android.scrambledeggsif/)
+
+Do not use:
+
+- Anything else
+
+
+### Password Managers
+
+Use:
+
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
+- [KeePassXC](https://keepassxc.org/) (Android client: [KeePassDX](https://f-droid.org/packages/com.kunzisoft.keepass.libre))
+
+Do not use:
+
+- Anything else
+
+### Pastebin
+
+Use:
+
+- [PrivateBin](https://privatebin.info/) (Encrypted)
+- [Hastebin](https://github.com/toptal/haste-server) (Not encrypted)
+- [NoPaste](https://github.com/bokub/nopaste) (Client side encryption + storage)
+
+### Instant Messengers 
+
+Use:
+
+- [XMPP](https://xmpp.org/) (Note: not really user friendly, multiple device on one account is "weird")
+- [Matrix](https://matrix.org/) (Note: more user friendly than XMPP, easy multiple device, but worse clients, more metadata leakages, heavier server and more minor to major issues)
+- [Briar](https://briarproject.org/) (Note: P2P, TOR based, ideal for anonymous communication)
+
+Do not use:
+
+- Signal: Phone number required, centralized server, US-based company, hostile toward alternative clients)
+
+### Video/Voice chat
+
+Use:
+
+- [Jitsi](https://jitsi.org/jitsi-meet/) (Video chat)
+- [Mumble](https://mumble.info/) (Voice chat)
