@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-07T22:37:12.108Z
+date: 2021-12-08T11:41:17.171Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -163,6 +163,119 @@ Do not use:
 - ProtonVPN: like Protonmail, sketchy (allegedly a honeypot), allegedly weird fundings sources tied to Israel inteligence agencies ([digdeeper.neocities.org analysis](https://digdeeper.neocities.org/ghost/email.html#ProtonMail) - Mental Outlaw's video about: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
 
-# Software
+## Software
 
-TODO
+### Web Browser
+
+Use:
+
+- [Librewolf](https://librewolf.net/) (Note: follow [this](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration))
+
+- Firefox properly [configured](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration)
+
+- [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
+
+- [Bromite](https://www.bromite.org/)
+
+Do not use:
+
+- Tor Browser: it's a browser made for anonimity, not privacy
+
+
+### Operating Systems
+
+#### Desktop
+
+Use:
+
+- Any FOSS GNU/Linux distribution (except anything Ubuntu-based (except Linux Mint))
+
+- Any FOSS BSD distrubution
+
+Do not use:
+
+- Anything Ubuntu-based (that isn't Linux Mint): Made by Cannonical, a company that created and "push" the use of Snap, a "packaging system" that requires connecting to their own closed source server, and used to include advertising for Amazon.
+
+#### Mobile
+
+Use:
+
+- [GrapheneOS](https://grapheneos.org/) (Note: really low amount of devices supported)
+
+- [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://teddit.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
+
+- Any FOSS GNU/Linux distribution
+
+Do not use:
+
+- Any rom that ship with MicroG (CalyxOS...): MicroG is pointless and encourage the use of spyware, just stick to open source software
+
+- DivestOS: The project is FAR too young, and has no track record, also doesn't support OTA update
+
+
+### Calendar and Contact Sync
+
+Use:
+
+- [EteSync](https://www.etesync.com/)
+
+Do not use:
+
+- CalDAV/CarDAV: Not encrypted
+
+
+### Notebooks
+
+Use:
+
+- [Joplin](https://joplinapp.org/)
+
+- Plain text files
+
+Do not use:
+
+- Standard Notes: Highly commercial
+
+
+### Email Clients
+
+Use:
+
+- [Claws Mail](https://www.claws-mail.org/)
+
+Do not use:
+
+- Thunderbird: Mozilla + Bloated + Heavy use of analytics/spyware
+
+### File Encryption Software
+
+Use:
+
+- [Veracrypt](https://veracrypt.fr/)
+
+- [Rclone](https://rclone.org/crypt/)
+
+- A 7-zip encrypted archive
+
+Do not use:
+
+- Cryptomator: Android client is closed source and paid
+
+
+###  File Sharing
+
+Use:
+
+- [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi)
+
+- [OnionShare](https://onionshare.org/)
+
+- [Filebrowser](https://filebrowser.org/)
+
+Do not use:
+
+- Anything else
+
+---
+
+TODO: finish this list
