@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-08T17:25:31.298Z
+date: 2021-12-08T17:54:39.934Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -40,7 +40,7 @@ The "Do not use" category include things recommended by privacyguides org, that,
 ## Requirements
 
 - All software must be open source no exception.
-- All providers mustn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand.
+- All providers mustn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand - or Russia.
 - All providers *shouldn't* ideally be based in Switzerland (reason: Switzerland privacy died in 2018, they now basically have their own ["NSA-like" agency](https://neflabs.com/article/swiss-nsa-march/), providers are just using "Switzerland" in their marketing because the country still has a reputation of being private - while it's not).
 - All providers must have open source clients (or use an open standard, like e-mail).
 - All providers *should* ideally have open source servers.
@@ -56,12 +56,12 @@ The "Do not use" category include things recommended by privacyguides org, that,
 Use:
 
 - Your own self-hosted Nextcloud
-- Any provider (that isn't a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech): Amazon-Apple-Google-Microsoft or [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859) or Yandex) supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/))
+- Any provider (that isn't: a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech) - Amazon-Apple-Google-Microsoft), in a [Five Eyes country](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand - ([Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859)) or in Russia (Yandex) supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/))
 
 Do not use:
 
-- Any provider not supported by [Rclone](https://rclone.org/docs/)
-- Any provider that is a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech): Amazon-Apple-Google-Microsoft or [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859) or Yandex
+- Any provider not supported by [Rclone](https://rclone.org/overview/)
+- Any provider that is: a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech) - Amazon-Apple-Google-Microsoft), in a [Five Eyes country](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand - ([Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859)) or in Russia (Yandex)
 
 
 ### DNS Resolver
