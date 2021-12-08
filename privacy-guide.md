@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-08T18:17:21.627Z
+date: 2021-12-08T19:43:56.372Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -62,8 +62,7 @@ Use:
 
 Do not use:
 
-- Any provider not supported by [Rclone](https://rclone.org/overview/)
-- Any provider that is: a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech) - Amazon-Apple-Google-Microsoft), in a [Five Eyes country](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand - ([Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859)) or in Russia (Yandex)
+- Any other provider not supported by [Rclone](https://rclone.org/overview/)
 
 
 ### DNS Resolver
@@ -201,10 +200,7 @@ Do not use:
 Use:
 
 - [EteSync](https://www.etesync.com/)
-
-Do not use:
-
-- CalDAV/CarDAV: Not encrypted
+- CalDAV/CarDAV (No client side encryption)
 
 
 ### Notebooks
@@ -275,6 +271,7 @@ Do not use:
 Use:
 
 - [ExifCleaner](https://exifcleaner.com/)
+- Exiftools or anything supporting it (imagemagick for example)
 
 Do not use:
 
@@ -308,19 +305,20 @@ Use:
 
 - [PrivateBin](https://privatebin.info/) (Encrypted)
 - [Hastebin](https://github.com/toptal/haste-server) (Not encrypted)
+- [Pinnwand](https://github.com/supakeen/pinnwand) (Not encrypted)
 - [NoPaste](https://github.com/bokub/nopaste) (Client side encryption + storage)
 
 ### Instant Messengers 
 
 Use:
 
-- [XMPP](https://xmpp.org/) (Note: not really user friendly, multiple device on one account is "weird")
-- [Matrix](https://matrix.org/) (Note: more user friendly than XMPP, easy multiple device, but worse clients, more metadata leakages, heavier server and more minor to major issues)
+- [XMPP](https://xmpp.org/) (Note: not really user friendly, OMEMO encryption with multiple devices on one account is "weird" and sometimes will only make messages apear on one devices)
+- [Matrix](https://matrix.org/) (Note: more user friendly than XMPP, easy encryption with multiple devices, but worse clients, more metadata leakages, heavier server and more minor to major issues)
 - [Briar](https://briarproject.org/) (Note: P2P, TOR based, ideal for anonymous communication)
 
 Do not use:
 
-- Signal: Phone number required, centralized server, US-based company, hostile toward alternative clients)
+- Signal: Phone number required, centralized server, US-based company, [hostile toward alternative clients](https://github.com/LibreSignal/LibreSignal#readme))
 
 ### Video/Voice chat
 
