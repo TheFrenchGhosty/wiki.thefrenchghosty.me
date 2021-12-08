@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-08T14:12:40.685Z
+date: 2021-12-08T14:20:13.901Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -59,7 +59,7 @@ Use:
 Do not use:
 
 - Any provider not supported by [Rclone](https://rclone.org/docs/)
-- Any provider that isn't a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech): Amazon-Apple-Google-Microsoft or [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859) or Yandex
+- Any provider that is a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech): Amazon-Apple-Google-Microsoft or [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859) or Yandex
 
 
 ### DNS Resolver
