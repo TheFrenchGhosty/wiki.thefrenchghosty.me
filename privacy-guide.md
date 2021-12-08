@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-08T17:22:15.241Z
+date: 2021-12-08T17:25:31.298Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -104,7 +104,7 @@ Do not use:
 
 Use:
 
-[SearX](https://searx.me/)
+- [SearX](https://searx.me/)
 
 Do not use:
 
@@ -191,7 +191,7 @@ Use:
 Do not use:
 
 - Any rom that ship with MicroG (CalyxOS...): MicroG is pointless and encourage the use of spyware, just stick to open source software
-- DivestOS: The project is FAR too young, and has no track record, also doesn't support OTA update
+- DivestOS: The project is FAR too young, and has no track record (see you in 1 or 2 years).
 
 
 ### Calendar and Contact Sync
