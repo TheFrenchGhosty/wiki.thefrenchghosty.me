@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-08T19:43:56.372Z
+date: 2021-12-10T18:54:26.073Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -314,7 +314,8 @@ Use:
 
 - [XMPP](https://xmpp.org/) (Note: not really user friendly, OMEMO encryption with multiple devices on one account is "weird" and sometimes will only make messages apear on one devices)
 - [Matrix](https://matrix.org/) (Note: more user friendly than XMPP, easy encryption with multiple devices, but worse clients, more metadata leakages, heavier server and more minor to major issues)
-- [Briar](https://briarproject.org/) (Note: P2P, TOR based, ideal for anonymous communication)
+- [Briar](https://briarproject.org/) (Note: Anonymous, P2P, TOR based, ideal for anonymous communication)
+- [Session](https://getsession.org/) (Note: Anonymous, Lokinet based, ideal for anonymous communication) 
 
 Do not use:
 
