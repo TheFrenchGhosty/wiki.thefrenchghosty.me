@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-12T15:37:09.818Z
+date: 2021-12-12T15:37:47.927Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -51,6 +51,8 @@ Some community feedback about what privacyguides org has become:
 - About the Qwant removal (because "In December 2020, Qwant blocked access from Japan, Romania, Taiwan, and, Turkey.I consider this to be a wicked act."): ["How is that a reason to remove it?"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqrx5c/#c), ["its not privacy related bruh"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqtfyk/#c)
 
 - About the removal of good browser addons ["I feel like there's a growing disconnect between the authors and readers and we'll eventually have another 'fork' which focuses more on the average user, who has next to no technical knowledge."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr1vei/#c)
+
+More: https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/
 
 
 
