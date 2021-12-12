@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-12T13:57:38.772Z
+date: 2021-12-12T15:37:09.818Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -35,6 +35,23 @@ Some examples of awful decisions I contested:
 - Removal of 7zip: https://github.com/privacyguides/privacyguides.org/pull/258#issuecomment-988104029
 
 The "Do not use" category include things recommended by privacyguides org, that, as the name suggest, you shouldn't use.
+
+Some community feedback about what privacyguides org has become:
+
+- About the removal of a lot of good recommendations ["There are so many on this list that shouldn't have been removed. Cookie AutoDelete, multi account containers, Safari, Ungoogled chromium, anti recommendation: chrome. None of it makes any sense..."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr7ez2/#c), ["This is pointed out constantly, but they just cannot care"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr8lbz/#c)
+
+- ["PrivacyGuides is a one-man-show @tommytran732 , without any discussion"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hntz49m/#c)
+
+- About the Posteo removal because of DMARC: ["Nothing to do with security or privacy. Everything to do with email server reputation."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hns9sju/#c)
+
+- About the LineageOS removal: ["With this logic we should use Forest OS which is even better than Graphene. The process of installing Forest OS is simple. You just throw away all of your tech, burn your passport, and go off the grid to live in a forest as a hermit. This makes you extremely private and your devices impossible to hack."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/ho1akt7/#c)
+
+- About the DDG Browser removal: ["Removing DDG browser and saying all iOS browsers are basically Safari with a skin (the assumption being that it’s not really a meaningful difference from one to the next) but then saying use FF/FF Focus because they block trackers, doesn’t make sense to me because DDG also blocks trackers (and has a better default search engine)."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnsrugf/#c)
+
+- About the Qwant removal (because "In December 2020, Qwant blocked access from Japan, Romania, Taiwan, and, Turkey.I consider this to be a wicked act."): ["How is that a reason to remove it?"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqrx5c/#c), ["its not privacy related bruh"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqtfyk/#c)
+
+- About the removal of good browser addons ["I feel like there's a growing disconnect between the authors and readers and we'll eventually have another 'fork' which focuses more on the average user, who has next to no technical knowledge."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr1vei/#c)
+
 
 
 ## Requirements
@@ -186,7 +203,7 @@ Use:
 
 - [GrapheneOS](https://grapheneos.org/) (Note: really low amount of devices supported)
 - [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://teddit.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
-- [DivestOS](https://divestos.org/): (Note: A soft-fork of LineageOS that is better than it in every way, however the project is REALLY young, and has no track record.)
+- [DivestOS](https://divestos.org/): (Note: A soft-fork of LineageOS that is better than it in every way, however the project is REALLY young, support a lot less devices (a lot of the builds are either broken or untested) and has no track record.)
 
 - Any FOSS GNU/Linux distribution
 
