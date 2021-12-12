@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-11T19:09:10.021Z
+date: 2021-12-12T13:57:38.772Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -186,13 +186,13 @@ Use:
 
 - [GrapheneOS](https://grapheneos.org/) (Note: really low amount of devices supported)
 - [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://teddit.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
+- [DivestOS](https://divestos.org/): (Note: A soft-fork of LineageOS that is better than it in every way, however the project is REALLY young, and has no track record.)
 
 - Any FOSS GNU/Linux distribution
 
 Do not use:
 
 - Any rom that ship with MicroG (CalyxOS...): MicroG is pointless and encourage the use of spyware, just stick to open source software
-- DivestOS: The project is FAR too young, and has no track record (see you in 1 or 2 years).
 
 
 ### Calendar and Contact Sync
