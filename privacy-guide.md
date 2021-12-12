@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-12T15:37:47.927Z
+date: 2021-12-12T15:44:06.798Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -17,9 +17,9 @@ dateCreated: 2021-12-07T18:04:57.878Z
 
 This "guide" is just a big list of great software/providers to dig into, the idea is that this is the information I would like to have seen 4 years ago: me from 4 years ago just wanted a list of good things to dig into: this is a list of good things to dig into.
 
-**Threat model:** This list is focused on a specific [threat model](https://en.wikipedia.org/wiki/Threat_model): avoiding [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech), avoiding companies with ties to law enforcements/government agencies/governments (when possible), avoiding companies with double standard/bad privacy practices.
+**Threat model:** This guide is focused on a specific [threat model](https://en.wikipedia.org/wiki/Threat_model): avoiding [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech), avoiding companies with ties to law enforcements/government agencies/governments (when possible), avoiding companies with double standard/bad privacy practices.
 
-**License:** The content of this guide is released under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) to everyone, *except* the current and past team members of privacyguides org and privacytools io (except [Mikaela](https://github.com/Mikaela)), reuse is allowed following this license, as long as the content doesn't end up on privacyguides org, privacytools io and any provider that isn't listed in the providers list.
+**License:** The content of this guide is released under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) to everyone, *except* the current, past and future team members of privacyguides org and privacytools io (or any future domain owned/controlled/related by or to them), reuse is allowed following this license, as long as the content doesn't end up on privacyguides org, privacytools io (or any future domain owned/controlled/related by or to them) and any provider that isn't listed in the providers list.
 
 
 ## Why?
