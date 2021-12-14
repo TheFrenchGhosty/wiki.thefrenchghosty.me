@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-14T12:58:50.191Z
+date: 2021-12-14T13:03:38.151Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -313,7 +313,7 @@ Do not use:
 
 Use:
 
-- [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
+- [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (You can also use Bitwarden itself to support its development, but it's not as simple to deploy)
 - [KeePassXC](https://keepassxc.org/) (Android client: [KeePassDX](https://f-droid.org/packages/com.kunzisoft.keepass.libre))
 
 Do not use:
