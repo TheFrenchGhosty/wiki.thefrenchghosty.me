@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-14T13:03:38.151Z
+date: 2021-12-18T11:01:45.925Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -82,6 +82,7 @@ Use:
 Do not use:
 
 - Any other provider not supported by [Rclone](https://rclone.org/overview/)
+- SpiderOak: their [canary](https://en.wikipedia.org/wiki/Warrant_canary) [died on August 1, 2018](https://www.schneier.com/blog/archives/2018/08/spideroaks_warr.html) and [they handled it as if it wasn't the case](https://spideroak.com/articles/a-transparency-report-is-a-canary/).
 
 
 ### DNS Resolver
