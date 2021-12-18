@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-18T11:01:45.925Z
+date: 2021-12-18T21:59:36.407Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -75,7 +75,7 @@ More: https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updat
 Use:
 
 - Your own self-hosted Nextcloud
-- Any provider supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/)) that isn't: a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech) (Amazon, Apple, Google, Microsoft...), in a [Five Eyes country](https://en.wikipedia.org/wiki/Five_Eyes) - USA, Canada, Australia, United Kingdom, New Zealand - (Dropbox, Icedrive, [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859)...) or in Russia (Yandex...).
+- Any provider supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/)) that isn't: a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech) (Amazon, Apple, Google, Microsoft...), in a [Five Eyes country](https://en.wikipedia.org/wiki/Five_Eyes) - USA, Canada, Australia, United Kingdom, New Zealand - (BackBlaze, Dropbox, Icedrive, [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859), Box, OpenDrive, Crashplan, Wasabi, pCloud...) or in Russia (Yandex...).
 - [Cryptee](https://crypt.ee/) (Note: expensive, not audited, not supported by Rclone)
 - [Filen](https://filen.io/) (Note: really young, not audited, not supported by Rclone)
 
