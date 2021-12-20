@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-20T16:06:25.571Z
+date: 2021-12-20T16:09:18.641Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -149,7 +149,7 @@ Do not use:
 
 Use:
 
-- [SearX](https://searx.me/)
+- [SearX](https://searx.me/) or [SearXNG](https://searxng.github.io/searxng/) (a fork of SearX)
 
 Do not use:
 
