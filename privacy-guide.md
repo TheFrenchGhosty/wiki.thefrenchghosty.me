@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-18T21:59:36.407Z
+date: 2021-12-20T01:43:52.242Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -110,10 +110,34 @@ Resource: https://digdeeper.neocities.org/ghost/email.html
 
 Use:
 
-- [Posteo](https://posteo.de/en) (Note: No custom domains allowed, but 100% open source)
-- [Mailbox](https://mailbox.org/en/) (Note: 100% closed source)
-- [Tutanota](https://tutanota.com/) (Note: No IMAP/POP3, using their *open source* client is required, server code is 100% closed source)
-- [Disroot](https://disroot.org/en/services/email) (Note: Hobby project, but **should** [last](https://forum.disroot.org/t/will-disroot-last/101/2). I still wouldn't recommended it as a main provider.)
+- [Posteo](https://posteo.de/en):
+  - No custom domains supported
+  - Encryption at rest
+  - 100% open source
+  - Payment via cash, credit card (anonymised), bank transfer (anonymised) or PayPal (anonymised)
+- [Mailbox](https://mailbox.org/en/):
+  - Custom domains supported
+  - Encryption at rest
+  - 100% closed source
+  - Payment via credit card (not anonymised) or PayPal (not anonymised)
+- [Runbox](https://runbox.com/):
+  - Custom domains supported
+  - No encryption at rest
+  - 100% closed source
+  - Payment via Bitcoin, cash, credit card (not anonymised) or bank transfer (not anonymised)
+  - Requires a *real* first and last name (their TOS imply that it has to be real)
+- [Tutanota](https://tutanota.com/):
+  - Custom domains supported
+  - Encryption at rest
+  - Server code is closed source
+  - Payment via credit card (not anonymised) or PayPal (not anonymised)
+  - **NO IMAP/POP3**, using their *open source* client (or web UI) is **mandatory**
+- [Disroot](https://disroot.org/en/services/email):
+  - Custom domains supported
+  - No encryption at rest
+  - 100% open source
+  - Payment via Bitcoin, FairCoin, credit card (not anonymised), bank transfer (not anonymised) Patreon (not anonymised) or PayPal (not anonymised).
+  - **Hobby Project** but *should* [last](https://forum.disroot.org/t/will-disroot-last/101/2) (I still wouldn't recommended it as a main provider)
 
 Do not use:
 
