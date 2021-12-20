@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-20T14:57:45.346Z
+date: 2021-12-20T16:06:25.571Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -125,7 +125,7 @@ Use:
   - No encryption at rest
   - Server code is closed source, most of the client code is open source
   - Payment via Bitcoin, cash, credit card (not anonymised) or bank transfer (not anonymised)
-  - Requires a *real* first and last name (their TOS imply that it has to be real)
+  - Requires a *real* first and last name, however, if they don't notice it, you can use a pseudonym/alias instead. Email conversation I had with them about it: [1](/1.png) [2](/2.png) [3](/3.png) [4](/4.png) [5](/5.png)
 - [Tutanota](https://tutanota.com/):
   - Custom domains supported
   - Encryption at rest
