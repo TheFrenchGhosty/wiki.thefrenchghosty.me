@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-20T16:09:18.641Z
+date: 2021-12-20T16:14:54.539Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -19,7 +19,7 @@ This "guide" is just a big list of great software/providers to dig into, the ide
 
 **Threat model:** This guide is focused on a specific [threat model](https://en.wikipedia.org/wiki/Threat_model): avoiding [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech), avoiding companies with ties to law enforcements/government agencies/governments (when possible), avoiding companies with double standard/bad privacy practices.
 
-**License:** The content of this guide is released under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) to everyone, *except* the current, past and future team members of privacyguides org and privacytools io (or any future domain owned/controlled/related by or to them), reuse is allowed following this license, as long as the content doesn't end up on privacyguides org, privacytools io (or any future domain owned/controlled/related by or to them) and any provider that isn't listed in the providers list.
+**License:** The content of this guide is released under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) to everyone, *except* the current, past and future team members of privacyguides org and privacytools io (or any future domain owned/controlled/related by or to them), reuse is allowed following this license, as long as the content doesn't end up on privacyguides org, privacytools io (or any future domain owned/controlled/related by or to them) and any provider that isn't **recommended** in this guide.
 
 
 ## Why?
