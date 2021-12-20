@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-20T01:50:34.403Z
+date: 2021-12-20T14:44:31.863Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -114,7 +114,7 @@ Use:
   - No custom domains supported
   - Encryption at rest
   - 100% open source
-  - Payment via cash, credit card (anonymised), bank transfer (anonymised) or PayPal (anonymised)
+  - Payment via cash, credit card ([anonymised](https://posteo.de/en/site/payment)), bank transfer ([anonymised](https://posteo.de/en/site/payment)) or PayPal ([anonymised](https://posteo.de/en/site/payment))
 - [Mailbox](https://mailbox.org/en/):
   - Custom domains supported
   - Encryption at rest
