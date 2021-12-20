@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-20T16:14:54.539Z
+date: 2021-12-20T16:15:59.827Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -61,7 +61,7 @@ More: https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updat
 - All software must be open source no exception.
 - All providers mustn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand - or Russia.
 - All providers *shouldn't* ideally be based in Switzerland (reason: Switzerland privacy died in 2018, they now basically have their own ["NSA-like" agency](https://neflabs.com/article/swiss-nsa-march/), providers are just using "Switzerland" in their marketing because the country still has a reputation of being private - while it's not).
-- All providers must have open source clients (or use an open standard, like e-mail).
+- All providers must have open source clients (or use an open standard, like IMAP/POP3 for e-mail).
 - All providers *should* ideally have open source servers.
 - All providers mustn't be invite only (sorry RiseUp and cTemplar).
 
