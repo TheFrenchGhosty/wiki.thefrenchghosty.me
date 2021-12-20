@@ -2,13 +2,13 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-20T16:58:50.723Z
+date: 2021-12-20T17:05:09.136Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
 ---
 
-**THIS IS A PROOF OF CONCEPT, THE CONTENT OF THIS PAGE WILL SURELY END UP IN A DEDICATED WEB PAGE OUTSIDE OF THE WIKI**
+**THIS IS A PROOF OF CONCEPT THAT IS STILL WORK IN PROGRESS, THE CONTENT OF THIS PAGE WILL SURELY END UP IN A DEDICATED WEB PAGE OUTSIDE OF THE WIKI**
 
 # Privacy Guide
 
@@ -111,7 +111,7 @@ Resource: https://digdeeper.neocities.org/ghost/email.html
 Use:
 
 - [Posteo](https://posteo.de/en):
-  - No custom domains supported
+  - Custom domains **NOT** supported
   - Encryption at rest
   - 100% open source
   - Payment via cash, credit card ([anonymised](https://posteo.de/en/site/payment)), bank transfer ([anonymised](https://posteo.de/en/site/payment)) or PayPal ([anonymised](https://posteo.de/en/site/payment))
@@ -125,7 +125,7 @@ Use:
   - No encryption at rest
   - Server code is closed source, most of the client code is open source
   - Payment via Bitcoin, cash, credit card (not anonymised) or bank transfer (not anonymised)
-  - Requires a *real* first and last name - however they won't actually check if it's *real* (unless you abuse their service), you should use your real name if possible, because not doing so is *technically* against their ToS. Email conversation I had with them about it: [1](/1.png) [2](/2.png) [3](/3.png) [4](/4.png) [5](/5.png) [6](/6.png)
+  - Requires a *real* first and last name - however they won't actually check if it's *real* (unless you abuse their service), you should use your real name if possible, because not doing so is *technically* against their ToS. Email conversation I had with them about it: [1](/1.png) [2](/2.png) [3](/3.png) [4](/4.png) [5](/5.png) [6](/6.png) [7.png](/7.png)
 - [Tutanota](https://tutanota.com/):
   - Custom domains supported
   - Encryption at rest
