@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-20T14:44:31.863Z
+date: 2021-12-20T14:57:45.346Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -130,7 +130,7 @@ Use:
   - Custom domains supported
   - Encryption at rest
   - Server code is closed source
-  - Payment via credit card (not anonymised) or PayPal (not anonymised)
+  - Payment via credit card (not anonymised), PayPal (not anonymised), Bitcoin (through [their official reseller](https://tutanota.com/faq/#cryptocurrency)) or Monero (through [their official reseller](https://tutanota.com/faq/#cryptocurrency))
   - **NO IMAP/POP3**, using their *open source* client (or web UI) is **mandatory**
 - [Disroot](https://disroot.org/en/services/email):
   - Custom domains supported
