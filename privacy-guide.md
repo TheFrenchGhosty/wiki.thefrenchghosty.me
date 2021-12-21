@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-20T17:06:26.301Z
+date: 2021-12-21T21:45:45.820Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -224,7 +224,7 @@ Do not use:
 
 - Anything Ubuntu-based (that isn't Linux Mint): Made by Cannonical, a company that created and "push" the use of Snap, a "packaging system" that requires connecting to their own closed source server, and used to include advertising for Amazon.
 
-- Manjaro: Sketchy, amateurish distro, awful security practice (keep packages on hold for 2 weeks "testing purposes" but no test is actually done), fired their treasurer because he dug too much into the finances. (More: https://github.com/arindas/manjarno )
+- Manjaro: Sketchy, amateurish distro, awful security practice (keep packages on hold for 2 weeks "testing purposes" but no test is actually done), fired their treasurer because he dug too much into the finances and so much more. (More: https://github.com/arindas/manjarno - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=mL9ztTzrY6Y) / [Odysee](https://odysee.com/@Luke:7/linux-is-getting-worse-for-normal:b) / [PeerTube](https://videos.lukesmith.xyz/w/mpJadfxyJWLdqzGthURZsf)).
 
 #### Mobile
 
