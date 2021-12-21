@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-21T21:46:57.324Z
+date: 2021-12-21T21:56:38.496Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -141,7 +141,7 @@ Use:
 
 Do not use:
 
-- ProtonMail: Sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: [digdeeper.neocities.org analysis](https://digdeeper.neocities.org/ghost/email.html#ProtonMail) - Mental Outlaw's video about it: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
+- ProtonMail: Sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.neocities.org/ghost/email.html#ProtonMail - Mental Outlaw's video about it: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 - StartMail: Made Startpage, and sold it to an advertising company.
 
 
@@ -192,7 +192,7 @@ Use:
 
 Do not use:
 
-- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: [digdeeper.neocities.org analysis](https://digdeeper.neocities.org/ghost/email.html#ProtonMail) - Mental Outlaw's video about it: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
+- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.neocities.org/ghost/email.html#ProtonMail - Mental Outlaw's video about it: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
 
 ## Software
@@ -367,7 +367,7 @@ Do not use:
 
 - Signal: Phone number required, centralized server, US-based company, [hostile toward alternative clients](https://github.com/LibreSignal/LibreSignal#readme))
 
-- Telegram: Phone number required, centralized server, not encrypted by default, use a non-standard in-home encryption, used to be a Russian based company, incertain future. Currently based in [Dubai](https://telegram.org/faq#q-where-is-telegram-based).
+- Telegram: Phone number required, centralized server, not encrypted by default, use a non-standard in-home encryption, used to be a Russian based company, incertain future. Currently based in [Dubai](https://telegram.org/faq#q-where-is-telegram-based). (More: https://spyware.neocities.org/articles/telegram.html - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=qBTsUVrCDAQ) / [Odysee](https://odysee.com/@Luke:7/don't-use-telegram.-don't-use-telegram.:9) / [PeerTube](https://videos.lukesmith.xyz/w/55RGM34fBAXBxK4v84HxTD)).
 
 ### Video/Voice chat
 
