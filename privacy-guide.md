@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-21T21:45:45.820Z
+date: 2021-12-21T21:46:57.324Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -217,7 +217,7 @@ Do not use:
 
 Use:
 
-- Any FOSS GNU/Linux distribution (except anything Ubuntu-based (except Linux Mint))
+- Any FOSS GNU/Linux distribution (except anything Ubuntu-based (that isn't Linux Mint) and Manjaro)
 - Any FOSS BSD distrubution
 
 Do not use:
