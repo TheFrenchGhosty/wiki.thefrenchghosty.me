@@ -1,8 +1,8 @@
 ---
-title: Debian - How to install the Nvidia 340 drivers
+title: How to install the Nvidia 340 driver on Debian?
 description: 
 published: true
-date: 2021-12-22T13:49:59.268Z
+date: 2021-12-22T13:51:36.239Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-22T13:49:59.268Z
