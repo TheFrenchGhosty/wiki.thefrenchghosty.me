@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2021-12-07T18:12:31.265Z
+date: 2021-12-22T13:52:23.418Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
@@ -29,6 +29,8 @@ dateCreated: 2021-02-27T02:52:19.467Z
 [Arch Linux - XFCE Uninstall](./arch-linux-xfce-uninstall.md)
 
 [Linux's Reserved Network Ports](./linux-reserved-network-ports.md)
+
+[How to install the Nvidia 340 driver on Debian?](./debian-nvidia-340-driver.md)
 
 
 ### The PussTheCat.org setup
