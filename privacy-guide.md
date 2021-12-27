@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-24T02:12:43.397Z
+date: 2021-12-27T00:46:26.533Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -119,12 +119,12 @@ Use:
   - Custom domains supported
   - Encryption at rest
   - 100% closed source
-  - Payment via credit card (not anonymised) or PayPal (not anonymised)
+  - Payment via cash, cash payment to bank account, credit card (not anonymised) or PayPal (not anonymised), bank transfer (not anonymised)
 - [Runbox](https://runbox.com/):
   - Custom domains supported
   - No encryption at rest
   - Server code is closed source, most of the client code is open source
-  - Payment via Bitcoin, cash, credit card (not anonymised) or bank transfer (not anonymised)
+  - Payment via Bitcoin, cash, credit card (not anonymised), bank transfer (not anonymised)
   - Requires a *real* first and last name - however they won't actually check if it's *real* (unless you abuse their service), you should use your real name if possible, because not doing so is *technically* against their ToS. Email conversation I had with them about it: [1](/1.png) [2](/2.png) [3](/3.png) [4](/4.png) [5](/5.png) [6](/6.png) [7](/7.png)
 - [Tutanota](https://tutanota.com/):
   - Custom domains supported
@@ -136,7 +136,7 @@ Use:
   - Custom domains supported
   - No encryption at rest
   - 100% open source
-  - Payment via Bitcoin, FairCoin, credit card (not anonymised), bank transfer (not anonymised) Patreon (not anonymised) or PayPal (not anonymised).
+  - Payment via Bitcoin, FairCoin, credit card (not anonymised), bank transfer (not anonymised), Patreon (not anonymised) or PayPal (not anonymised).
   - **Hobby Project** but *should* [last](https://forum.disroot.org/t/will-disroot-last/101/2) (I still wouldn't recommended it as a main provider)
 
 Do not use:
