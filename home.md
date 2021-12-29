@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2021-12-29T15:34:05.198Z
+date: 2021-12-29T23:03:16.004Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
@@ -26,14 +26,13 @@ dateCreated: 2021-02-27T02:52:19.467Z
 
 [Linux Commands](./Linux-Commands.md)
 
-[Testing drives with SmartCTL](./smartctl-tests.md)
-
 [Arch Linux - XFCE Uninstall](./arch-linux-xfce-uninstall.md)
 
 [Linux's Reserved Network Ports](./linux-reserved-network-ports.md)
 
 [How to install the Nvidia 340 driver on Debian?](./debian-nvidia-340-driver.md)
 
+[Testing drives with SmartCTL](./smartctl-tests.md)
 
 ### The PussTheCat.org setup
 
