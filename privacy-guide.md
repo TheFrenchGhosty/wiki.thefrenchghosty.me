@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-27T00:46:26.533Z
+date: 2021-12-29T18:08:52.198Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -258,7 +258,7 @@ Use:
 
 Do not use:
 
-- Standard Notes: Highly commercial
+- Standard Notes: Overly corporate, requires an account on their platform to do basic things (like installing extensions), markdown support is only available through an [extension](https://docs.standardnotes.com/usage/markdown-basic/)
 
 
 ### Email Clients
