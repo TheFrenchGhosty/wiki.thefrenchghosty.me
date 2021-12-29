@@ -2,7 +2,7 @@
 title: Things I know / Things I need to learn
 description: 
 published: true
-date: 2021-12-03T21:31:06.402Z
+date: 2021-12-29T15:37:17.761Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-12T21:04:55.849Z
@@ -38,7 +38,7 @@ dateCreated: 2021-09-12T21:04:55.849Z
 
 ### Security tools
 
-TODO
+- Burp Suite (Basics)
 
 
 ### Computer Languages
@@ -79,7 +79,7 @@ TODO
 
 - Nmap
 - Gobuster
-- Burp Suite/zap
+- ~~Burp Suite~~/zap
 - Hydra
 - SQLMap
 - SearchSploit
