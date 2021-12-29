@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-29T18:14:20.401Z
+date: 2021-12-29T18:20:11.624Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -254,6 +254,7 @@ Use:
 Use:
 
 - [Joplin](https://joplinapp.org/)
+- [EteSync Notes](https://www.etesync.com/)
 - Plain text files
 
 Do not use:
