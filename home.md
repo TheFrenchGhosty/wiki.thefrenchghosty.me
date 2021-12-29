@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2021-12-22T13:52:23.418Z
+date: 2021-12-29T15:34:05.198Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-27T02:52:19.467Z
@@ -25,6 +25,8 @@ dateCreated: 2021-02-27T02:52:19.467Z
 [Encrypted Debian Install](./encrypted-debian-install.md)
 
 [Linux Commands](./Linux-Commands.md)
+
+[Testing drives with SmartCTL](./smartctl-tests.md)
 
 [Arch Linux - XFCE Uninstall](./arch-linux-xfce-uninstall.md)
 
