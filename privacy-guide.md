@@ -2,7 +2,7 @@
 title: Proof of Concept - Privacy Guide
 description: 
 published: true
-date: 2021-12-29T18:08:52.198Z
+date: 2021-12-29T18:14:20.401Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-07T18:04:57.878Z
@@ -258,7 +258,7 @@ Use:
 
 Do not use:
 
-- Standard Notes: Overly corporate, requires an account on their platform to do basic things (like installing extensions), markdown support is only available through an [extension](https://docs.standardnotes.com/usage/markdown-basic/)
+- Standard Notes: Overly corporate, requires a subscription (so requires an account) on their platform to do basic things (like [installing "editors"](https://standardnotes.com/help/20/what-happens-to-my-data-when-my-subscription-expires): "An active subscription is required to access advanced features such as editors."), markdown support is only available through a ["custom editor"](https://docs.standardnotes.com/usage/markdown-basic/), and therefore requires a subscription.
 
 
 ### Email Clients
