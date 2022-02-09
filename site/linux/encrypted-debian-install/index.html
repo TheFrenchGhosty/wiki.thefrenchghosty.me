@@ -1,0 +1,862 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.10">
+    
+    
+      
+        <title>Encrypted Debian Install (UEFI, No LVM, KDE Plasma) - Complete setup - PussTheCat.org</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.d6be258b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#encrypted-debian-install-uefi-no-lvm-kde-plasma-complete-setup" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PussTheCat.org" class="md-header__button md-logo" aria-label="PussTheCat.org" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PussTheCat.org
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Encrypted Debian Install (UEFI, No LVM, KDE Plasma) - Complete setup
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PussTheCat.org" class="md-nav__button md-logo" aria-label="PussTheCat.org" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    PussTheCat.org
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Archive
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Archive" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Archive
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../archive/bibliogram-janky-setup/" class="md-nav__link">
+        Bibliogram's Janky Setup
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Gaming
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Gaming" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Gaming
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gaming/Video-Game-Mods/" class="md-nav__link">
+        Video Game Mods
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          General
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="General" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          General
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../general/privacy-guide/" class="md-nav__link">
+        Privacy Guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../general/thing-I-know-or-need-to-learn/" class="md-nav__link">
+        Things I know / Things I need to learn
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Linux
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Linux" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Linux
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Linux-Commands/" class="md-nav__link">
+        Linux Commands
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../arch-linux-xfce-uninstall/" class="md-nav__link">
+        Arch Linux - XFCE Uninstall
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../debian-nvidia-340-driver/" class="md-nav__link">
+        How to install the Nvidia 340 driver on Debian?
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Encrypted Debian Install (UEFI, No LVM, KDE Plasma) - Complete setup
+      </a>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-reserved-network-ports/" class="md-nav__link">
+        Linux's Reserved Network Ports
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../smartctl-tests/" class="md-nav__link">
+        Testing drives with SmartCTL
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+<h1 id="encrypted-debian-install-uefi-no-lvm-kde-plasma-complete-setup">Encrypted Debian Install (UEFI, No LVM, KDE Plasma) - Complete setup</h1>
+<h1 id="1-create-the-bootable-media">1- Create the bootable media</h1>
+<p>Note: To avoid any issue, always use the <a href="https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/">non-free firmware iso</a>. For Debian 11 it's <code>firmware-11.0.0-amd64-netinst.iso</code> from <a href="https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.0.0+nonfree/amd64/iso-cd/">Here</a>.</p>
+<h2 id="make-the-bootable-media">Make the bootable media:</h2>
+<p>Use <a href="https://ventoy.net/">Ventoy</a> or dd:</p>
+<pre><code>dd bs=4M if=path/to/debian.iso of=/dev/sdx status=progress oflag=sync
+</code></pre>
+<h1 id="2-installation">2- Installation</h1>
+<h2 id="locale-and-keyboard-layout">Locale and keyboard layout</h2>
+<ul>
+<li>Language: English</li>
+<li>Location: Your location (in my case: other/Europe/France)</li>
+<li>Locale: en_US.UTF-8</li>
+<li>Keymap: Your keymap (in my case: French)</li>
+</ul>
+<h2 id="hostname-and-users">Hostname and users</h2>
+<ul>
+<li>Hostname: debian</li>
+<li>Domain name: [Blank Value] (remove <code>home</code>)</li>
+<li>Root: Give it a strong password</li>
+<li>Full name of the user account: [Blank Value]</li>
+<li>Username of the user account: Choose an username</li>
+<li>Password: Give it a strong password</li>
+</ul>
+<h2 id="partitioning">Partitioning</h2>
+<p>(If asked: Force UEFI installation: YES)</p>
+<ul>
+<li>
+<p>Partition method: Manual</p>
+</li>
+<li>
+<p>Choose a your drive</p>
+</li>
+<li>
+<p>Create partition table</p>
+</li>
+<li>
+<p>Choose "FREE SPACE" of this drive</p>
+</li>
+<li>Create a new partition</li>
+<li>Size: <code>500 MB</code></li>
+<li>Begining</li>
+<li>Name: [Empty Value]</li>
+<li>Use as EXT4 jounrnaling file system"</li>
+<li>Mount as /boot</li>
+<li>
+<p>Click "Done setting up the partition"</p>
+</li>
+<li>
+<p>Choose "FREE SPACE" of this drive</p>
+</li>
+<li>Create a new partition</li>
+<li>Size: <code>500 MB</code></li>
+<li>Begining</li>
+<li>Name: [Empty Value]</li>
+<li>Use as "EFI System Partition"</li>
+<li>
+<p>Click "Done setting up the partition"</p>
+</li>
+<li>
+<p>Choose "FREE SPACE" of this drive</p>
+</li>
+<li>Create a new partition</li>
+<li>Size: all available (default value)</li>
+<li>Name: [Empty Value]</li>
+<li>Use as "Physical volume for encryption"</li>
+<li>Erase data: no</li>
+<li>Click "Done setting up the partition"</li>
+</ul>
+<h2 id="encryption">Encryption</h2>
+<ul>
+<li>Configure encrypted volumes</li>
+<li>Write the changes: YES</li>
+<li>Create encrypted volumes</li>
+<li>Choose the crypto partition</li>
+<li>Finish</li>
+<li>Encryption passphrase: Choose one</li>
+<li>
+<p>Done</p>
+</li>
+<li>
+<p>Choose the encrypted volume</p>
+</li>
+<li>Mount point /</li>
+<li>Click "Done setting up the partition"</li>
+<li>Done</li>
+</ul>
+<h2 id="-click-finish-partitioning-and-write-changes-to-disk">- Click "Finish partitioning and write changes to disk"</h2>
+<ul>
+<li>When asked to setup swap, choose "No" (we'll setup a swapfile later, that way our swap will be encrypted)</li>
+<li>Write the changes to disk</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<ul>
+<li>Mirror country: Choose a country with good internet near you</li>
+<li>Choose deb.debian.org</li>
+<li>Proxy: [blank]</li>
+<li></li>
+<li>Participate in the package usage survey: No</li>
+</ul>
+<p>Software to install:</p>
+<ul>
+<li>KDE Plasma</li>
+<li>standard system utilities</li>
+<li>Untick everything else (including "Debian desktop environment")</li>
+</ul>
+<h1 id="3-post-install">3- Post-Install</h1>
+<h2 id="sudo-setup">Sudo setup</h2>
+<pre><code>su - root
+visudo
+</code></pre>
+<ul>
+<li>Scroll down until "User privilege specification"</li>
+<li>Add your user with the same privilege as root</li>
+<li>Save</li>
+</ul>
+<h2 id="locale-fix">Locale fix</h2>
+<p>It's possible that because this setup uses 2 locales, only one is properly setup. This will cause various issues, from warnings to software crashing, to fix this:</p>
+<pre><code>sudo nano /etc/locale.gen
+</code></pre>
+<p>Uncomment the secondary locale (UTF-8), in my case, I need to uncomment: <code>fr_FR.UTF-8 UTF-8</code>.</p>
+<p>Save and regenerate the locale:</p>
+<pre><code>sudo locale-gen
+</code></pre>
+<h1 id="4-kde-plasma-configuration">4- KDE Plasma Configuration</h1>
+<h2 id="system-settings">System Settings</h2>
+<h3 id="appearance">Appearance</h3>
+<h4 id="global-theme">Global theme</h4>
+<p>Choose "Breeze Dark"</p>
+<h4 id="fonts">Fonts:</h4>
+<h5 id="fonts_1">Fonts:</h5>
+<p>Adjust all fonts:</p>
+<p>Font: DejaVu Sans</p>
+<h3 id="workspace">Workspace</h3>
+<h4 id="workspace-behavior">Workspace behavior</h4>
+<h5 id="general-behavior">General behavior:</h5>
+<ul>
+<li>Animation speed: Instant</li>
+<li>Click behavior: "Double-click to open files and folders"</li>
+</ul>
+<h5 id="screen-locking">Screen locking:</h5>
+<ul>
+<li>Untick: "After X minutes"</li>
+</ul>
+<h4 id="startup-and-shutdown">Startup and Shutdown:</h4>
+<pre><code>sudo apt install sddm-theme-breeze
+</code></pre>
+<h5 id="login-screen-sddm">Login Screen (SDDM):</h5>
+<ul>
+<li>Theme: Breeze</li>
+</ul>
+<h3 id="personalization">Personalization</h3>
+<h4 id="regionnal-settings">Regionnal Settings</h4>
+<h5 id="formats">Formats</h5>
+<p>Tick "Detailed Settings"</p>
+<ul>
+<li>Time: Set to your locale (in my case fr_FR)</li>
+<li>Measurment Units: Set to your locale (in my case fr_FR)</li>
+</ul>
+<h4 id="users">Users</h4>
+<ul>
+<li>Your username: Set picture (in my case to a Konqi)</li>
+</ul>
+<h4 id="applications">Applications</h4>
+<h5 id="default-applications">Default Applications</h5>
+<ul>
+<li>Web browser: Firefox ESR</li>
+<li>E-mail client: Thunderbird</li>
+</ul>
+<h3 id="hardware">Hardware</h3>
+<h4 id="display-and-monitor">Display and Monitor</h4>
+<p>Desktop with multiple monitor only: re-arrange the screens in the right order</p>
+<h4 id="power-management">Power Management</h4>
+<h5 id="energy-saving">Energy Saving</h5>
+<p>Laptop Only:</p>
+<p>Disable (for "On AC power" and "On Battery"):
+- Dim screen
+- Screen Energy saving
+- Suspend session</p>
+<p>Desktop Only:</p>
+<p>Disable:
+- Screen energy saving</p>
+<h2 id="dolphin-configuration">Dolphin configuration</h2>
+<h3 id="configure-dolphin">Configure Dolphin</h3>
+<h4 id="startup">Startup</h4>
+<p>Show on startup: /home/[USERNAME]</p>
+<h2 id="system-tray">System tray</h2>
+<p>Clipboard: Clear history (tick "never ask again")</p>
+<h2 id="application-launcher-the-windows-button">Application launcher (the "Windows" button)</h2>
+<ul>
+<li>Show alternative</li>
+<li>Choose "Application menu"</li>
+<li>Click "Switch"</li>
+</ul>
+<p>Remove every favorite (above the shutdown button)</p>
+<h2 id="task-manager-the-task-bar">Task manager (the task bar)</h2>
+<ul>
+<li>Show alternative</li>
+<li>Choose "Task Manager"</li>
+<li>Click "Switch"</li>
+</ul>
+<p>Configure task manager: Maximum row: 1</p>
+<h1 id="5-software-installation">5- Software installation</h1>
+<h3 id="general-tools">General tools:</h3>
+<p>To install everything:</p>
+<pre><code>apt install krita nfoview qbittorrent mpv smplayer mumble peek thunderbird birdtray micro keepassxc
+</code></pre>
+<p>Software list:</p>
+<ul>
+<li>krita: Photoshop but not by Adobe</li>
+<li>nfoview: Render NFO files the right way</li>
+<li>qbittorrent: Torrent stuff the right way</li>
+<li>mpv: The best media player</li>
+<li>smplayer: The best frontend to mpv, the best media player</li>
+<li>mumble: Voice chat but good</li>
+<li>peek: The best way to record short GIF/WEBM/MP4 to share on the internet</li>
+<li>thunderbird: The best e-mail client</li>
+<li>birdtray: Allow Thunderbird to go into the tray</li>
+<li>micro: nano but better, without going to vim</li>
+<li>keepassxc: The best password manager</li>
+</ul>
+<h3 id="advanced-tools">Advanced tools:</h3>
+<p>To install everything:</p>
+<pre><code>apt install pulseaudio-module-bluetooth gsmartcontrol whois hardinfo htop neofetch rclone aegisub curl electrum monero filezilla mediainfo-gui mkvtoolnix-gui torbrowser-launcher innoextract neovim audacity
+</code></pre>
+<p>Software list:</p>
+<ul>
+<li>pulseaudio-module-bluetooth: Audio speaker support for Bluetooth</li>
+<li>gsmartcontrol: GUI SMART data monitor</li>
+<li>whois: Get informations on domain name</li>
+<li>hardinfo: Get informations on your hardware</li>
+<li>htop: Everyone's favorites system monitor</li>
+<li>neofetch: /r/unixporn favorite tool</li>
+<li>rclone: Interact with cloud storage provider the right way</li>
+<li>aegisub: The best subtitle editor</li>
+<li>curl: It's cURL</li>
+<li>electrum: The best Bitcoin wallet</li>
+<li>monero: The best Monero wallet</li>
+<li>filezilla: SFTP the right way</li>
+<li>mediainfo-gui: Get information about media files</li>
+<li>mkvtoolnix-gui: The best way to work with video files</li>
+<li>torbrowser-launcher: It's the TOR Browser</li>
+<li>innoextract: Extract files from Inno setup installer (mainly for GOG games installers)</li>
+<li>neovim: vim but better, because it's always useful to have</li>
+<li>audacity: <strong>Note: Audacity has been taken over, Debian still ship a "clean" version but a move to <a href="https://tenacityaudio.org/">Tenacity</a> or <a href="https://sneedacity.org/">Sneedcity</a> will be required soon.</strong></li>
+</ul>
+<h2 id="software-that-arent-in-debians-repos">Software that aren't in Debian's repos:</h2>
+<p>Get a good installer for .deb files:</p>
+<pre><code>sudo apt install gdebi
+</code></pre>
+<ul>
+<li>[Insert name of your VPN provider]</li>
+</ul>
+<p>Install instruction: Refer to your provider website</p>
+<ul>
+<li>Librewolf: Firefox but not spyware</li>
+</ul>
+<p>Get the AppImage from: https://librewolf-community.gitlab.io/install/</p>
+<p>Move it to <code>~/.AppImage</code></p>
+<p>Make it executable and run it</p>
+<ul>
+<li>Ungoogled-Chromium: Chromium but not spyware</li>
+</ul>
+<p>Install instruction: https://github.com/ungoogled-software/ungoogled-chromium-debian</p>
+<p>Also install: https://github.com/NeverDecaf/chromium-web-store to enable extension support</p>
+<p>Go into Settings/Appearance: Theme: Use GTK+</p>
+<ul>
+<li>Syncthing: The best way to sync files between machines</li>
+</ul>
+<p>Install instruction: https://apt.syncthing.net/</p>
+<p>Also install a GUI for Syncthing (configure it to start on boot, and to run syncthing when it's started):</p>
+<pre><code>sudo apt install syncthing-gtk
+</code></pre>
+<ul>
+<li>Element Desktop: The best Matrix client</li>
+</ul>
+<p>Install instruction: https://element.io/get-started</p>
+<ul>
+<li>VSCodium: VSCode but not spyware</li>
+</ul>
+<p>Install instruction: https://vscodium.com/#install</p>
+<hr />
+<p>TODO: Find an Audacity alternative that is in Debian's repos, document the installation of yt-dlp, jdownloader2, rclone-brower, spek-alternative, torrent-file-editor, cdemu/kde-cdemu-manager</p>
+<hr />
+<p>MORE TODO</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../debian-nvidia-340-driver/" class="md-footer__link md-footer__link--prev" aria-label="Previous: How to install the Nvidia 340 driver on Debian?" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              How to install the Nvidia 340 driver on Debian?
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../linux-reserved-network-ports/" class="md-footer__link md-footer__link--next" aria-label="Next: Linux&#39;s Reserved Network Ports" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Linux's Reserved Network Ports
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.092fa1f6.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e3b2bf44.min.js"></script>
+      
+    
+  </body>
+</html>
