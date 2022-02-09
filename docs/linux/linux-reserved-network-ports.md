@@ -1,13 +1,3 @@
----
-title: Linux's Reserved Network Ports
-description: 
-published: true
-date: 2021-12-03T21:58:54.316Z
-tags: 
-editor: markdown
-dateCreated: 2021-12-03T21:50:26.819Z
----
-
 # Linux's Reserved Network Ports
 
 When hosting some services, some ports should be avoided, those ports are:

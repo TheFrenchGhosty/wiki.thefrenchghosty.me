@@ -1,13 +1,3 @@
----
-title: How to install the Nvidia 340 driver on Debian?
-description: 
-published: true
-date: 2021-12-22T13:51:36.239Z
-tags: 
-editor: markdown
-dateCreated: 2021-12-22T13:49:59.268Z
----
-
 # How to install the Nvidia 340 driver on Debian?
 
 This guide has been tested on an installation of [Linux Mint Debian Edition](https://www.linuxmint.com/download_lmde.php), but it should work on Debian itself or on any distributions based on Debian.

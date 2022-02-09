@@ -1,13 +1,3 @@
----
-title: Bibliogram's Janky Setup
-description: 
-published: true
-date: 2021-12-04T17:31:56.155Z
-tags: 
-editor: markdown
-dateCreated: 2021-12-04T17:20:52.032Z
----
-
 # Bibliogram's Janky Setup
 
 ## Why?

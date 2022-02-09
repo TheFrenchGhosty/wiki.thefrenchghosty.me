@@ -1,13 +1,3 @@
----
-title: Testing drives with SmartCTL
-description: 
-published: true
-date: 2021-12-29T15:33:04.842Z
-tags: 
-editor: markdown
-dateCreated: 2021-12-29T15:33:04.842Z
----
-
 # Testing drives with SmartCTL
 
 ### Check informations about a drive

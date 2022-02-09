@@ -1,12 +1,4 @@
----
-title: Things I know / Things I need to learn
-description: 
-published: true
-date: 2021-12-29T15:37:17.761Z
-tags: 
-editor: markdown
-dateCreated: 2021-09-12T21:04:55.849Z
----
+# Things I know / Things I need to learn
 
 ## A list where I try to list the things that I know and the things that I plan to learn.
 

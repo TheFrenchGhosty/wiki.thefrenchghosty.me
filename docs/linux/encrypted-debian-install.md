@@ -1,13 +1,3 @@
----
-title: Encrypted Debian Install
-description: 
-published: true
-date: 2021-10-01T17:53:21.616Z
-tags: 
-editor: markdown
-dateCreated: 2021-09-25T17:19:15.700Z
----
-
 # Encrypted Debian Install (UEFI, No LVM, KDE Plasma) - Complete setup
 
 

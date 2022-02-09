@@ -1,12 +1,4 @@
----
-title: Linux Commands
-description: 
-published: true
-date: 2021-10-19T16:32:23.371Z
-tags: 
-editor: markdown
-dateCreated: 2021-02-27T03:39:50.359Z
----
+# Linux Commands
 
 # Data management commands
 
