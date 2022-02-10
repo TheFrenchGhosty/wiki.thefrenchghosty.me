@@ -22,7 +22,7 @@
 [Testing drives with SmartCTL](./linux/smartctl-tests.md)
 
 
-#### Gaming
+### Gaming
 
 [Video Game Mods](./gaming/video-game-mods.md)
 
