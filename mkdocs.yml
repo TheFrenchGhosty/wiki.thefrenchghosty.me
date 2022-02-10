@@ -4,6 +4,8 @@ theme:
   font: false
   palette:
     scheme: slate
+    primary: deep orange
+    accent: orange
   logo: images/logo.png # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo
   favicon: images/favicon.ico # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#favicon
   features:
