@@ -4,4 +4,6 @@ theme:
   font: false
   palette:
     scheme: slate
+  logo: images/logo.png
+  favicon: images/favicon.ico
 copyright: Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
