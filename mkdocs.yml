@@ -1,4 +1,8 @@
 site_name: PussTheCat.org's Wiki
+site_url: https://wiki.pussthecat.org/
+site_author: TheFrenchGhosty
+site_description: >-
+  The PussTheCat.org Wiki
 theme:
   name: material
   font: false
