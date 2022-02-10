@@ -1,6 +1,3 @@
-# Encrypted Debian Install (UEFI, No LVM, KDE Plasma) - Complete setup
-
-
 # 1- Create the bootable media
 
 

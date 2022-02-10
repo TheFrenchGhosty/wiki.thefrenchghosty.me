@@ -1,6 +1,3 @@
-# Video Game Mods
-
-
 ## Anno 1404
 
 [4GB Patch](https://www.pcgamingwiki.com/wiki/Anno_1404#4GB_patch) (required for every mods)

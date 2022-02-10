@@ -1,5 +1,3 @@
-# Testing drives with SmartCTL
-
 ### Check informations about a drive
 
 ```

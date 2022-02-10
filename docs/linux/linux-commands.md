@@ -1,5 +1,3 @@
-# Linux Commands
-
 # Data management commands
 
 List folder size : 

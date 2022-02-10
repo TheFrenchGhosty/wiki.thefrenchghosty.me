@@ -1,5 +1,3 @@
-# Things I know / Things I need to learn
-
 ## A list where I try to list the things that I know and the things that I plan to learn.
 
 #### Things in each category is sorted in the order than I want to learn them, eg: I want to learn Ansible before Kubernetes

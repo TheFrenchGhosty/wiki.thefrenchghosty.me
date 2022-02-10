@@ -1,5 +1,3 @@
-# Linux's Reserved Network Ports
-
 When hosting some services, some ports should be avoided, those ports are:
 
 **0-1023:** The "Well-Known Ports": used/reserved by system processes and core services

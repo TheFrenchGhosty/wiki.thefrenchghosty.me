@@ -1,5 +1,3 @@
-# Home
-
 ## Content
 
 ### General
