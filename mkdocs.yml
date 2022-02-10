@@ -4,6 +4,9 @@ theme:
   font: false
   palette:
     scheme: slate
-  logo: images/logo.png
-  favicon: images/favicon.ico
+  logo: images/logo.png # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo
+  favicon: images/favicon.ico # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#favicon
+  features:
+    - navigation.tracking # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-tracking
+    - navigation.expand # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
 copyright: Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
