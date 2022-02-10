@@ -11,7 +11,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://wiki.pussthecat.org/gaming/Video-Game-Mods/</loc>
+         <loc>https://wiki.pussthecat.org/gaming/video-game-mods/</loc>
          <lastmod>2022-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -22,11 +22,6 @@
     </url>
     <url>
          <loc>https://wiki.pussthecat.org/general/thing-I-know-or-need-to-learn/</loc>
-         <lastmod>2022-02-10</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://wiki.pussthecat.org/linux/Linux-Commands/</loc>
          <lastmod>2022-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -42,6 +37,11 @@
     </url>
     <url>
          <loc>https://wiki.pussthecat.org/linux/encrypted-debian-install/</loc>
+         <lastmod>2022-02-10</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://wiki.pussthecat.org/linux/linux-commands/</loc>
          <lastmod>2022-02-10</lastmod>
          <changefreq>daily</changefreq>
     </url>

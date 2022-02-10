@@ -13,7 +13,7 @@
 
 [Encrypted Debian Install](./linux/encrypted-debian-install.md)
 
-[Linux Commands](./linux/Linux-Commands.md)
+[Linux Commands](./linux/linux-commands.md)
 
 [Arch Linux - XFCE Uninstall](./linux/arch-linux-xfce-uninstall.md)
 
@@ -26,7 +26,7 @@
 
 #### Gaming
 
-[Video Game Mods](./gaming/Video-Game-Mods.md)
+[Video Game Mods](./gaming/video-game-mods.md)
 
 
 ### Archive
