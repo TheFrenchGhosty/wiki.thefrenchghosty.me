@@ -223,8 +223,6 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           Bibliogram's Janky Setup
@@ -241,8 +239,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -251,13 +247,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#bibliograms-janky-setup" class="md-nav__link">
+    Bibliogram's Janky Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Bibliogram's Janky Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#why" class="md-nav__link">
     Why?
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#explanation-of-the-janky-setup" class="md-nav__link">
     Explanation of the janky setup
   </a>
@@ -290,11 +294,16 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#conclusion" class="md-nav__link">
     Conclusion
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -558,8 +567,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -568,13 +575,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#bibliograms-janky-setup" class="md-nav__link">
+    Bibliogram's Janky Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Bibliogram's Janky Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#why" class="md-nav__link">
     Why?
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#explanation-of-the-janky-setup" class="md-nav__link">
     Explanation of the janky setup
   </a>
@@ -607,11 +622,16 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#conclusion" class="md-nav__link">
     Conclusion
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -628,25 +648,27 @@
               
                 
 
-<h1 id="bibliograms-janky-setup">Bibliogram's Janky Setup</h1>
-<h2 id="why">Why?</h2>
+  <h1>Bibliogram's Janky Setup</h1>
+
+<h2 id="bibliograms-janky-setup">Bibliogram's Janky Setup<a class="headerlink" href="#bibliograms-janky-setup" title="Permanent link">&para;</a></h2>
+<h3 id="why">Why?<a class="headerlink" href="#why" title="Permanent link">&para;</a></h3>
 <p>Bibliogram's docker image is "bad", it should be able to run, but for a production setup (like the <a href="https://bibliogram.pussthecat.org/">PussTheCat.org instance</a>) it's not "good enough", so it has to run on "metal".</p>
-<h2 id="explanation-of-the-janky-setup">Explanation of the janky setup</h2>
-<h3 id="the-deployment">The deployment:</h3>
+<h3 id="explanation-of-the-janky-setup">Explanation of the janky setup<a class="headerlink" href="#explanation-of-the-janky-setup" title="Permanent link">&para;</a></h3>
+<h4 id="the-deployment">The deployment:<a class="headerlink" href="#the-deployment" title="Permanent link">&para;</a></h4>
 <p>My Bibliogram instance is setup with <a href="https://git.sr.ht/~cadence/bibliogram-updater">bibliogram-updater</a> (because the nodejs version shipped by my distribution breaks Bibliogram), run in a <code>screen</code> session.</p>
 <p>Bibliogram has a tendency to crash (it's rare but it happens), it's run in a while loop that automatically restart it: <code>while true; do ./run.fish; done</code>.</p>
-<h3 id="the-big-bad-bug">The big, bad bug:</h3>
+<h4 id="the-big-bad-bug">The big, bad bug:<a class="headerlink" href="#the-big-bad-bug" title="Permanent link">&para;</a></h4>
 <p>After being run for around 1 month, Bibliogram will bug out, and it will "make" NginX create dozens/hundreds of child process (until the CPU is pinned at 100%), a "quick" fix when it happens is to restart Bibliogram.</p>
 <p>Bibliogram has to be restarted, and to be safe, I restart it every 6 hours.</p>
 <p>So how to make it restart then? Well, we have a loop that restart the instance when it breaks... so... we just have to break the instance.</p>
-<h3 id="how-to-break-the-instance">How to break the instance?</h3>
+<h4 id="how-to-break-the-instance">How to break the instance?<a class="headerlink" href="#how-to-break-the-instance" title="Permanent link">&para;</a></h4>
 <p>There's a cool tool that I recently discovered called <code>pkill</code> it kills a process named exactly in a certain way (because I can't just <code>killall node</code>, other stuff run via node).</p>
 <p>So to have it automatically restart every 6 hours... we just make a cron that <code>pkill</code> the Bibliogram node process (<code>node server.js</code>), and because bibliogram-updater doesn't check if the node process is still alive (or not)... we also kill the bibliogram-updater scripts (<code>run.fish</code>).</p>
 <p>This is the cronjobs:</p>
 <pre><code>0 */6 * * * pkill -f &quot;node server.js&quot;
 0 */6 * * * pkill -f &quot;run.fish&quot;
 </code></pre>
-<h2 id="conclusion">Conclusion</h2>
+<h3 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h3>
 <p>Obviously, as you can see it's really janky, and I ideally would like to run Bibliogram via docker... but as a janky way to have a good and stable instance (with almost 100% uptime)... it works, and that's what matters!</p>
 <p>In the end, if it works, and if it can be maintained, it's <em>fine</em> (<em>famous last words</em>).</p>
 

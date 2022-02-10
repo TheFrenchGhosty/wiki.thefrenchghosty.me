@@ -381,12 +381,67 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Linux Commands
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Linux Commands
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#linux-commands" class="md-nav__link">
+    Linux Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-management-commands" class="md-nav__link">
+    Data management commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tar" class="md-nav__link">
+    Tar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vim" class="md-nav__link">
+    Vim
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#others" class="md-nav__link">
+    Others
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -486,8 +541,49 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#linux-commands" class="md-nav__link">
+    Linux Commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-management-commands" class="md-nav__link">
+    Data management commands
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tar" class="md-nav__link">
+    Tar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vim" class="md-nav__link">
+    Vim
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#others" class="md-nav__link">
+    Others
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -500,8 +596,10 @@
               
                 
 
-<h1 id="linux-commands">Linux Commands</h1>
-<h1 id="data-management-commands">Data management commands</h1>
+  <h1>Linux Commands</h1>
+
+<h2 id="linux-commands">Linux Commands<a class="headerlink" href="#linux-commands" title="Permanent link">&para;</a></h2>
+<h2 id="data-management-commands">Data management commands<a class="headerlink" href="#data-management-commands" title="Permanent link">&para;</a></h2>
 <p>List folder size : </p>
 <pre><code>du -h --max-depth=1
 </code></pre>
@@ -528,19 +626,19 @@ pause
 <p>Move every .ext to the current folder:</p>
 <pre><code>find -type f -name &quot;*.ext&quot; -exec mv {} . \;
 </code></pre>
-<p>Unrar recurcively (Source: https://unix.stackexchange.com/a/97203):</p>
+<p>Unrar recurcively (Source: <a href="https://unix.stackexchange.com/a/97203">https://unix.stackexchange.com/a/97203</a>):</p>
 <pre><code>find . -name '*.rar' -execdir unrar e '{}' +
 </code></pre>
-<p>Unzip recurcively (Source: https://unix.stackexchange.com/a/97203):</p>
+<p>Unzip recurcively (Source: <a href="https://unix.stackexchange.com/a/97203">https://unix.stackexchange.com/a/97203</a>):</p>
 <pre><code>find . -name '*.zip' -execdir unzip -tq '{}' +
 </code></pre>
-<p>Rename a file the same as its containing folder (Source: https://askubuntu.com/questions/901141/can-i-rename-files-within-a-folder-with-the-name-of-the-parent-folder )</p>
+<p>Rename a file the same as its containing folder (Source: <a href="https://askubuntu.com/questions/901141/can-i-rename-files-within-a-folder-with-the-name-of-the-parent-folder">https://askubuntu.com/questions/901141/can-i-rename-files-within-a-folder-with-the-name-of-the-parent-folder</a> )</p>
 <pre><code>find -type f -exec bash -c 'fp=$(dirname &quot;$1&quot;);fn=$(basename &quot;$fp&quot;);px=&quot;${1##*.}&quot;;mv &quot;$1&quot; &quot;$fp&quot;/&quot;$fn&quot;.&quot;$px&quot;' sh &quot;{}&quot; \;
 </code></pre>
-<p>Merge 2 folders and rename the duplicates (Source: https://www.linuxquestions.org/questions/showthread.php?p=6257365#post6257365):</p>
+<p>Merge 2 folders and rename the duplicates (Source: <a href="https://www.linuxquestions.org/questions/showthread.php?p=6257365#post6257365">https://www.linuxquestions.org/questions/showthread.php?p=6257365#post6257365</a>):</p>
 <pre><code>cp --backup=numbered /source/* /destination/
 </code></pre>
-<h1 id="tar">Tar</h1>
+<h2 id="tar">Tar<a class="headerlink" href="#tar" title="Permanent link">&para;</a></h2>
 <p>Pack :</p>
 <pre><code>tar -cfv [FILENAME].tar [SOURCE]
 </code></pre>
@@ -550,17 +648,17 @@ pause
 <p>View :</p>
 <pre><code>tar -tfv [FILENAME].tar
 </code></pre>
-<h1 id="vim">Vim</h1>
-<p>Insert text at the begining of every line (Source: https://techglimpse.com/insert-text-beginning-line-vim/ )</p>
+<h2 id="vim">Vim<a class="headerlink" href="#vim" title="Permanent link">&para;</a></h2>
+<p>Insert text at the begining of every line (Source: <a href="https://techglimpse.com/insert-text-beginning-line-vim/">https://techglimpse.com/insert-text-beginning-line-vim/</a> )</p>
 <pre><code>:%s/^/[REPLACEME]/
 </code></pre>
-<p>Delete all lines containing <code>[REPLACEME]</code> (Source: https://stackoverflow.com/questions/46781951/efficient-way-to-delete-line-containing-certain-text-in-vim-with-prompt )</p>
+<p>Delete all lines containing <code>[REPLACEME]</code> (Source: <a href="https://stackoverflow.com/questions/46781951/efficient-way-to-delete-line-containing-certain-text-in-vim-with-prompt">https://stackoverflow.com/questions/46781951/efficient-way-to-delete-line-containing-certain-text-in-vim-with-prompt</a> )</p>
 <pre><code>:g/[REPLACEME]/d
 </code></pre>
-<p>Sort lines alphabetically (Source: https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim )</p>
+<p>Sort lines alphabetically (Source: <a href="https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim">https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim</a> )</p>
 <pre><code>:sort
 </code></pre>
-<h1 id="others">Others</h1>
+<h2 id="others">Others<a class="headerlink" href="#others" title="Permanent link">&para;</a></h2>
 <p>Create SymLink : </p>
 <pre><code>ln -s [Source] [Name]
 </code></pre>

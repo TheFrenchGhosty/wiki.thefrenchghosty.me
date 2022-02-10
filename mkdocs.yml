@@ -18,3 +18,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/PussTheCat-org/PussTheCat.org-Wiki
 
+markdown_extensions:
+  - md_in_html
+  - toc:
+      permalink: true
+      baselevel: 2
+  - tables
+  - pymdownx.magiclink

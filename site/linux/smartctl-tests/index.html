@@ -451,8 +451,6 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           Testing drives with SmartCTL
@@ -469,8 +467,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -479,20 +475,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#testing-drives-with-smartctl" class="md-nav__link">
+    Testing drives with SmartCTL
+  </a>
+  
+    <nav class="md-nav" aria-label="Testing drives with SmartCTL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#check-informations-about-a-drive" class="md-nav__link">
     Check informations about a drive
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#get-all-smart-data-about-a-drive" class="md-nav__link">
     Get all smart data about a drive
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#testing-a-drive" class="md-nav__link">
     Testing a drive
   </a>
@@ -518,11 +522,16 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#getting-the-tests-results" class="md-nav__link">
     Getting the tests results
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -558,8 +567,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -568,20 +575,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#testing-drives-with-smartctl" class="md-nav__link">
+    Testing drives with SmartCTL
+  </a>
+  
+    <nav class="md-nav" aria-label="Testing drives with SmartCTL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#check-informations-about-a-drive" class="md-nav__link">
     Check informations about a drive
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#get-all-smart-data-about-a-drive" class="md-nav__link">
     Get all smart data about a drive
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#testing-a-drive" class="md-nav__link">
     Testing a drive
   </a>
@@ -607,11 +622,16 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#getting-the-tests-results" class="md-nav__link">
     Getting the tests results
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -628,22 +648,24 @@
               
                 
 
-<h1 id="testing-drives-with-smartctl">Testing drives with SmartCTL</h1>
-<h3 id="check-informations-about-a-drive">Check informations about a drive</h3>
+  <h1>Testing drives with SmartCTL</h1>
+
+<h2 id="testing-drives-with-smartctl">Testing drives with SmartCTL<a class="headerlink" href="#testing-drives-with-smartctl" title="Permanent link">&para;</a></h2>
+<h4 id="check-informations-about-a-drive">Check informations about a drive<a class="headerlink" href="#check-informations-about-a-drive" title="Permanent link">&para;</a></h4>
 <pre><code>smartctl -i /dev/sdX
 </code></pre>
-<h3 id="get-all-smart-data-about-a-drive">Get all smart data about a drive</h3>
+<h4 id="get-all-smart-data-about-a-drive">Get all smart data about a drive<a class="headerlink" href="#get-all-smart-data-about-a-drive" title="Permanent link">&para;</a></h4>
 <pre><code>smartctl -a /dev/sdX
 </code></pre>
-<h3 id="testing-a-drive">Testing a drive</h3>
+<h4 id="testing-a-drive">Testing a drive<a class="headerlink" href="#testing-a-drive" title="Permanent link">&para;</a></h4>
 <p>First, check (and ideally, take note of) how long has the drive has been powered on, this will be useful to know if the test is finished, to do that check the smart data, the information you need is is <code>Power_On_Hours</code> the <code>RAW_VALUE</code> is what you need.</p>
-<h4 id="short-test">Short test</h4>
+<h5 id="short-test">Short test<a class="headerlink" href="#short-test" title="Permanent link">&para;</a></h5>
 <pre><code>smartctl -t short /dev/sdX
 </code></pre>
-<h4 id="long-test">Long test</h4>
+<h5 id="long-test">Long test<a class="headerlink" href="#long-test" title="Permanent link">&para;</a></h5>
 <pre><code>smartctl -t long /dev/sdX
 </code></pre>
-<h3 id="getting-the-tests-results">Getting the tests results</h3>
+<h4 id="getting-the-tests-results">Getting the tests results<a class="headerlink" href="#getting-the-tests-results" title="Permanent link">&para;</a></h4>
 <p>This is where the <code>Power_On_Hours</code> that you noted before is useful, if there is nothing at the number of hour you noted (or after), it means the test isn't finished.</p>
 <pre><code>smartctl -l selftest /dev/sdX
 </code></pre>
