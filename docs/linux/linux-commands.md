@@ -80,6 +80,7 @@ View :
 tar -tfv [FILENAME].tar
 ```
 
+
 # Vim
 
 Insert text at the begining of every line (Source: https://techglimpse.com/insert-text-beginning-line-vim/ )
@@ -93,11 +94,36 @@ Delete all lines containing `[REPLACEME]` (Source: https://stackoverflow.com/que
 :g/[REPLACEME]/d
 ```
 
+Remove Comments : 
+```
+:g!/^[^#]/d
+```
+
 Sort lines alphabetically (Source: https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim )
 
 ```
 :sort
 ```
+
+
+# Arch Linux
+
+List installed packages not originating from the Arch repositories (usually packages from the AUR): 
+```
+pacman -Qm
+```
+
+List installed packages originating from the Arch repositories
+```
+pacman -Qn
+```
+
+List explicitly installed packages:
+
+```
+pacman -Qe
+```
+
 
 # Others
 
@@ -106,19 +132,9 @@ Create SymLink :
 ln -s [Source] [Name]
 ```
 
-Vim Remove Comments : 
-```
-:g!/^[^#]/d
-```
-
 View used port : 
 ```
 netstat -npl
-```
-
-List packages not installed with pacman : 
-```
-pacman -Qm
 ```
 
 Rclone :

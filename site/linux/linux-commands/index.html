@@ -350,6 +350,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#arch-linux" class="md-nav__link">
+    Arch Linux
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#others" class="md-nav__link">
     Others
   </a>
@@ -569,6 +576,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#arch-linux" class="md-nav__link">
+    Arch Linux
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#others" class="md-nav__link">
     Others
   </a>
@@ -646,21 +660,28 @@ pause
 <p>Delete all lines containing <code>[REPLACEME]</code> (Source: <a href="https://stackoverflow.com/questions/46781951/efficient-way-to-delete-line-containing-certain-text-in-vim-with-prompt">https://stackoverflow.com/questions/46781951/efficient-way-to-delete-line-containing-certain-text-in-vim-with-prompt</a> )</p>
 <pre><code>:g/[REPLACEME]/d
 </code></pre>
+<p>Remove Comments : </p>
+<pre><code>:g!/^[^#]/d
+</code></pre>
 <p>Sort lines alphabetically (Source: <a href="https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim">https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim</a> )</p>
 <pre><code>:sort
+</code></pre>
+<h2 id="arch-linux">Arch Linux<a class="headerlink" href="#arch-linux" title="Permanent link">&para;</a></h2>
+<p>List installed packages not originating from the Arch repositories (usually packages from the AUR): </p>
+<pre><code>pacman -Qm
+</code></pre>
+<p>List installed packages originating from the Arch repositories</p>
+<pre><code>pacman -Qn
+</code></pre>
+<p>List explicitly installed packages:</p>
+<pre><code>pacman -Qe
 </code></pre>
 <h2 id="others">Others<a class="headerlink" href="#others" title="Permanent link">&para;</a></h2>
 <p>Create SymLink : </p>
 <pre><code>ln -s [Source] [Name]
 </code></pre>
-<p>Vim Remove Comments : </p>
-<pre><code>:g!/^[^#]/d
-</code></pre>
 <p>View used port : </p>
 <pre><code>netstat -npl
-</code></pre>
-<p>List packages not installed with pacman : </p>
-<pre><code>pacman -Qm
 </code></pre>
 <p>Rclone :</p>
 <pre><code>rclone move --verbose --transfers 2 [SOURCES] [DEST]
