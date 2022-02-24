@@ -12,14 +12,14 @@
         <meta name="author" content="TheFrenchGhosty">
       
       
-        <link rel="canonical" href="https://wiki.pussthecat.org/linux/debian-nvidia-340-driver/">
+        <link rel="canonical" href="https://wiki.pussthecat.org/linux/kvm/">
       
       <link rel="icon" href="../../images/favicon.ico">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.1">
     
     
       
-        <title>How to install the Nvidia 340 driver on Debian? - PussTheCat.org's Wiki</title>
+        <title>KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server) - PussTheCat.org's Wiki</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#checking-what-nvidia-driver-you-need" class="md-skip">
+        <a href="#pc-pre-requisites-to-use-kvm-and-connect-to-remote-kvm" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to install the Nvidia 340 driver on Debian?
+              KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server)
             
           </span>
         </div>
@@ -339,62 +339,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          How to install the Nvidia 340 driver on Debian?
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../debian-nvidia-340-driver/" class="md-nav__link">
         How to install the Nvidia 340 driver on Debian?
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#checking-what-nvidia-driver-you-need" class="md-nav__link">
-    Checking what Nvidia driver you need
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#removing-every-old-nvidia-driver-including-nouveau" class="md-nav__link">
-    Removing every old Nvidia driver (including Nouveau)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-the-nvidia-340-driver" class="md-nav__link">
-    Install the Nvidia 340 driver
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -418,11 +367,109 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../kvm/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server)
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pc-pre-requisites-to-use-kvm-and-connect-to-remote-kvm" class="md-nav__link">
+    PC pre-requisites (to use KVM and connect to remote KVM):
+  </a>
+  
+    <nav class="md-nav" aria-label="PC pre-requisites (to use KVM and connect to remote KVM):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debian" class="md-nav__link">
+    Debian
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arch-linux" class="md-nav__link">
+    Arch Linux:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server-pre-requisites-to-use-kvm-from-a-remote-endpoint-through-ssh" class="md-nav__link">
+    Server pre-requisites (to use KVM from a remote endpoint - through SSH):
+  </a>
+  
+    <nav class="md-nav" aria-label="Server pre-requisites (to use KVM from a remote endpoint - through SSH):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debian_1" class="md-nav__link">
+    Debian
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arch-linux_1" class="md-nav__link">
+    Arch Linux:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-ssh-connection-to-virt-manager" class="md-nav__link">
+    Add SSH connection to virt-manager
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -555,22 +602,69 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#checking-what-nvidia-driver-you-need" class="md-nav__link">
-    Checking what Nvidia driver you need
+  <a href="#pc-pre-requisites-to-use-kvm-and-connect-to-remote-kvm" class="md-nav__link">
+    PC pre-requisites (to use KVM and connect to remote KVM):
+  </a>
+  
+    <nav class="md-nav" aria-label="PC pre-requisites (to use KVM and connect to remote KVM):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debian" class="md-nav__link">
+    Debian
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arch-linux" class="md-nav__link">
+    Arch Linux:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#server-pre-requisites-to-use-kvm-from-a-remote-endpoint-through-ssh" class="md-nav__link">
+    Server pre-requisites (to use KVM from a remote endpoint - through SSH):
+  </a>
+  
+    <nav class="md-nav" aria-label="Server pre-requisites (to use KVM from a remote endpoint - through SSH):">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debian_1" class="md-nav__link">
+    Debian
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arch-linux_1" class="md-nav__link">
+    Arch Linux:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#removing-every-old-nvidia-driver-including-nouveau" class="md-nav__link">
-    Removing every old Nvidia driver (including Nouveau)
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-the-nvidia-340-driver" class="md-nav__link">
-    Install the Nvidia 340 driver
+  <a href="#add-ssh-connection-to-virt-manager" class="md-nav__link">
+    Add SSH connection to virt-manager
   </a>
   
 </li>
@@ -589,21 +683,42 @@
                 
 
 
-  <h1>How to install the Nvidia 340 driver on Debian?</h1>
+  <h1>KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server)</h1>
 
-<p>This guide has been tested on an installation of <a href="https://www.linuxmint.com/download_lmde.php">Linux Mint Debian Edition</a>, but it should work on Debian itself or on any distributions based on Debian.</p>
-<h4 id="checking-what-nvidia-driver-you-need">Checking what Nvidia driver you need<a class="headerlink" href="#checking-what-nvidia-driver-you-need" title="Permanent link">&para;</a></h4>
-<p>Install and run nvidia-detect:</p>
-<pre><code>apt install nvidia-detect
+<p>This guide is based on <a href="https://redirect.invidious.io/watch?v=wxxP39cNJOs">Mental Outlaw's tutorial</a> but goes further with a server side KVM, and with a full Debian setup.</p>
+<h2 id="pc-pre-requisites-to-use-kvm-and-connect-to-remote-kvm">PC pre-requisites (to use KVM and connect to remote KVM):<a class="headerlink" href="#pc-pre-requisites-to-use-kvm-and-connect-to-remote-kvm" title="Permanent link">&para;</a></h2>
+<h3 id="debian">Debian<a class="headerlink" href="#debian" title="Permanent link">&para;</a></h3>
+<pre><code>apt install virt-manager
 </code></pre>
-<p>If the output mention that you need to install <code>nvidia-legacy-340xx-driver</code>, this guide is for you.</p>
-<h4 id="removing-every-old-nvidia-driver-including-nouveau">Removing every old Nvidia driver (including Nouveau)<a class="headerlink" href="#removing-every-old-nvidia-driver-including-nouveau" title="Permanent link">&para;</a></h4>
-<p>We now have to remove every other Nvidia drivers so that the system correctly use the Nvidia 340 driver.</p>
-<pre><code>apt purge nvidia.
+<h3 id="arch-linux">Arch Linux:<a class="headerlink" href="#arch-linux" title="Permanent link">&para;</a></h3>
+<pre><code>apt install virt-manager libvirt qemu dnsmasq
 </code></pre>
-<p><em>Note the <code>.</code> after nvidia</em></p>
-<h4 id="install-the-nvidia-340-driver">Install the Nvidia 340 driver<a class="headerlink" href="#install-the-nvidia-340-driver" title="Permanent link">&para;</a></h4>
-<pre><code>apt install nvidia-legacy-340xx-driver
+<h2 id="server-pre-requisites-to-use-kvm-from-a-remote-endpoint-through-ssh">Server pre-requisites (to use KVM from a remote endpoint - through SSH):<a class="headerlink" href="#server-pre-requisites-to-use-kvm-from-a-remote-endpoint-through-ssh" title="Permanent link">&para;</a></h2>
+<h3 id="debian_1">Debian<a class="headerlink" href="#debian_1" title="Permanent link">&para;</a></h3>
+<pre><code>apt install qemu-system libvirt-clients libvirt-daemon dnsmasq netcat
+</code></pre>
+<h3 id="arch-linux_1">Arch Linux:<a class="headerlink" href="#arch-linux_1" title="Permanent link">&para;</a></h3>
+<pre><code>apt install libvirt qemu dnsmasq openbsd-netcat
+</code></pre>
+<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<pre><code>systemctl enable --now libvirtd
+</code></pre>
+<pre><code>sudo nano /etc/libvirt/libvirtd.conf
+</code></pre>
+<p>Uncomment or add (Note: This can be considered a security risk):</p>
+<pre><code>unix_sock_group = &quot;libvirt&quot;
+unix_sock_ro_perms = &quot;0777&quot;
+unix_sock_rw_perms = &quot;0770&quot;
+</code></pre>
+<p>Add your user to the list of users allowed to use KVM (Note: if this is on a server, this user must be accessible via SSH):</p>
+<pre><code>sudo usermod -aG libvirt [USERNAME]
+</code></pre>
+<p>Logout (or reconnect to your SSH session)</p>
+<pre><code>systemctl restart libvirtd
+</code></pre>
+<h2 id="add-ssh-connection-to-virt-manager">Add SSH connection to virt-manager<a class="headerlink" href="#add-ssh-connection-to-virt-manager" title="Permanent link">&para;</a></h2>
+<p>Virt-Manager doesn't have an interface to add details to SSH connections other than username/hostname, you need to do it from the cli directly:</p>
+<pre><code>virt-manager -c 'qemu+ssh://[USERNAME]@[HOSTNAME]:[PORT]/system?keyfile=[NAME OF YOUR SSH KEYFILE]'
 </code></pre>
 
               
@@ -623,7 +738,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../linux-reserved-network-ports/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Linux&#39;s Reserved Network Ports" rel="prev">
+        <a href="../smartctl-tests/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Testing drives with SmartCTL" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -632,20 +747,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Linux's Reserved Network Ports
+              Testing drives with SmartCTL
             </div>
           </div>
         </a>
       
       
         
-        <a href="../smartctl-tests/" class="md-footer__link md-footer__link--next" aria-label="Next: Testing drives with SmartCTL" rel="next">
+        <a href="../../gaming/video-game-mods/" class="md-footer__link md-footer__link--next" aria-label="Next: Video Game Mods" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Testing drives with SmartCTL
+              Video Game Mods
             </div>
           </div>
           <div class="md-footer__button md-icon">
