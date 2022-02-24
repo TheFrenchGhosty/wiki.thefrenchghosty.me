@@ -231,6 +231,8 @@ Show on startup: /home/[USERNAME]
 
 Clipboard: Clear history (tick "never ask again")
 
+Clipboard - Configure Clipboard: Under "Selection and Clipboard" tick "Ignore Selection"
+
 ## Application launcher (the "Windows" button)
 
 - Show alternative
