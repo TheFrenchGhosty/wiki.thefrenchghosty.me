@@ -21,6 +21,8 @@
 
 [Testing drives with SmartCTL](./linux/smartctl-tests.md)
 
+[KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server)](./linux/kvm.md)
+
 
 ### Gaming
 
