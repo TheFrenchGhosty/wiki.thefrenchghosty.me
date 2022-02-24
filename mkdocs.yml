@@ -42,6 +42,7 @@ nav:
     - Linux's Reserved Network Ports: linux/linux-reserved-network-ports.md
     - How to install the Nvidia 340 driver on Debian?: linux/debian-nvidia-340-driver.md
     - Testing drives with SmartCTL: linux/smartctl-tests.md
+    - QEMU/KVM/Libvirt/Virt-Manager Setup: linux/kvm.md
   - Gaming:
     - Video Game Mods: gaming/video-game-mods.md
   - Archive:
