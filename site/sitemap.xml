@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://wiki.pussthecat.org/general/vegan-recipes/</loc>
+         <lastmod>2022-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://wiki.pussthecat.org/linux/arch-linux-xfce-uninstall/</loc>
          <lastmod>2022-03-29</lastmod>
          <changefreq>daily</changefreq>
