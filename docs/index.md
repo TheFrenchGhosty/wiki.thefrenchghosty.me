@@ -6,6 +6,8 @@
 
 [Privacy Guide](./general/privacy-guide.md)
 
+[Recipes (Vegan)](./general/vegan-recipes.md)
+
 
 ### Linux
 
