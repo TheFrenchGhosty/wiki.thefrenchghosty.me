@@ -62,6 +62,16 @@ Merge 2 folders and rename the duplicates (Source: https://www.linuxquestions.or
 cp --backup=numbered /source/* /destination/
 ```
 
+Every 1 second print the number of seconds that passed since the script started (Based on: https://unix.stackexchange.com/a/235280)
+```
+(   SECONDS=0
+    while   sleep   "$((RANDOM%1))"
+    do      sleep   "$((1-(SECONDS%1)))"
+            echo    "$SECONDS"
+    done
+)
+```
+
 
 # Tar
 
