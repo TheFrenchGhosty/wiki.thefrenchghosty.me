@@ -672,6 +672,14 @@ pause
 <p>Merge 2 folders and rename the duplicates (Source: <a href="https://www.linuxquestions.org/questions/showthread.php?p=6257365#post6257365">https://www.linuxquestions.org/questions/showthread.php?p=6257365#post6257365</a>):</p>
 <pre><code>cp --backup=numbered /source/* /destination/
 </code></pre>
+<p>Every 1 second print the number of seconds that passed since the script started (Based on: <a href="https://unix.stackexchange.com/a/235280">https://unix.stackexchange.com/a/235280</a>)</p>
+<pre><code>(   SECONDS=0
+    while   sleep   &quot;$((RANDOM%1))&quot;
+    do      sleep   &quot;$((1-(SECONDS%1)))&quot;
+            echo    &quot;$SECONDS&quot;
+    done
+)
+</code></pre>
 <h2 id="tar">Tar<a class="headerlink" href="#tar" title="Permanent link">&para;</a></h2>
 <p>Pack :</p>
 <pre><code>tar -cfv [FILENAME].tar [SOURCE]
