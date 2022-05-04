@@ -25,6 +25,8 @@
 
 [KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server)](./linux/kvm.md)
 
+[Arch Linux - Switch to LTS kernel](./linux/arch-linux-lts-kernel.md)
+
 
 ### Android
 
