@@ -44,6 +44,8 @@ nav:
     - How to install the Nvidia 340 driver on Debian?: linux/debian-nvidia-340-driver.md
     - Testing drives with SmartCTL: linux/smartctl-tests.md
     - KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server): linux/kvm.md
+  - Android:
+    - ADB Cheat Sheet: android/adb.md
   - Gaming:
     - Video Game Mods: gaming/video-game-mods.md
   - Archive:
