@@ -37,6 +37,8 @@
 
 [Video Game Mods](./gaming/video-game-mods.md)
 
+[RimWorld Modlist](./gaming/rimworld-modlist.md)
+
 
 ### Archive
 
