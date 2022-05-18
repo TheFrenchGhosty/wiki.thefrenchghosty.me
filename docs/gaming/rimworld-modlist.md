@@ -3,10 +3,17 @@ This modlist was made for RimWorld version 1.2 (more specifically `1.2.2900 rev8
 This modlist will be updated next time I play RimWorld.
 
 
+Links to the Steam Workshop are provided, because (sadly) most mods are only available there.
+
+All mods can be downloaded from it, even if you don't own the game on Steam, either with [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) in Anonymous mode, or with various web services providing a way to do that.
+
+
+# Modlist:
+
 - Harmony: https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077
 - BetterLoading: https://steamcommunity.com/sharedfiles/filedetails/?id=1999454301
-- Core: https://steamcommunity.com/sharedfiles/filedetails/?id=
-- Royalty: https://steamcommunity.com/sharedfiles/filedetails/?id=
+- Core: RimWorld itself
+- [EXPANSIONS]: The RimWorld expansions
 - Vanilla Expanded Framework: https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013
 - HugsLib: https://steamcommunity.com/sharedfiles/filedetails/?id=818773962
 - Blueprints: https://steamcommunity.com/sharedfiles/filedetails/?id=708455313
