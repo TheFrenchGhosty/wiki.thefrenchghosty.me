@@ -10,6 +10,8 @@ All mods can be downloaded from it, even if you don't own the game on Steam, eit
 
 # Modlist:
 
+Mods are listed in the order they should be loaded in.
+
 - Harmony: https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077
 - BetterLoading: https://steamcommunity.com/sharedfiles/filedetails/?id=1999454301
 - Core: RimWorld itself
