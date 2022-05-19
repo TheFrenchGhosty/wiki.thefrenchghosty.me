@@ -1,4 +1,4 @@
-This modlist is partially based on a personal modlist of 100 mods I originally made back in early 2017 and on the officially recommended mods on the Frackin' Universe wiki ( https://frackinuniverse.miraheze.org/wiki/Recommended_mods ).
+This modlist is partially based on a personal modlist of 100 mods I originally made back in early 2017 and on the officially recommended mods on the Frackin' Universe wiki: https://frackinuniverse.miraheze.org/wiki/Recommended_mods
 
 The result is an highly curated modlist focused on [Frackin' Universe](https://frackinuniverse.miraheze.org/wiki/Main_Page) (and the mods they officially recommend), it is kept reasonably small, because [Frackin' Universe](https://frackinuniverse.miraheze.org/wiki/Main_Page) is a massive mod, that already include features from other mods, it even include some independent mods that were completely "merged" with it: https://frackinuniverse.miraheze.org/wiki/Included
 
