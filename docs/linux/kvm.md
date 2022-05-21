@@ -11,7 +11,7 @@ apt install virt-manager
 ## Arch Linux:
 
 ```
-apt install virt-manager libvirt qemu dnsmasq
+pacman -S virt-manager libvirt qemu dnsmasq
 ```
 
 
@@ -26,7 +26,7 @@ apt install qemu-system libvirt-clients libvirt-daemon dnsmasq netcat
 ## Arch Linux:
 
 ```
-apt install libvirt qemu dnsmasq openbsd-netcat
+pacman -S libvirt qemu dnsmasq openbsd-netcat
 ```
 
 
