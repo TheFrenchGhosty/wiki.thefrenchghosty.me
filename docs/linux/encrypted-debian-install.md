@@ -1,7 +1,7 @@
 # 1- Create the bootable media
 
 
-Note: To avoid any issue, always use the [non-free firmware iso](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/). For Debian 11 it's `firmware-11.0.0-amd64-netinst.iso` from [Here](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.0.0+nonfree/amd64/iso-cd/).
+Note: To avoid any issue, always use the [non-free firmware iso](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/). For Debian 11 it's `firmware-11.3.0-amd64-netinst.iso` from [Here](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.3.0+nonfree/amd64/iso-cd/).
 
 ## Make the bootable media:
 
