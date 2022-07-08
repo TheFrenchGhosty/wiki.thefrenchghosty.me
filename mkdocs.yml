@@ -1,15 +1,15 @@
-site_name: PussTheCat.org's Wiki
-site_url: https://wiki.pussthecat.org/
+site_name: TheFrenchGhosty's Wiki
+site_url: https://wiki.thefrenchghosty.me/
 site_author: TheFrenchGhosty
 site_description: >-
-  The PussTheCat.org Wiki
+  TheFrenchGhosty's Wiki
 theme:
   name: material
   font: false
   palette:
     scheme: slate
-    primary: deep orange
-    accent: orange
+    primary: indigo
+    accent: blue
   logo: images/logo.png # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo
   favicon: images/favicon.ico # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#favicon
   features:
