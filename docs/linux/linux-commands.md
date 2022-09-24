@@ -118,7 +118,7 @@ Sort lines alphabetically (Source: https://thoughtbot.com/blog/sort-lines-alphab
 
 # Debian
 
-Get all packages installed from a specific repository?
+Get all packages installed from a specific repository? (Source: https://unix.stackexchange.com/a/401625 )
 ```
 dpkg -l | awk '/^.i/ {print $2}' | xargs apt-cache policy | awk '/^[a-z0-9.\-]+:/ {pkg=$1}; /\*\*\*/ {OFS="\t"; ver=$2; getline; print pkg,ver,$2,$3}'|grep -v /var/lib/dpkg/status| sed -e 's/://'|awk '{printf "%-40s %-36s %-36s %-16s \n",$1,$2,$3, $4}' | grep -i [SOURCE]
 ```
