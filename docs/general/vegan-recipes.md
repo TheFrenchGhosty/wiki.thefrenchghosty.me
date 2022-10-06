@@ -7,7 +7,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Dark chocolate or powder chocolate or powder cocoa (150 grams)
 - Flour (150 grams)
 - Sugar (50 grams)
-- Yeast (1 bag / around 10 grams)
+- Yeast (1 bag / around 5 to 10 grams)
 - Vanilla sugar (1 bag / around 10 grams)
 - Soy milk (add until you get a liquid-ish paste / 300 to 500 milliliters)
 
@@ -15,7 +15,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 
 - Flour (150 grams)
 - Sugar (50 grams)
-- Yeast (1 bag / around 10 grams)
+- Yeast (1 bag / around 5 to 10 grams)
 - Vanilla sugar (1 bag / around 10 grams)
 - Soy milk (add until you get a liquid-ish paste / 300 to 500 milliliters)
 - (Optional) Powder chocolate or powder cocoa (add until you get the "color" you want)
@@ -26,3 +26,30 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Water (500 milliliters) (you can also use 500 milliliters of soy milk, but this will triple the price of the recipe)
 - Sugar or vanilla sugar (around 20 grams / 2 bags)
 - Salt (around 5 grams)
+
+### Bread
+
+- Flour (300 grams)
+- Water (200 milliliters)
+- Yeast (1 bag / around 5 to 10 grams)
+- Salt (around 7 grams)
+- Oil (5 milliliters) (optional)
+
+### Corn Bread
+
+- Corn Flour (100 grams)
+- Flour (200 grams)
+- Water (200 milliliters)
+- Yeast (1 bag / around 5 to 10 grams)
+- Sugar (around 10 grams)
+- Salt (around 7 grams)
+- Oil (5 milliliters) (optional)
+
+### Oat Bread
+
+- Oat Flour (100 grams)
+- Flour (200 grams)
+- Water (200 milliliters)
+- Yeast (1 bag / around 5 to 10 grams)
+- Salt (around 7 grams)
+- Oil (5 milliliters) (optional)
