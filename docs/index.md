@@ -37,7 +37,7 @@
 
 [Video Game Mods](./gaming/video-game-mods.md)
 
-[RimWorld Modlist](./gaming/rimworld-modlist.md)
+[RimWorld 1.2 Modlist](./gaming/rimworld-1-2-modlist.md)
 
 [Starbound Modlist](./gaming/starbound-modlist.md)
 
