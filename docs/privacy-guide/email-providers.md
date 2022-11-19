@@ -14,13 +14,13 @@ Resource: https://digdeeper.neocities.org/ghost/email.html
   - Custom domains supported
   - Encryption at rest
   - 100% closed source
-  - Payment via cash, cash payment to bank account, credit card (not anonymised) or PayPal (not anonymised), bank transfer (not anonymised)
+  - Payment via cash, cash payment to bank account, credit card (not anonymized) or PayPal (not anonymized), bank transfer (not anonymised)
 
 - [Runbox](https://runbox.com/):
   - Custom domains supported
   - No encryption at rest
   - Server code is closed source, most of the client code is open source
-  - Payment via Bitcoin, cash, credit card (not anonymised), bank transfer (not anonymised)
+  - Payment via Bitcoin, cash, credit card (not anonymized), bank transfer (not anonymised)
   - Requires a *real* first and last name - however they won't actually check if it's *real* (unless you abuse their service), you should use your real name if possible, because not doing so is *technically* against their ToS. Email conversation I had with them about it: [1](1.png) [2](2.png) [3](3.png) [4](4.png) [5](5.png) [6](6.png) [7](7.png)
 
 - [Tutanota](https://tutanota.com/):
