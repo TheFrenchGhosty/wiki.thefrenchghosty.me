@@ -2,7 +2,7 @@
 
 Resource: https://digdeeper.neocities.org/ghost/email.html
 
-Providers to use:
+### Providers to use:
 
 - [Posteo](https://posteo.de/en):
   - Custom domains **NOT** supported
@@ -37,9 +37,10 @@ Providers to use:
   - Payment via Bitcoin, FairCoin, credit card (not anonymised), bank transfer (not anonymised), Patreon (not anonymised) or PayPal (not anonymised).
   - **Hobby Project** but *should* [last](https://forum.disroot.org/t/will-disroot-last/101/2) (I still wouldn't recommended it as a main provider)
 
+---
 
-Providers to avoid at all cost:
+### Providers to avoid at all cost:
 
-- ProtonMail: Sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.neocities.org/ghost/email.html#ProtonMail - Mental Outlaw's video about it: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
+- ProtonMail: Sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.club/articles/email.xhtml#ProtonMail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Librarian (Odysee)](https://librarian.pussthecat.org/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
 - StartMail: Made Startpage, and sold it to an advertising company.
