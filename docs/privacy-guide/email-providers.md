@@ -1,4 +1,4 @@
-# Privacy Guide - Email providers
+# Privacy Guide - E-mail providers
 
 Resource: https://digdeeper.club/articles/email.xhtml
 

@@ -4,10 +4,14 @@
 
 [Things I know / Things I need to learn](./general/thing-I-know-or-need-to-learn.md)
 
-[Privacy Guide](./general/privacy-guide.md)
-
 [Recipes (Vegan)](./general/vegan-recipes.md)
 
+
+### Privacy Guide
+
+[Privacy Guide](./privacy-guide/privacy-guide.md)
+
+[Privacy Guide - Email providers](./privacy-guide/email-providers.md)
 
 ### Linux
 
