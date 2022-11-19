@@ -1,6 +1,6 @@
-# Email providers
+# Privacy Guide - Email providers
 
-Resource: https://digdeeper.neocities.org/ghost/email.html
+Resource: https://digdeeper.club/articles/email.xhtml
 
 ### Providers to use:
 
