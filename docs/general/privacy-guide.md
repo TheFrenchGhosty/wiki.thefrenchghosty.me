@@ -1,1 +1,1 @@
-Moved to [their own page](../privacy-guide/privacy-guide.md)
+Moved to [its own folder](../privacy-guide/privacy-guide.md)
