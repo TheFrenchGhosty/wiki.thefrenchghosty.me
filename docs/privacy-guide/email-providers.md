@@ -4,7 +4,7 @@ Resource: https://digdeeper.club/articles/email.xhtml
 
 ## Providers to use:
 
-- [Posteo](https://posteo.de/en):
+### [Posteo](https://posteo.de/en):
   - Custom domains **NOT** supported
   - Encryption at rest
   - 100% open source
