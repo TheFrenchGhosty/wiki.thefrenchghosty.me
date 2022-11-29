@@ -41,6 +41,8 @@ Resource: https://digdeeper.club/articles/email.xhtml
 
 ## Providers to avoid at all cost:
 
-### ProtonMail: Sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.club/articles/email.xhtml#ProtonMail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Librarian (Odysee)](https://librarian.pussthecat.org/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
+### ProtonMail:
+- Sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.club/articles/email.xhtml#ProtonMail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Librarian (Odysee)](https://librarian.pussthecat.org/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
-### StartMail: Made Startpage, and sold it to an advertising company.
+### StartMail:
+- Made Startpage, and sold it to an advertising company.
