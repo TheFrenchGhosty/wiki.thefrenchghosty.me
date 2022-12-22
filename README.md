@@ -1,4 +1,4 @@
-# PussTheCat.org-Wiki
+# wiki.thefrenchghosty.me
 
 https://squidfunk.github.io/mkdocs-material/creating-your-site/
 
