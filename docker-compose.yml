@@ -3,4 +3,4 @@ services:
     image: quay.io/thefrenchghosty/wiki.thefrenchghosty.me:latest
     restart: unless-stopped
     ports:
-      - "127.0.0.1:2000:80"
+      - "127.0.0.1:3000:80"
