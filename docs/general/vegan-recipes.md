@@ -54,7 +54,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Salt (around 7 grams)
 - Oil (5 milliliters) (optional)
 
-# Red fruit smoothie
+### Red fruit smoothie
 
 - Banana (125 grams of peeled fruit or 1 big banana)
 - Any red fruit - or mix of red fruit (125 grams or the weight of the banana)
