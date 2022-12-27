@@ -53,3 +53,10 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Yeast (1 bag / around 5 to 10 grams)
 - Salt (around 7 grams)
 - Oil (5 milliliters) (optional)
+
+# Red fruit smoothie
+
+- Banana (125 grams of peeled fruit or 1 big banana)
+- Any red fruit - or mix of red fruit (125 grams or the weight of the banana)
+- Ground rolled oats (3 teaspoon or more)
+- Soy milk or Oat milk (start with 250 milliliters and add more than that when everything is mixed if you want to lower the really strong taste of the fruits and/or save some money)
