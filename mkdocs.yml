@@ -20,7 +20,7 @@ copyright: Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/PussTheCat-org/PussTheCat.org-Wiki
+      link: https://github.com/TheFrenchGhosty/wiki.thefrenchghosty.me
 
 markdown_extensions:
   - md_in_html
