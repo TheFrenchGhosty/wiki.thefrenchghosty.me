@@ -109,6 +109,16 @@ Remove Comments :
 :g!/^[^#]/d
 ```
 
+Remove blank lines:
+```
+:g/^$/d
+```
+
+Remove blank lines (including the lines that have zero or more whitespace characters)  
+```
+:g/^\s*$/d
+```
+
 Sort lines alphabetically (Source: https://thoughtbot.com/blog/sort-lines-alphabetically-in-vim )
 
 ```
