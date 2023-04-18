@@ -31,6 +31,8 @@
 
 [Arch Linux - Switch to LTS kernel](./linux/arch-linux-lts-kernel.md)
 
+[How to check if you are running a vulnerable LUKS setup (LUKS key derivation function)](./linux/vulnerable-luks-setup.md)
+
 
 ### Android
 
