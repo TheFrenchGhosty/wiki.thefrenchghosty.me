@@ -1,6 +1,6 @@
 ## Context
 
-On 2023-04-17 [a report](https://nantes.indymedia.org/posts/87395/une-lettre-divan-enferme-a-la-prison-de-villepinte-perquisitions-et-disques-durs-dechiffres/) (in french) came out that said that someone had its LUKS encrypted drive by the police. 
+On 2023-04-17 [a report](https://nantes.indymedia.org/posts/87395/une-lettre-divan-enferme-a-la-prison-de-villepinte-perquisitions-et-disques-durs-dechiffres/) (in french) came out that said that someone had its LUKS encrypted drive decrypted by the police (even though he was using a long password). 
 
 This article is a simplified/more readable version of a [longer article](https://mjg59.dreamwidth.org/66429.html) to check if you are running a vulnerable LUKS setup.
 
