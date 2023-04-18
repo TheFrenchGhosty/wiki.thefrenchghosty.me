@@ -40,7 +40,7 @@ Version:       	2
 
 AND:
 
-`PBKDF` under "Keyslots` **must be** `argon2i`.
+`PBKDF` under "Keyslots" **must be** `argon2i` (Note: what's under "Digests" doesn't matter).
 
 ```
 Keyslots:
