@@ -40,7 +40,7 @@ Version:       	2
 
 AND:
 
-`PBKDF` under "Keyslots" **must be** `argon2i` (Note: what's under "Digests" doesn't matter).
+`PBKDF` under "Keyslots" **must be** `argon2id` (Note: what's under "Digests" doesn't matter).
 
 ```
 Keyslots:
@@ -49,7 +49,7 @@ Keyslots:
 	Priority:   <REDACTED>
 	Cipher:     <REDACTED>
 	Cipher key: <REDACTED>
-	PBKDF:      argon2i
+	PBKDF:      argon2id
 ```
 
 If both values are correct: you are safe. If not, you are running a vulnerable LUKS setup, and must follow the fix of the [original article](https://mjg59.dreamwidth.org/66429.html).
