@@ -78,7 +78,9 @@ Download: https://www.pcgamingwiki.com/wiki/Anno_1404#Unofficial_Patch
 
 Source port: [EDuke32](https://eduke32.com/)
 
-Best game files (.GRP): Duke Nukem 3D: Megaton Edition
+Best game files (.GRP):
+- Duke Nukem 3D - Atomic Edition (only the version sold by Zoom Platform): https://www.zoom-platform.com/product/duke-nukem-3d-atomic-edition
+- Duke Nukem 3D - Megaton Edition (not sold anywhere anymore)
 
 
 ### Mods (Get them all):
