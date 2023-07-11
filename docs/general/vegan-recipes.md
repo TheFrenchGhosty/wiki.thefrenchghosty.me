@@ -5,7 +5,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 ### Chocolate cake
 
 - Dark chocolate or powder chocolate or powder cocoa (150 grams)
-- Flour (150 grams)
+- Wheat Flour (150 grams)
 - Sugar (50 grams)
 - Yeast (1 bag / around 5 to 10 grams)
 - Vanilla sugar (1 bag / around 10 grams)
@@ -13,7 +13,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 
 ### Pancakes (or chocolate pancakes)
 
-- Flour (150 grams)
+- Wheat Flour (150 grams)
 - Sugar (50 grams)
 - Yeast (1 bag / around 5 to 10 grams)
 - Vanilla sugar (1 bag / around 10 grams)
@@ -22,14 +22,14 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 
 ### Crepe (pancakes for when you need to save money)
 
-- Flour (250 grams)
+- Wheat Flour (250 grams)
 - Water (500 milliliters) (you can also use 500 milliliters of soy milk, but this will triple the price of the recipe)
 - Sugar or vanilla sugar (around 20 grams / 2 bags)
 - Salt (around 5 grams)
 
 ### Bread
 
-- Flour (300 grams)
+- Wheat Flour (300 grams)
 - Water (200 milliliters)
 - Yeast (1 bag / around 5 to 10 grams)
 - Salt (around 7 grams)
@@ -38,7 +38,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 ### Corn Bread
 
 - Corn Flour (100 grams)
-- Flour (200 grams)
+- Wheat Flour (200 grams)
 - Water (200 milliliters)
 - Yeast (1 bag / around 5 to 10 grams)
 - Sugar (around 10 grams)
@@ -48,7 +48,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 ### Oat Bread
 
 - Oat Flour (100 grams)
-- Flour (200 grams)
+- Wheat Flour (200 grams)
 - Water (200 milliliters)
 - Yeast (1 bag / around 5 to 10 grams)
 - Salt (around 7 grams)
@@ -72,18 +72,17 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 
 ### Barley Bread
 
-- Oat Flour (150 grams)
-- Flour (150 grams)
+- Barley Flour (150 grams)
+- Wheat Flour (150 grams)
 - Water (200 milliliters)
 - Yeast (1 bag / around 5 to 10 grams)
 - Salt (around 7 grams)
-
 
 ### Split peas and carrots
 
 - Water
 - Split peas
-- Carrots (half of the weight of the peas)
+- Carrots (around half of the weight of the peas)
 - Onion
 - [Herbes de Provence](https://en.wikipedia.org/wiki/Herbes_de_Provence)
 
