@@ -77,3 +77,14 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Water (200 milliliters)
 - Yeast (1 bag / around 5 to 10 grams)
 - Salt (around 7 grams)
+
+
+### Split peas and carrots
+
+- Water
+- Split peas
+- Carrots (half of the weight of the peas)
+- Onion
+- [Herbes de Provence](https://en.wikipedia.org/wiki/Herbes_de_Provence)
+
+Add all the ingredients to the water and boil until everything is cooked.
