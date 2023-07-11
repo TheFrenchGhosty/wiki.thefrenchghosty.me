@@ -69,3 +69,11 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Potatoes (100-200 grams) (optional)
 - Mushroom (100-200 grams) (optional)
 - Salt
+
+### Barley Bread
+
+- Oat Flour (150 grams)
+- Flour (150 grams)
+- Water (200 milliliters)
+- Yeast (1 bag / around 5 to 10 grams)
+- Salt (around 7 grams)
