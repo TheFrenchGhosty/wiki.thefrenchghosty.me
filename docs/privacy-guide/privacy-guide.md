@@ -177,6 +177,11 @@ Do not use:
 
 - Manjaro: Sketchy, amateurish distro, awful security practice (keep packages on hold for 2 weeks "testing purposes" but no test is actually done), fired their treasurer because he dug too much into the finances and so much more. (More: https://github.com/arindas/manjarno - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=mL9ztTzrY6Y) / [Odysee](https://odysee.com/@Luke:7/linux-is-getting-worse-for-normal:b) / [PeerTube](https://videos.lukesmith.xyz/w/mpJadfxyJWLdqzGthURZsf)).
 
+Notes :
+- For a balanced GNU/Linux distribution, you can't really go wrong nowadays with [Debian](https://www.debian.org/). Please be advised that they now ship by default [proprietary firmwares](https://lists.debian.org/debian-devel-announce/2022/03/msg00008.html) but you can [disable them](https://forums.debian.net/viewtopic.php?t=154837) at install.
+- If you really want a fully libre GNU/Linux distribution, [Trisquel](https://trisquel.info) used to be recommended by Richard Stallman. The GNU project is listing it [among onther](https://www.gnu.org/distros/free-distros.html).
+- It should be noted that having a Nvidia GPU on a Linux machine is asking for trouble. [Relevant video clip](https://piped.video/watch?v=OF_5EKNX0Eg)
+
 #### Mobile
 
 Use:
