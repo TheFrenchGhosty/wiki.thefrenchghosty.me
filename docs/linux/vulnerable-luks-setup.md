@@ -9,7 +9,7 @@ This article is a simplified/more readable version of a [longer article](https:/
 
 By design, if you use GRUB on an encrypted boot partition, the LUKS setup used for it is insecure since GRUB doesn't support LUKS2 encrypted boot partition.
 
-Some people ([including the LUKS creator](https://teddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/jgpvsqc/#c)) are debating wether or not it was actually brute-force that broke the encryption. Since, in theory, even with the most basic/insecure LUKS setup, it shouldn't be possible to brute-force the password. However, it's still [possible](https://teddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/jgq41pu/#c) because passwords are rarely random.
+Some people ([including the LUKS creator](https://libreddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/jgpvsqc/#c)) are debating wether or not it was actually brute-force that broke the encryption. Since, in theory, even with the most basic/insecure LUKS setup, it shouldn't be possible to brute-force the password. However, it's still [possible](https://libreddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/jgq41pu/#c) because passwords are rarely random.
 
 
 ## Grab the data
@@ -66,4 +66,4 @@ If both values are correct: you are safe. If not, you are running a vulnerable L
 
 - https://mjg59.dreamwidth.org/66429.html
 
-- https://teddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/
+- https://libreddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/

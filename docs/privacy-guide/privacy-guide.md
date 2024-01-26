@@ -25,21 +25,21 @@ The "Do not use" category include things recommended by privacyguides org, that,
 
 Some community feedback about what privacyguides org has become:
 
-- About the removal of a lot of good recommendations ["There are so many on this list that shouldn't have been removed. Cookie AutoDelete, multi account containers, Safari, Ungoogled chromium, anti recommendation: chrome. None of it makes any sense..."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr7ez2/#c), ["This is pointed out constantly, but they just cannot care"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr8lbz/#c)
+- About the removal of a lot of good recommendations ["There are so many on this list that shouldn't have been removed. Cookie AutoDelete, multi account containers, Safari, Ungoogled chromium, anti recommendation: chrome. None of it makes any sense..."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr7ez2/#c), ["This is pointed out constantly, but they just cannot care"](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr8lbz/#c)
 
-- ["PrivacyGuides is a one-man-show @tommytran732 , without any discussion"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hntz49m/#c)
+- ["PrivacyGuides is a one-man-show @tommytran732 , without any discussion"](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hntz49m/#c)
 
-- About the Posteo removal because of DMARC: ["Nothing to do with security or privacy. Everything to do with email server reputation."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hns9sju/#c)
+- About the Posteo removal because of DMARC: ["Nothing to do with security or privacy. Everything to do with email server reputation."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hns9sju/#c)
 
-- About the LineageOS removal: ["With this logic we should use Forest OS which is even better than Graphene. The process of installing Forest OS is simple. You just throw away all of your tech, burn your passport, and go off the grid to live in a forest as a hermit. This makes you extremely private and your devices impossible to hack."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/ho1akt7/#c)
+- About the LineageOS removal: ["With this logic we should use Forest OS which is even better than Graphene. The process of installing Forest OS is simple. You just throw away all of your tech, burn your passport, and go off the grid to live in a forest as a hermit. This makes you extremely private and your devices impossible to hack."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/ho1akt7/#c)
 
-- About the DDG Browser removal: ["Removing DDG browser and saying all iOS browsers are basically Safari with a skin (the assumption being that it’s not really a meaningful difference from one to the next) but then saying use FF/FF Focus because they block trackers, doesn’t make sense to me because DDG also blocks trackers (and has a better default search engine)."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnsrugf/#c)
+- About the DDG Browser removal: ["Removing DDG browser and saying all iOS browsers are basically Safari with a skin (the assumption being that it’s not really a meaningful difference from one to the next) but then saying use FF/FF Focus because they block trackers, doesn’t make sense to me because DDG also blocks trackers (and has a better default search engine)."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnsrugf/#c)
 
-- About the Qwant removal (because "In December 2020, Qwant blocked access from Japan, Romania, Taiwan, and, Turkey.I consider this to be a wicked act."): ["How is that a reason to remove it?"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqrx5c/#c), ["its not privacy related bruh"](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqtfyk/#c)
+- About the Qwant removal (because "In December 2020, Qwant blocked access from Japan, Romania, Taiwan, and, Turkey.I consider this to be a wicked act."): ["How is that a reason to remove it?"](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqrx5c/#c), ["its not privacy related bruh"](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqtfyk/#c)
 
-- About the removal of good browser addons ["I feel like there's a growing disconnect between the authors and readers and we'll eventually have another 'fork' which focuses more on the average user, who has next to no technical knowledge."](https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr1vei/#c)
+- About the removal of good browser addons ["I feel like there's a growing disconnect between the authors and readers and we'll eventually have another 'fork' which focuses more on the average user, who has next to no technical knowledge."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr1vei/#c)
 
-More: https://teddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/
+More: https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/
 
 
 
@@ -143,7 +143,7 @@ Use:
 
 Do not use:
 
-- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://teddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.neocities.org/ghost/email.html#ProtonMail - Mental Outlaw's video about it: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
+- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet, an advertising company](https://libreddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.neocities.org/ghost/email.html#ProtonMail - Mental Outlaw's video about it: [Invidious](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Odysee](https://odysee.com/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
 
 ## Software
@@ -182,7 +182,7 @@ Do not use:
 Use:
 
 - [GrapheneOS](https://grapheneos.org/) (Note: really low amount of devices supported)
-- [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://teddit.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
+- [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://libreddit.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
 - [DivestOS](https://divestos.org/): (Note: A soft-fork of LineageOS that is better than it in every way, however the project is REALLY young, support a lot less devices (a lot of the builds are either broken or untested) and has no track record.)
 
 - Any FOSS GNU/Linux distribution
