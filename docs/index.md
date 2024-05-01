@@ -33,9 +33,9 @@
 
 [How to check if you are running a vulnerable LUKS setup (LUKS key derivation function)](./linux/vulnerable-luks-setup.md)
 
-[Change a machine hostname](./linux/linux-change-hostname.md)
+[Change a machine's hostname](./linux/linux-change-hostname.md)
 
-[Change a DNS server](./linux/linux-change-dns.md)
+[Change a machine's DNS server](./linux/linux-change-dns.md)
 
 
 ### Android
