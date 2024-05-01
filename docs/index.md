@@ -35,6 +35,8 @@
 
 [Change a machine hostname](./linux/linux-change-hostname.md)
 
+[Change a DNS server](./linux/linux-change-dns.md)
+
 
 ### Android
 
