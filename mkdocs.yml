@@ -48,6 +48,7 @@ nav:
     - KVM/QEMU/Libvirt/Virt-Manager Setup (PC and Server): linux/kvm.md
     - Arch Linux - Switch to LTS kernel: linux/arch-linux-lts-kernel.md
     - How to check if you are running a vulnerable LUKS setup (LUKS key derivation function): linux/vulnerable-luks-setup.md
+    - Change a machine hostname: linux/linux-change-hostname.md
   - Android:
     - ADB Cheat Sheet: android/adb.md
   - Gaming:
