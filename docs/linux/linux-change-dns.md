@@ -90,6 +90,15 @@ DNS=94.140.14.140 94.140.14.141
 Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers you want to use. Separate multiple DNS servers with a space.
 
 
+## Applying the changes (if you don't reboot)
+
+```
+$ sudo systemctl daemon-reload
+$ sudo systemctl restart systemd-networkd
+$ sudo systemctl restart systemd-resolved
+```
+
+
 # The end
 
 It is strongly recommended that you reboot after that, however it shouldn't be mandatory.
