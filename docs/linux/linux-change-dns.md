@@ -93,7 +93,7 @@ DNS=94.140.14.140 94.140.14.141
 Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers you want to use. Separate multiple DNS servers with a space.
 
 
-## Applying the changes (if you don't reboot)
+# Applying the changes (if you don't reboot)
 
 Restart networking:
 
@@ -109,4 +109,4 @@ $ sudo systemctl restart networking
 
 # The end
 
-It is strongly recommended that you reboot after that, however it shouldn't be mandatory.
+It is strongly recommended that you reboot (and check that the change is still in place) after that, however it shouldn't be mandatory.
