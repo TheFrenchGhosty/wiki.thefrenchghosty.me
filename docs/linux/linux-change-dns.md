@@ -22,14 +22,6 @@ dns-nameservers 94.140.14.140 94.140.14.141
 Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers you want to use. Separate multiple DNS servers with a space.
 
 
-Restart networking:
-
-After editing the file, restart networking for the changes to take effect:
-
-```
-sudo systemctl restart networking
-```
-
 # /etc/resolv.conf
 
 Edit the resolv.conf file:
@@ -48,6 +40,17 @@ nameserver 94.140.14.141
 ```
 
 Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers you want to use. One line = one DNS server
+
+## Stop dhclient from modifying /etc/resolv.conf
+
+If you have dhclient installed (default on Debian) you have to make it so it doesn't touch /etc/resolv.conf
+
+```
+echo 'make_resolv_conf() { :; }' > /etc/dhcp/dhclient-enter-hooks.d/leave_my_resolv_conf_alone
+chmod 755 /etc/dhcp/dhclient-enter-hooks.d/leave_my_resolv_conf_alone
+```
+
+(taken from https://wiki.debian.org/resolv.conf )
 
 
 # Systemd-networkd and Systemd-resolved (optional)
@@ -92,10 +95,15 @@ Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers
 
 ## Applying the changes (if you don't reboot)
 
+Restart networking:
+
+After editing the file, restart networking for the changes to take effect:
+
 ```
 $ sudo systemctl daemon-reload
 $ sudo systemctl restart systemd-networkd
 $ sudo systemctl restart systemd-resolved
+$ sudo systemctl restart networking
 ```
 
 
