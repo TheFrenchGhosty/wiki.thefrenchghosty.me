@@ -86,7 +86,7 @@ Use (if you use a VPN):
 
 Use (if you don't use a VPN):
 
-- [Adguard](https://adguard-dns.io/kb/general/dns-providers/?clid=Bt2Wgn#adguard-dns) (Note: Log some things: https://adguard.com/en/privacy/dns.html )
+- [Adguard](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns) (Note: Log some things: https://adguard.com/en/privacy/dns.html )
 - [Quad9](https://quad9.net/) (Note: Based in Switzerland, no log)
 - [AhaDNS](https://ahadns.com/) (Note: Hobby project, no log)
 
