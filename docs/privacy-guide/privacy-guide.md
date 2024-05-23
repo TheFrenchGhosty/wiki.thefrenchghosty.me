@@ -6,8 +6,10 @@ This "guide" is just a big list of great software/providers to dig into, the ide
 
 **Threat model:** This guide is focused on a specific [threat model](https://en.wikipedia.org/wiki/Threat_model): avoiding [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech), avoiding companies with ties to law enforcements/government agencies/governments (when possible), avoiding companies with double standard/bad privacy practices.
 
+
 **License:** The content of this guide is released under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) to everyone, *except* the current, past and future team members of privacyguides org and privacytools io (or any future domain owned/controlled/related by or to them), reuse is allowed following this license, as long as the content doesn't end up on privacyguides org, privacytools io (or any future domain owned/controlled/related by or to them) and any provider that isn't **recommended** in this guide.
 
+---
 
 ## Why?
 
@@ -22,6 +24,8 @@ Some examples of awful decisions I contested:
 - Removal of 7zip: https://github.com/privacyguides/privacyguides.org/pull/258#issuecomment-988104029
 
 The "Do not use" category include things recommended by privacyguides org, that, as the name suggest, you shouldn't use.
+
+---
 
 Some community feedback about what privacyguides org has become:
 
@@ -41,16 +45,18 @@ Some community feedback about what privacyguides org has become:
 
 More: https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/
 
-
+---
 
 ## Requirements
 
 - All software must be open source no exception.
 - All providers mustn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand - or Russia.
-- All providers *shouldn't* ideally be based in Switzerland (reason: Switzerland privacy died in 2018, they now basically have their own ["NSA-like" agency](https://neflabs.com/article/swiss-nsa-march/), providers are just using "Switzerland" in their marketing because the country still has a reputation of being private - while it's not).
+- All providers *shouldn't* ideally be based in Switzerland (reason: Switzerland privacy died in 2018, they now basically have their own ["NSA-like" agency](https://web.archive.org/web/20201112003307/https://neflabs.com/article/swiss-nsa-march/), providers are just using "Switzerland" in their marketing because the country still has a reputation of being private - while it's not).
 - All providers must have open source clients (or use an open standard, like IMAP/POP3 for e-mail).
 - All providers *should* ideally have open source servers.
 - All providers mustn't be invite only (sorry RiseUp and cTemplar).
+
+---
 
 # List
 
@@ -80,13 +86,13 @@ Use (if you use a VPN):
 
 Use (if you don't use a VPN):
 
-- [Adguard](https://adguard.com/en/adguard-dns/overview.html) (Note: Log some things: https://adguard.com/en/privacy/dns.html )
+- [Adguard](https://adguard-dns.io/kb/general/dns-providers/?clid=Bt2Wgn#adguard-dns) (Note: Log some things: https://adguard.com/en/privacy/dns.html )
 - [Quad9](https://quad9.net/) (Note: Based in Switzerland, no log)
 - [AhaDNS](https://ahadns.com/) (Note: Hobby project, no log)
 
 Do not use:
 
-- Cloudflare: it's [Cloudflare](https://git.disroot.org/dCF/deCloudflare/src/branch/master/readme/en.md).
+- Cloudflare: it's [Cloud](https://www.devever.net/~hl/cloudflare)[flare](https://0xacab.org/dCF/deCloudflare/-/blob/master/readme/en.md).
 - NextDNS: USA-based
 - UncensoredDNS: Hobby project + No privacy policy.
 
@@ -100,25 +106,17 @@ Moved to [their own page](../privacy-guide/email-providers.md)
 
 Use:
 
-- [SearX](https://searx.me/) or [SearXNG](https://searxng.github.io/searxng/) (a fork of SearX)
-
-Do not use:
-
-- Anything else (including Whoogle, that is just SearX but worse)
+- [SearXNG](https://searxng.github.io/searxng/)
 
 
 ### Social Networks
 
-Social networks are fundamentaly not private by design, but if you have to use one, follow this list:
+Social networks are fundamentally not private by design, but if you have to use one, follow this list:
 
 Use:
 
 - Any Fediverse-compatible project (Mastodon, diaspora*, Friendica, GNU social, Pleroma, Pixelfed...)
 - [Lemmy](https://join-lemmy.org/) (Note: Projects owners/creators are heavily politically biased and use Lemmy to "push" their political opinions)
-
-Do not use:
-
-- Anything else
 
 
 ### Social News Aggregator
@@ -127,14 +125,10 @@ Use:
 
 - RSS
 
-Do not use:
-
-- Anything else
-
 
 ### VPN
 
-Note: A good rules is to avoid any VPN that has referals and/or advertise and/or do fake "time limited" sales (basically 99% of them).
+Note: A good rules is to avoid any VPN that has referrals and/or advertise and/or do fake "time limited" sales (basically 99% of them).
 
 Use:
 
@@ -155,11 +149,11 @@ Use:
 - [Librewolf](https://librewolf.net/) (Note: follow [this](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration))
 - Firefox properly [configured](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration) (Note: it directly "encourages" [Mozilla's behaviour](https://digdeeper.neocities.org/ghost/mozilla.html), including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
 - [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
-- [Bromite](https://www.bromite.org/)
+- [Mull](https://divestos.org/pages/our_apps#mull)
 
 Do not use:
 
-- Tor Browser: it's a browser made for anonimity, not privacy
+- Tor Browser: it's a browser made for anonymity, not privacy
 
 
 ### Operating Systems
@@ -168,28 +162,28 @@ Do not use:
 
 Use:
 
-- Any FOSS GNU/Linux distribution (except anything Ubuntu-based (that isn't Linux Mint) and Manjaro)
-- Any FOSS BSD distrubution
+- Any FOSS non-corporate GNU/Linux distribution (except [Manjaro](https://manjarno.pages.dev/))
+- Any FOSS non-corporate BSD distribution
 
 Do not use:
 
-- Anything Ubuntu-based (that isn't Linux Mint): Made by Cannonical, a company that created and "push" the use of Snap, a "packaging system" that requires connecting to their own closed source server, and used to include advertising for Amazon.
-
-- Manjaro: Sketchy, amateurish distro, awful security practice (keep packages on hold for 2 weeks "testing purposes" but no test is actually done), fired their treasurer because he dug too much into the finances and so much more. (More: https://github.com/arindas/manjarno - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=mL9ztTzrY6Y) / [Odysee](https://odysee.com/@Luke:7/linux-is-getting-worse-for-normal:b) / [PeerTube](https://videos.lukesmith.xyz/w/mpJadfxyJWLdqzGthURZsf)).
+- Anything Ubuntu-based (that isn't Linux Mint): Made by Canonical, a company that created and "push" the use of Snap, a "packaging system" that requires connecting to their own closed source server, and used to include advertising for Amazon.
+- Any corporate distro
+- Manjaro: Sketchy, amateurish distro, awful security practice (keep packages on hold for 2 weeks "testing purposes" but no test is actually done), fired their treasurer because he dug too much into the finances and so much more. (More: https://manjarno.pages.dev/ / https://github.com/arindas/manjarno - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=mL9ztTzrY6Y) / [Odysee](https://odysee.com/@Luke:7/linux-is-getting-worse-for-normal:b) / [PeerTube](https://videos.lukesmith.xyz/w/mpJadfxyJWLdqzGthURZsf)).
 
 #### Mobile
 
 Use:
 
 - [GrapheneOS](https://grapheneos.org/) (Note: really low amount of devices supported)
-- [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://libreddit.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
+- [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://redlib.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
 - [DivestOS](https://divestos.org/): (Note: A soft-fork of LineageOS that is better than it in every way, however the project is REALLY young, support a lot less devices (a lot of the builds are either broken or untested) and has no track record.)
 
 - Any FOSS GNU/Linux distribution
 
 Do not use:
 
-- Any rom that ship with MicroG (CalyxOS...): MicroG is pointless and encourage the use of spyware, just stick to open source software
+- Any rom that ship with MicroG (CalyxOS...): MicroG encourage the use of spyware, just stick to open source software. Having MicroG isn't that bad on principle if you stick to 100% FOSS stuff but disable as much stuff as possible.
 
 
 ### Calendar and Contact Sync
@@ -222,21 +216,13 @@ Use:
 - [Claws Mail](https://www.claws-mail.org/)
 - Thunderbird: It directly "encourages" [Mozilla's behaviour](https://digdeeper.neocities.org/ghost/mozilla.html) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/)) + Bloated + Heavy use of analytics/spyware
 
-Do not use:
-
--Anything else
-
 
 #### Mobile
 
 Use:
 
-- [K-9 Mail](https://f-droid.org/packages/com.fsck.k9/)
+- [K-9 Mail](https://f-droid.org/packages/com.fsck.k9/): It directly "encourages" [Mozilla's behavior](https://digdeeper.neocities.org/ghost/mozilla.html) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
 - [FairEmail](https://f-droid.org/packages/eu.faircode.email/)
-
-Do not use:
-
-- Anything else
 
 
 ### File Encryption Software
@@ -249,7 +235,7 @@ Use:
 
 Do not use:
 
-- Cryptomator: Android client is closed source and paid
+- Cryptomator: Android client is paid
 
 
 ###  File Sharing
@@ -260,9 +246,6 @@ Use:
 - [OnionShare](https://onionshare.org/)
 - [Filebrowser](https://filebrowser.org/)
 
-Do not use:
-
-- Anything else
 
 ### Metadata Removal Tools
 
@@ -273,19 +256,11 @@ Use:
 - [ExifCleaner](https://exifcleaner.com/)
 - Exiftools or anything supporting it (imagemagick for example)
 
-Do not use:
-
-- Anything else
-
 #### Mobile
 
 Use:
 
 - [Scrambled Exif](https://f-droid.org/packages/com.jarsilio.android.scrambledeggsif/)
-
-Do not use:
-
-- Anything else
 
 
 ### Password Managers
@@ -295,16 +270,12 @@ Use:
 - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (You can also use Bitwarden itself to support its development, but it's not as simple to deploy)
 - [KeePassXC](https://keepassxc.org/) (Android client: [KeePassDX](https://f-droid.org/packages/com.kunzisoft.keepass.libre))
 
-Do not use:
-
-- Anything else
 
 ### Pastebin
 
 Use:
 
 - [PrivateBin](https://privatebin.info/) (Encrypted)
-- [Hastebin](https://github.com/toptal/haste-server) (Not encrypted)
 - [Pinnwand](https://github.com/supakeen/pinnwand) (Not encrypted)
 - [NoPaste](https://github.com/bokub/nopaste) (Client side encryption + storage)
 
@@ -320,7 +291,6 @@ Use:
 Do not use:
 
 - Signal: Phone number required, centralized server, US-based company, [hostile toward alternative clients](https://github.com/LibreSignal/LibreSignal#readme))
-
 - Telegram: Phone number required, centralized server, not encrypted by default, use a non-standard in-home encryption, used to be a Russian based company, incertain future. Currently based in [Dubai](https://telegram.org/faq#q-where-is-telegram-based). (More: https://spyware.neocities.org/articles/telegram.html - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=qBTsUVrCDAQ) / [Odysee](https://odysee.com/@Luke:7/don't-use-telegram.-don't-use-telegram.:9) / [PeerTube](https://videos.lukesmith.xyz/w/55RGM34fBAXBxK4v84HxTD)).
 
 ### Video/Voice chat
