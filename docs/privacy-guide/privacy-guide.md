@@ -137,7 +137,7 @@ Use:
 
 Do not use:
 
-- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet](https://libreddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/) [an advertising company](https://libreddit.pussthecat.org/r/privacy/comments/8y0hee/proton_has_been_using_the_office_space_ceo_and/e285hhg/?context=3) (they admitted it [here](https://web.archive.org/web/20180607213231/https://news.ycombinator.com/item?id=17260310) and proceeded to delete everything mentioning this, including the message where they admitted it), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.club/articles/email.xhtml#ProtonMail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Librarian (Odysee)](https://librarian.pussthecat.org/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
+- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet](https://libreddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/) [an advertising company](https://libreddit.pussthecat.org/r/privacy/comments/8y0hee/proton_has_been_using_the_office_space_ceo_and/e285hhg/?context=3) (they admitted it [here](https://web.archive.org/web/20180607213231/https://news.ycombinator.com/item?id=17260310) and proceeded to delete everything mentioning this, including the message where they admitted it), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.club/articles/email.xhtml#protonmail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Librarian (Odysee)](https://librarian.pussthecat.org/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
 
 ## Software
@@ -147,7 +147,7 @@ Do not use:
 Use:
 
 - [Librewolf](https://librewolf.net/) (Note: follow [this](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration))
-- Firefox properly [configured](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration) (Note: it directly "encourages" [Mozilla's behaviour](https://digdeeper.neocities.org/ghost/mozilla.html), including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
+- Firefox properly [configured](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration) (Note: it directly "encourages" [Mozilla's behaviour](https://digdeeper.club/articles/mozilla.xhtml), including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
 - [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
 - [Mull](https://divestos.org/pages/our_apps#mull)
 
@@ -214,14 +214,14 @@ Do not use:
 Use:
 
 - [Claws Mail](https://www.claws-mail.org/)
-- Thunderbird: It directly "encourages" [Mozilla's behaviour](https://digdeeper.neocities.org/ghost/mozilla.html) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/)) + Bloated + Heavy use of analytics/spyware
+- Thunderbird: It directly "encourages" [Mozilla's behaviour](https://digdeeper.club/articles/mozilla.xhtml) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/)) + Bloated + Heavy use of analytics/spyware
 
 
 #### Mobile
 
 Use:
 
-- [K-9 Mail](https://f-droid.org/packages/com.fsck.k9/): It directly "encourages" [Mozilla's behavior](https://digdeeper.neocities.org/ghost/mozilla.html) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
+- [K-9 Mail](https://f-droid.org/packages/com.fsck.k9/): It directly "encourages" [Mozilla's behavior](https://digdeeper.club/articles/mozilla.xhtml) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
 - [FairEmail](https://f-droid.org/packages/eu.faircode.email/)
 
 
