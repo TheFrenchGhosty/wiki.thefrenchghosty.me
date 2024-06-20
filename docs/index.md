@@ -2,8 +2,6 @@
 
 ### General
 
-[Things I know / Things I need to learn](./general/thing-I-know-or-need-to-learn.md)
-
 [Recipes (Vegan)](./general/vegan-recipes.md)
 
 
@@ -55,3 +53,5 @@
 ### Archive
 
 [Bibliogram's Janky Setup](./archive/bibliogram-janky-setup.md)
+
+[Things I know / Things I need to learn](./archive/thing-I-know-or-need-to-learn.md)
