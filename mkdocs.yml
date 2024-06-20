@@ -33,7 +33,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - General:
-    - Things I know / Things I need to learn: general/thing-I-know-or-need-to-learn.md
     - Recipes (Vegan): general/vegan-recipes.md
   - Privacy Guide:
     - Privacy Guide: privacy-guide/privacy-guide.md
@@ -58,3 +57,4 @@ nav:
     - Starbound Modlist: gaming/starbound-modlist.md
   - Archive:
     - Bibliogram's Janky Setup: archive/bibliogram-janky-setup.md
+    - Things I know / Things I need to learn: general/thing-I-know-or-need-to-learn.md
