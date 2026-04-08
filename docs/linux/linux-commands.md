@@ -1,4 +1,6 @@
-# Data Management Commands
+# Linux Commands
+
+### Data Management Commands
 
 List folder size :
 
@@ -85,7 +87,7 @@ Every 1 second print the number of seconds that passed since the script started 
 )
 ```
 
-## Tar
+#### Tar
 
 Pack :
 
@@ -105,7 +107,7 @@ View :
 tar -tfv [FILENAME].tar
 ```
 
-## Vim
+#### Vim
 
 Insert text at the begining of every line (Source: https://techglimpse.com/insert-text-beginning-line-vim/ )
 
@@ -143,7 +145,7 @@ Sort lines alphabetically (Source: https://thoughtbot.com/blog/sort-lines-alphab
 :sort
 ```
 
-## Debian
+#### Debian
 
 Get all packages installed from a specific repository? (Source: https://unix.stackexchange.com/a/401625 )
 
@@ -151,7 +153,7 @@ Get all packages installed from a specific repository? (Source: https://unix.sta
 dpkg -l | awk '/^.i/ {print $2}' | xargs apt-cache policy | awk '/^[a-z0-9.\-]+:/ {pkg=$1}; /\*\*\*/ {OFS="\t"; ver=$2; getline; print pkg,ver,$2,$3}'|grep -v /var/lib/dpkg/status| sed -e 's/://'|awk '{printf "%-40s %-36s %-36s %-16s \n",$1,$2,$3, $4}' | grep -i [SOURCE]
 ```
 
-## Arch Linux
+#### Arch Linux
 
 List installed packages not originating from the Arch repositories (usually packages from the AUR):
 
@@ -171,7 +173,7 @@ List explicitly installed packages:
 pacman -Qe
 ```
 
-## Others
+#### Others
 
 Create SymLink :
 
