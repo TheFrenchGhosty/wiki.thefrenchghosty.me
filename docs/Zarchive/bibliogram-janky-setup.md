@@ -1,3 +1,5 @@
+# Bibliogram's Janky Setup
+
 ## Why?
 
 Bibliogram's docker image is "bad", it should be able to run, but for a production setup (like the [PussTheCat.org instance](https://bibliogram.pussthecat.org/)) it's not "good enough", so it has to run on "metal".

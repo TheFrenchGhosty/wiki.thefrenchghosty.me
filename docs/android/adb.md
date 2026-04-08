@@ -1,3 +1,5 @@
+# ADB Cheat Sheet
+
 On linux, ADB commands requires to be run as root to actually get access to the connected devices, if you ran ADB as an user, you need to kill the server as this user first.
 
 # General commands

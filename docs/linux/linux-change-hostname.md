@@ -1,3 +1,5 @@
+# Change a machine's hostname
+
 # Actually change the hostname
 
 Using hostnamectl is the best way to change it, editing /etc/hostname directly is also possible, but not recommended.

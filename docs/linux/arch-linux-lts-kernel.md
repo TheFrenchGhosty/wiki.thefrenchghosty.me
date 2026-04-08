@@ -1,3 +1,5 @@
+# Arch Linux - Switch to LTS kernel
+
 Check you current kernel type:
 
 ```

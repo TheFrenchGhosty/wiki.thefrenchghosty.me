@@ -1,3 +1,5 @@
+# Change a machine's DNS server
+
 Changing the DNS server of a linux machine is needlessly complicated, so this guide is sadly necessary.
 
 For a full list of DNS see the Adguard DNS web page that lists all the relevant one https://adguard-dns.io/kb/general/dns-providers/

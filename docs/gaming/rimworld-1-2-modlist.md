@@ -1,3 +1,5 @@
+# RimWorld 1.2 Modlist
+
 This modlist was made for RimWorld version 1.2 (more specifically `1.2.2900 rev829`), with the Royalty expansion. Most of the mods in it are available for the current version however some of them haven't been updated for it (and will most likely require alternative). Do note that some mods aren't version specific, even this modlist has 1.1 mods that work perfectly on 1.2, so start by checking the comments for people saying if it's compatible (or not), and for the recommended alternative.
 
 Links to the Steam Workshop are provided, because (sadly) most mods are only available there.

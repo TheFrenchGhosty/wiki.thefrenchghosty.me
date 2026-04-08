@@ -1,3 +1,5 @@
+# Arch Linux - XFCE Uninstall
+
 ## Uninstall the "main" groups
 
 pacman -Rscn xfce4 xfce4-goodies
