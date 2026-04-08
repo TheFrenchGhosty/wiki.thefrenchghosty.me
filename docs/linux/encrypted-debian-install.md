@@ -1,11 +1,10 @@
 # Encrypted Debian Install
 
-# 1- Create the bootable media
-
+## 1Create The Bootable Media
 
 Note: To avoid any issue, always use the [non-free firmware iso](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/). For Debian 11 it's `firmware-11.3.0-amd64-netinst.iso` from [Here](https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/11.3.0+nonfree/amd64/iso-cd/).
 
-## Make the bootable media:
+### Make the Bootable Media:
 
 Use [Ventoy](https://ventoy.net/) or dd:
 
@@ -13,17 +12,16 @@ Use [Ventoy](https://ventoy.net/) or dd:
 dd bs=4M if=path/to/debian.iso of=/dev/sdx status=progress oflag=sync
 ```
 
+## 2Installation
 
-# 2- Installation
-
-## Locale and keyboard layout
+### Locale and Keyboard Layout
 
 - Language: English
 - Location: Your location (in my case: other/Europe/France)
 - Locale: en_US.UTF-8
 - Keymap: Your keymap (in my case: French)
 
-## Hostname and users
+### Hostname and Users
 
 - Hostname: debian
 - Domain name: [Blank Value] (remove `home`)
@@ -32,16 +30,13 @@ dd bs=4M if=path/to/debian.iso of=/dev/sdx status=progress oflag=sync
 - Username of the user account: Choose an username
 - Password: Give it a strong password
 
-
-## Partitioning
+### Partitioning
 
 (If asked: Force UEFI installation: YES)
 
 - Partition method: Manual
-
 - Choose a your drive
 - Create partition table
-
 - Choose "FREE SPACE" of this drive
 - Create a new partition
 - Size: `500 MB`
@@ -50,7 +45,6 @@ dd bs=4M if=path/to/debian.iso of=/dev/sdx status=progress oflag=sync
 - Use as EXT4 jounrnaling file system"
 - Mount as /boot
 - Click "Done setting up the partition"
-
 - Choose "FREE SPACE" of this drive
 - Create a new partition
 - Size: `500 MB`
@@ -58,8 +52,6 @@ dd bs=4M if=path/to/debian.iso of=/dev/sdx status=progress oflag=sync
 - Name: [Empty Value]
 - Use as "EFI System Partition"
 - Click "Done setting up the partition"
-
-
 - Choose "FREE SPACE" of this drive
 - Create a new partition
 - Size: all available (default value)
@@ -68,7 +60,7 @@ dd bs=4M if=path/to/debian.iso of=/dev/sdx status=progress oflag=sync
 - Erase data: no
 - Click "Done setting up the partition"
 
-## Encryption
+### Encryption
 
 - Configure encrypted volumes
 - Write the changes: YES
@@ -77,23 +69,19 @@ dd bs=4M if=path/to/debian.iso of=/dev/sdx status=progress oflag=sync
 - Finish
 - Encryption passphrase: Choose one
 - Done
-
 - Choose the encrypted volume
 - Mount point /
 - Click "Done setting up the partition"
 - Done
-
 - Click "Finish partitioning and write changes to disk"
-- 
 - When asked to setup swap, choose "No" (we'll setup a swapfile later, that way our swap will be encrypted)
 - Write the changes to disk
 
-## Installation
+### Installation
 
 - Mirror country: Choose a country with good internet near you
 - Choose deb.debian.org
 - Proxy: [blank]
-- 
 - Participate in the package usage survey: No
 
 Software to install:
@@ -102,10 +90,9 @@ Software to install:
 - standard system utilities
 - Untick everything else (including "Debian desktop environment")
 
-# 3- Post-Install
+## 3Post-Install
 
-
-## Sudo setup
+### Sudo Setup
 
 ```
 su - root
@@ -116,13 +103,14 @@ visudo
 - Add your user with the same privilege as root
 - Save
 
-## Locale fix
+### Locale Fix
 
 It's possible that because this setup uses 2 locales, only one is properly setup. This will cause various issues, from warnings to software crashing, to fix this:
 
 ```
 sudo nano /etc/locale.gen
 ```
+
 Uncomment the secondary locale (UTF-8), in my case, I need to uncomment: `fr_FR.UTF-8 UTF-8`.
 
 Save and regenerate the locale:
@@ -131,82 +119,78 @@ Save and regenerate the locale:
 sudo locale-gen
 ```
 
-# 4- KDE Plasma Configuration
+## 4KDE Plasma Configuration
 
-## System Settings
+### System Settings
 
+#### Appearance
 
-### Appearance
-
-#### Global theme
+##### Global Theme
 
 Choose "Breeze Dark"
 
-#### Fonts: 
-
 ##### Fonts:
+
+###### Fonts:
 
 Adjust all fonts:
 
 Font: DejaVu Sans
 
-### Workspace
+#### Workspace
 
-#### Workspace behavior
+##### Workspace Behavior
 
-##### General behavior:
+###### General Behavior:
 
 - Animation speed: Instant
 - Click behavior: "Double-click to open files and folders"
 
-##### Screen locking:
+###### Screen Locking:
 
 - Untick: "After X minutes"
 
-
-#### Startup and Shutdown:
+##### Startup and Shutdown:
 
 ```
 sudo apt install sddm-theme-breeze
 ```
 
-##### Login Screen (SDDM):
+###### Login Screen (SDDM):
 
 - Theme: Breeze
 
+#### Personalization
 
-### Personalization
+##### Regionnal Settings
 
-#### Regionnal Settings
-
-##### Formats
+###### Formats
 
 Tick "Detailed Settings"
 
 - Time: Set to your locale (in my case fr_FR)
 - Measurment Units: Set to your locale (in my case fr_FR)
 
-#### Users
+##### Users
 
 - Your username: Set picture (in my case to a Konqi)
 
-#### Applications
+##### Applications
 
-##### Default Applications
+###### Default Applications
 
 - Web browser: Firefox ESR
 - E-mail client: Thunderbird
 
+#### Hardware
 
-### Hardware
-
-#### Display and Monitor
+##### Display and Monitor
 
 Desktop with multiple monitor only: re-arrange the screens in the right order
 
-#### Power Management
+##### Power Management
 
-##### Energy Saving
+###### Energy Saving
 
 Laptop Only:
 
@@ -220,22 +204,21 @@ Desktop Only:
 Disable:
 - Screen energy saving
 
+### Dolphin Configuration
 
-## Dolphin configuration
+#### Configure Dolphin
 
-### Configure Dolphin
-
-#### Startup
+##### Startup
 
 Show on startup: /home/[USERNAME]
 
-## System tray
+### System Tray
 
 Clipboard: Clear history (tick "never ask again")
 
 Clipboard - Configure Clipboard: Under "Selection and Clipboard" tick "Ignore Selection"
 
-## Application launcher (the "Windows" button)
+### Application Launcher (the "Windows" button)
 
 - Show alternative
 - Choose "Application menu"
@@ -243,7 +226,7 @@ Clipboard - Configure Clipboard: Under "Selection and Clipboard" tick "Ignore Se
 
 Remove every favorite (above the shutdown button)
 
-## Task manager (the task bar)
+### Task Manager (the Task bar)
 
 - Show alternative
 - Choose "Task Manager"
@@ -251,12 +234,12 @@ Remove every favorite (above the shutdown button)
 
 Configure task manager: Maximum row: 1
 
-# 5- Software installation
+## 5Software Installation
 
-
-### General tools:
+### General Tools:
 
 To install everything:
+
 ```
 apt install krita nfoview qbittorrent mpv smplayer mumble peek thunderbird birdtray micro keepassxc
 ```
@@ -275,7 +258,7 @@ Software list:
 - micro: nano but better, without going to vim
 - keepassxc: The best password manager
 
-### Advanced tools:
+### Advanced Tools:
 
 To install everything:
 
@@ -304,7 +287,7 @@ Software list:
 - neovim: vim but better, because it's always useful to have
 - audacity: **Note: Audacity has been taken over, Debian still ship a "clean" version but a move to [Tenacity](https://tenacityaudio.org/) or [Sneedcity](https://sneedacity.org/) will be required soon.**
 
-## Software that aren't in Debian's repos:
+## Software that Aren't in Debian's Repos:
 
 Get a good installer for .deb files:
 

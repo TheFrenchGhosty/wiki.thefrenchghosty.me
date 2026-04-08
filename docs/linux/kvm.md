@@ -2,7 +2,7 @@
 
 This guide is based on [Mental Outlaw's tutorial](https://redirect.invidious.io/watch?v=wxxP39cNJOs) but goes further with a server side KVM, and with a full Debian setup.
 
-# PC pre-requisites (to use KVM and connect to remote KVM):
+## PC Pre-requisites (to Use KVM and Connect to Remote KVM):
 
 ## Debian
 
@@ -10,29 +10,27 @@ This guide is based on [Mental Outlaw's tutorial](https://redirect.invidious.io/
 apt install virt-manager
 ```
 
-## Arch Linux:
+### Arch Linux:
 
 ```
 pacman -S virt-manager libvirt qemu-full dnsmasq
 ```
 
+## Server Pre-requisites (to Use KVM from a Remote Endpoint - through SSH):
 
-# Server pre-requisites (to use KVM from a remote endpoint - through SSH):
-
-## Debian
+### Debian
 
 ```
 apt install qemu-system libvirt-clients libvirt-daemon dnsmasq netcat
 ```
 
-## Arch Linux:
+### Arch Linux:
 
 ```
 pacman -S libvirt qemu-full dnsmasq openbsd-netcat
 ```
 
-
-# Setup
+## Setup
 
 ```
 systemctl enable --now libvirtd
@@ -62,10 +60,9 @@ Logout (or reconnect to your SSH session)
 systemctl restart libvirtd
 ```
 
-# Add SSH connection to virt-manager
+## Add SSH Connection to Virt-manager
 
 Virt-Manager doesn't have an interface to add details to SSH connections other than username/hostname, you need to do it from the cli directly:
-
 
 ```
 virt-manager -c 'qemu+ssh://[USERNAME]@[HOSTNAME]:[PORT]/system?keyfile=[NAME OF YOUR SSH KEYFILE]'

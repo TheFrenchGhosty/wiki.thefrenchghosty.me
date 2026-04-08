@@ -6,8 +6,7 @@ Links to the Steam Workshop are provided, because (sadly) most mods are only ava
 
 All mods can be downloaded from it, even if you don't own the game on Steam, with [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) in Anonymous mode.
 
-
-# Modlist
+## Modlist
 
 Mods are listed in the order they should be loaded in.
 

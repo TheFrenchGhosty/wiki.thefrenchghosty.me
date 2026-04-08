@@ -9,7 +9,7 @@ When hosting some services, some ports should be avoided, those ports are:
 
 ---
 
-## About the "ephemeral ports":
+### About the "ephemeral ports":
 
 Some distribution have a different lower values for the "ephemeral ports" (usually 49152 instead of 32768).
 
@@ -37,11 +37,7 @@ The output of either of those will be `[LOWER VALUE] [HIGHER VALUE]`.
 #### Sources:
 
 - Me, TheFrenchGhosty, trying to host services on "ephemeral ports", and discovering the issue.
-
 - https://www.thegeekdiary.com/which-network-ports-are-reserved-by-the-linux-operating-system/
-
 - https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
-
 - https://www.ncftp.com/ncftpd/doc/misc/ephemeral_ports.html#Linux
-
 - https://www.cyberciti.biz/tips/linux-increase-outgoing-network-sockets-range.html

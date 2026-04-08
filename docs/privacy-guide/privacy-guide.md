@@ -2,7 +2,7 @@
 
 **THIS IS A PROOF OF CONCEPT THAT IS STILL WORK IN PROGRESS, THE CONTENT OF THIS PAGE WILL SURELY END UP IN A DEDICATED WEB PAGE OUTSIDE OF THE WIKI**
 
-## What?
+### What?
 
 This "guide" is just a big list of great software/providers to dig into, the idea is that this is the information I would like to have seen 4 years ago: me from 4 years ago just wanted a list of good things to dig into: this is a list of good things to dig into.
 
@@ -13,7 +13,7 @@ This "guide" is just a big list of great software/providers to dig into, the ide
 
 ---
 
-## Why?
+### Why?
 
 This guide has been created because privacyguides org and privacytools io made awful decisions and have awful recommendations. There's also various internal issues at privacyguides org [between their own team members](https://mikaela.info/blog/english/2021/11/23/leaving-privacyguides.html).
 
@@ -32,24 +32,18 @@ The "Do not use" category include things recommended by privacyguides org, that,
 Some community feedback about what privacyguides org has become:
 
 - About the removal of a lot of good recommendations ["There are so many on this list that shouldn't have been removed. Cookie AutoDelete, multi account containers, Safari, Ungoogled chromium, anti recommendation: chrome. None of it makes any sense..."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr7ez2/#c), ["This is pointed out constantly, but they just cannot care"](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr8lbz/#c)
-
 - ["PrivacyGuides is a one-man-show @tommytran732 , without any discussion"](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hntz49m/#c)
-
 - About the Posteo removal because of DMARC: ["Nothing to do with security or privacy. Everything to do with email server reputation."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hns9sju/#c)
-
 - About the LineageOS removal: ["With this logic we should use Forest OS which is even better than Graphene. The process of installing Forest OS is simple. You just throw away all of your tech, burn your passport, and go off the grid to live in a forest as a hermit. This makes you extremely private and your devices impossible to hack."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/ho1akt7/#c)
-
 - About the DDG Browser removal: ["Removing DDG browser and saying all iOS browsers are basically Safari with a skin (the assumption being that it’s not really a meaningful difference from one to the next) but then saying use FF/FF Focus because they block trackers, doesn’t make sense to me because DDG also blocks trackers (and has a better default search engine)."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnsrugf/#c)
-
 - About the Qwant removal (because "In December 2020, Qwant blocked access from Japan, Romania, Taiwan, and, Turkey.I consider this to be a wicked act."): ["How is that a reason to remove it?"](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqrx5c/#c), ["its not privacy related bruh"](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnqtfyk/#c)
-
 - About the removal of good browser addons ["I feel like there's a growing disconnect between the authors and readers and we'll eventually have another 'fork' which focuses more on the average user, who has next to no technical knowledge."](https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/hnr1vei/#c)
 
 More: https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_updates_to_privacyguidesorg/
 
 ---
 
-## Requirements
+### Requirements
 
 - All software must be open source no exception.
 - All providers mustn't be based in the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes) - USA/Canada/Australia/United Kingdom/New Zealand - or Russia.
@@ -60,12 +54,11 @@ More: https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_up
 
 ---
 
-# List
+## List
 
-## Providers
+### Providers
 
-
-### Cloud Storage
+#### Cloud Storage
 
 Use:
 
@@ -79,8 +72,7 @@ Do not use:
 - Any other provider not supported by [Rclone](https://rclone.org/overview/)
 - SpiderOak: their [canary](https://en.wikipedia.org/wiki/Warrant_canary) [died on August 1, 2018](https://www.schneier.com/blog/archives/2018/08/spideroaks_warr.html) and [they handled it as if it wasn't the case](https://spideroak.com/articles/a-transparency-report-is-a-canary/).
 
-
-### DNS Resolver
+#### DNS Resolver
 
 Use (if you use a VPN):
 
@@ -98,20 +90,17 @@ Do not use:
 - NextDNS: USA-based
 - UncensoredDNS: Hobby project + No privacy policy.
 
-
-### Email provider
+#### Email Provider
 
 Moved to [their own page](../privacy-guide/email-providers.md)
 
-
-### Search Engines
+#### Search Engines
 
 Use:
 
 - [SearXNG](https://searxng.github.io/searxng/)
 
-
-### Social Networks
+#### Social Networks
 
 Social networks are fundamentally not private by design, but if you have to use one, follow this list:
 
@@ -120,15 +109,13 @@ Use:
 - Any Fediverse-compatible project (Mastodon, diaspora*, Friendica, GNU social, Pleroma, Pixelfed...)
 - [Lemmy](https://join-lemmy.org/) (Note: Projects owners/creators are heavily politically biased and use Lemmy to "push" their political opinions)
 
+#### Social News Aggregator
 
-### Social News Aggregator
-
-Use: 
+Use:
 
 - RSS
 
-
-### VPN
+#### VPN
 
 Note: A good rules is to avoid any VPN that has referrals and/or advertise and/or do fake "time limited" sales (basically 99% of them).
 
@@ -139,12 +126,11 @@ Use:
 
 Do not use:
 
-- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet](https://libreddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/) [an advertising company](https://libreddit.pussthecat.org/r/privacy/comments/8y0hee/proton_has_been_using_the_office_space_ceo_and/e285hhg/?context=3) (they admitted it [here](https://web.archive.org/web/20180607213231/https://news.ycombinator.com/item?id=17260310) and proceeded to delete everything mentioning this, including the message where they admitted it), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging)  (More: https://digdeeper.club/articles/email.xhtml#protonmail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Librarian (Odysee)](https://librarian.pussthecat.org/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
+- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet](https://libreddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/) [an advertising company](https://libreddit.pussthecat.org/r/privacy/comments/8y0hee/proton_has_been_using_the_office_space_ceo_and/e285hhg/?context=3) (they admitted it [here](https://web.archive.org/web/20180607213231/https://news.ycombinator.com/item?id=17260310) and proceeded to delete everything mentioning this, including the message where they admitted it), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging) (More: https://digdeeper.club/articles/email.xhtml#protonmail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Librarian (Odysee)](https://librarian.pussthecat.org/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
 
+### Software
 
-## Software
-
-### Web Browser
+#### Web Browser
 
 Use:
 
@@ -157,10 +143,9 @@ Do not use:
 
 - Tor Browser: it's a browser made for anonymity, not privacy
 
+#### Operating Systems
 
-### Operating Systems
-
-#### PC
+##### PC
 
 Use:
 
@@ -173,30 +158,27 @@ Do not use:
 - Any corporate distro
 - Manjaro: Sketchy, amateurish distro, awful security practice (keep packages on hold for 2 weeks "testing purposes" but no test is actually done), fired their treasurer because he dug too much into the finances and so much more. (More: https://manjarno.pages.dev/ / https://github.com/arindas/manjarno - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=mL9ztTzrY6Y) / [Odysee](https://odysee.com/@Luke:7/linux-is-getting-worse-for-normal:b) / [PeerTube](https://videos.lukesmith.xyz/w/mpJadfxyJWLdqzGthURZsf)).
 
-#### Mobile
+##### Mobile
 
 Use:
 
 - [GrapheneOS](https://grapheneos.org/) (Note: really low amount of devices supported)
 - [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://redlib.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
 - [DivestOS](https://divestos.org/): (Note: A soft-fork of LineageOS that is better than it in every way, however the project is REALLY young, support a lot less devices (a lot of the builds are either broken or untested) and has no track record.)
-
 - Any FOSS GNU/Linux distribution
 
 Do not use:
 
 - Any rom that ship with MicroG (CalyxOS...): MicroG encourage the use of spyware, just stick to open source software. Having MicroG isn't that bad on principle if you stick to 100% FOSS stuff but disable as much stuff as possible.
 
-
-### Calendar and Contact Sync
+#### Calendar and Contact Sync
 
 Use:
 
 - [EteSync](https://www.etesync.com/)
 - CalDAV/CarDAV (No client side encryption)
 
-
-### Notebooks
+#### Notebooks
 
 Use:
 
@@ -208,26 +190,23 @@ Do not use:
 
 - Standard Notes: Overly corporate, requires a subscription (so requires an account) on their platform to do basic things (like [installing "editors"](https://standardnotes.com/help/20/what-happens-to-my-data-when-my-subscription-expires): "An active subscription is required to access advanced features such as editors."), markdown support is only available through a ["custom editor"](https://docs.standardnotes.com/usage/markdown-basic/), and therefore requires a subscription.
 
+#### Email Clients
 
-### Email Clients
-
-#### PC
+##### PC
 
 Use:
 
 - [Claws Mail](https://www.claws-mail.org/)
 - Thunderbird: It directly "encourages" [Mozilla's behaviour](https://digdeeper.club/articles/mozilla.xhtml) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/)) + Bloated + Heavy use of analytics/spyware
 
-
-#### Mobile
+##### Mobile
 
 Use:
 
 - [K-9 Mail](https://f-droid.org/packages/com.fsck.k9/): It directly "encourages" [Mozilla's behavior](https://digdeeper.club/articles/mozilla.xhtml) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
 - [FairEmail](https://f-droid.org/packages/eu.faircode.email/)
 
-
-### File Encryption Software
+#### File Encryption Software
 
 Use:
 
@@ -239,8 +218,7 @@ Do not use:
 
 - Cryptomator: Android client is paid
 
-
-###  File Sharing
+#### File Sharing
 
 Use:
 
@@ -248,32 +226,29 @@ Use:
 - [OnionShare](https://onionshare.org/)
 - [Filebrowser](https://filebrowser.org/)
 
+#### Metadata Removal Tools
 
-### Metadata Removal Tools
-
-#### PC
+##### PC
 
 Use:
 
 - [ExifCleaner](https://exifcleaner.com/)
 - Exiftools or anything supporting it (imagemagick for example)
 
-#### Mobile
+##### Mobile
 
 Use:
 
 - [Scrambled Exif](https://f-droid.org/packages/com.jarsilio.android.scrambledeggsif/)
 
-
-### Password Managers
+#### Password Managers
 
 Use:
 
 - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (You can also use Bitwarden itself to support its development, but it's not as simple to deploy)
 - [KeePassXC](https://keepassxc.org/) (Android client: [KeePassDX](https://f-droid.org/packages/com.kunzisoft.keepass.libre))
 
-
-### Pastebin
+#### Pastebin
 
 Use:
 
@@ -281,21 +256,21 @@ Use:
 - [Pinnwand](https://github.com/supakeen/pinnwand) (Not encrypted)
 - [NoPaste](https://github.com/bokub/nopaste) (Client side encryption + storage)
 
-### Instant Messengers 
+#### Instant Messengers
 
 Use:
 
 - [XMPP](https://xmpp.org/) (Note: not really user friendly, OMEMO encryption with multiple devices on one account is "weird" and sometimes will only make messages apear on one devices)
 - [Matrix](https://matrix.org/) (Note: more user friendly than XMPP, easy encryption with multiple devices, but worse clients, more metadata leakages, heavier server and more minor to major issues)
 - [Briar](https://briarproject.org/) (Note: Anonymous, P2P, TOR based, ideal for anonymous communication)
-- [Session](https://getsession.org/) (Note: Anonymous, Lokinet based, ideal for anonymous communication) 
+- [Session](https://getsession.org/) (Note: Anonymous, Lokinet based, ideal for anonymous communication)
 
 Do not use:
 
 - Signal: Phone number required, centralized server, US-based company, [hostile toward alternative clients](https://github.com/LibreSignal/LibreSignal#readme))
 - Telegram: Phone number required, centralized server, not encrypted by default, use a non-standard in-home encryption, used to be a Russian based company, incertain future. Currently based in [Dubai](https://telegram.org/faq#q-where-is-telegram-based). (More: https://spyware.neocities.org/articles/telegram.html - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=qBTsUVrCDAQ) / [Odysee](https://odysee.com/@Luke:7/don't-use-telegram.-don't-use-telegram.:9) / [PeerTube](https://videos.lukesmith.xyz/w/55RGM34fBAXBxK4v84HxTD)).
 
-### Video/Voice chat
+#### Video/Voice Chat
 
 Use:
 

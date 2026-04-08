@@ -1,8 +1,10 @@
-## A list of (vegan) recipes, that I created over the years (usually based on non-vegan recipes). Most of those recipes are focused on being as cheap as possible.
+# Recipes (Vegan)
+
+### A List of (vegan) Recipes, that I Created over the Years (usually Based on Non-vegan recipes). Most of Those Recipes Are Focused on Being as Cheap as Possible.
 
 The magic of cooking is that if you want more/less sugar, you can freely change the measurement.
 
-### Chocolate cake
+### Chocolate Cake
 
 - Dark chocolate or powder chocolate or powder cocoa (150 grams)
 - Wheat Flour (150 grams)
@@ -11,7 +13,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Vanilla sugar (1 bag / around 10 grams)
 - Soy milk (add until you get a liquid-ish paste / 300 to 500 milliliters)
 
-### Pancakes (or chocolate pancakes)
+### Pancakes (or Chocolate pancakes)
 
 - Wheat Flour (150 grams)
 - Sugar (50 grams)
@@ -20,7 +22,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Soy milk (add until you get a liquid-ish paste / 300 to 500 milliliters)
 - (Optional) Powder chocolate or powder cocoa (add until you get the "color" you want)
 
-### Crepe (pancakes for when you need to save money)
+### Crepe (pancakes for when You Need to save money)
 
 - Wheat Flour (250 grams)
 - Water (500 milliliters) (you can also use 500 milliliters of soy milk, but this will triple the price of the recipe)
@@ -54,14 +56,14 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Salt (around 7 grams)
 - Oil (5 milliliters) (optional)
 
-### Red fruit smoothie
+### Red Fruit Smoothie
 
 - Banana (125 grams of peeled fruit or 1 big banana)
 - Any red fruit - or mix of red fruit (125 grams or the weight of the banana)
 - Ground rolled oats (3 teaspoon or more)
 - Soy milk or Oat milk (start with 250 milliliters and add more than that when everything is mixed if you want to lower the really strong taste of the fruits and/or save some money)
 
-### Leek pie
+### Leek Pie
 
 - 1 pie dough
 - Chopped leek (400 grams)
@@ -78,7 +80,7 @@ The magic of cooking is that if you want more/less sugar, you can freely change 
 - Yeast (1 bag / around 5 to 10 grams)
 - Salt (around 7 grams)
 
-### Split peas and carrots
+### Split Peas and Carrots
 
 - Water
 - Split peas

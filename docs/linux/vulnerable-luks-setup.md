@@ -1,20 +1,18 @@
-# How to check if you are running a vulnerable LUKS setup (LUKS key derivation function)
+# How to Check if You Are Running a Vulnerable LUKS Setup (LUKS Key Derivation function)
 
-## Context
+### Context
 
-On 2023-04-17 [a report](https://nantes.indymedia.org/posts/87395/une-lettre-divan-enferme-a-la-prison-de-villepinte-perquisitions-et-disques-durs-dechiffres/) (in french) came out that said that someone had its LUKS encrypted drive decrypted by the police (even though he was using a long password). 
+On 2023-04-17 [a report](https://nantes.indymedia.org/posts/87395/une-lettre-divan-enferme-a-la-prison-de-villepinte-perquisitions-et-disques-durs-dechiffres/) (in french) came out that said that someone had its LUKS encrypted drive decrypted by the police (even though he was using a long password).
 
 This article is a simplified/more readable version of a [longer article](https://mjg59.dreamwidth.org/66429.html) to check if you are running a vulnerable LUKS setup.
 
-
-## Note
+### Note
 
 By design, if you use GRUB on an encrypted boot partition, the LUKS setup used for it is insecure since GRUB doesn't support LUKS2 encrypted boot partition.
 
 Some people ([including the LUKS creator](https://libreddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/jgpvsqc/#c)) are debating wether or not it was actually brute-force that broke the encryption. Since, in theory, even with the most basic/insecure LUKS setup, it shouldn't be possible to brute-force the password. However, it's still [possible](https://libreddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/jgq41pu/#c) because passwords are rarely random.
 
-
-## Grab the data
+### Grab the Data
 
 Once the drive is decrypted, run:
 
@@ -35,8 +33,7 @@ In this example, this is `sda1`.
 
 The output of this command will be displayed on your terminal.
 
-
-## Analyse the data
+### Analyse the Data
 
 In this output 2 informations need to be checked:
 
@@ -63,9 +60,7 @@ Keyslots:
 
 If both values are correct: you are safe. If not, you are running a vulnerable LUKS setup, and must follow the fix of the [original article](https://mjg59.dreamwidth.org/66429.html).
 
-
-## References
+### References
 
 - https://mjg59.dreamwidth.org/66429.html
-
 - https://libreddit.pussthecat.org/r/linux/comments/12q51ce/psa_upgrade_your_luks_key_derivation_function/

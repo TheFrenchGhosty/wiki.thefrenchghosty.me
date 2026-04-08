@@ -1,17 +1,18 @@
-## Content
+# Index
 
-### General
+### Content
+
+#### General
 
 [Recipes (Vegan)](./general/vegan-recipes.md)
 
-
-### Privacy Guide
+#### Privacy Guide
 
 [Privacy Guide](./privacy-guide/privacy-guide.md)
 
 [Privacy Guide - Email providers](./privacy-guide/email-providers.md)
 
-### Linux
+#### Linux
 
 [Encrypted Debian Install](./linux/encrypted-debian-install.md)
 
@@ -35,13 +36,11 @@
 
 [Change a machine's DNS server](./linux/linux-change-dns.md)
 
-
-### Android
+#### Android
 
 [ADB Cheat Sheet](./android/adb.md)
 
-
-### Gaming
+#### Gaming
 
 [Video Game Mods](./gaming/video-game-mods.md)
 
@@ -49,8 +48,7 @@
 
 [Starbound Modlist](./gaming/starbound-modlist.md)
 
-
-### Archive
+#### Archive
 
 [Bibliogram's Janky Setup](./archive/bibliogram-janky-setup.md)
 

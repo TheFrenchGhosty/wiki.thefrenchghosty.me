@@ -2,7 +2,7 @@
 
 On linux, ADB commands requires to be run as root to actually get access to the connected devices, if you ran ADB as an user, you need to kill the server as this user first.
 
-# General commands
+## General Commands
 
 Kill ADB server:
 
@@ -22,7 +22,7 @@ Open a shell to a device (device needs to be detected by `adb devices` first):
 adb shell
 ```
 
-# On-device shell commands
+## On-device Shell Commands
 
 Note: `com.android.chrome` is the package name of Google Chrome, replace it with the package name of the application you want to be uninstalled
 

@@ -1,37 +1,30 @@
-# Things I know / Things I need to learn
+# Things I Know / Things I Need to Learn
 
-## A list where I try to list the things that I know and the things that I plan to learn.
+### A List where I Try to List the Things that I Know and the Things that I Plan to Learn.
 
-#### Things in each category is sorted in the order than I want to learn them, eg: I want to learn Ansible before Kubernetes
+#### Things in Each Category is Sorted in the Order than I Want to Learn Them, Eg: I Want to Learn Ansible before Kubernetes
 
-# This list isn't exhaustive in any way.
+## This List Isn't Exhaustive in Any Way.
 
-## Stuff I know
+### Stuff I Know
 
+#### "Basics" Mean that I Know the Basics and Can Use the Tool for Its Job, "Moderate" Means that I Can Do Almost Everything with the Tool, but that I Missing Some Important Knowledge - "Advanced" Means that I Have Almost All the Knowledge I Need for the Tool, but that There's Maybe Some Stuff I Don't Know.
 
-
-#### "Basics" mean that I know the basics and can use the tool for its job, "Moderate" means that I can do almost everything with the tool, but that I missing some important knowledge  - "Advanced" means that I have almost all the knowledge I need for the tool, but that there's maybe some stuff I don't know.
-
-
-
-### General tools
+### General Tools
 
 - Git (Basics) - Need to learn how to fix merge conflicts
 - Systemd stack (Moderate) - Need to learn timers and more
 - GNU Screen
 
-
-### System administration tools
+### System Administration Tools
 
 - Docker / Docker-Compose (Advanced)
 - Grafana/Prometheus/Node-Exporter/Cadvisor (Moderate)
 - iptables (Basics) - No plan to learn more - Firewalld will replace it
 
-
-### Security tools
+### Security Tools
 
 - Burp Suite (Basics)
-
 
 ### Computer Languages
 
@@ -40,8 +33,7 @@
 - HTML (Moderate)
 - CSS (Basics)
 
-
-### "Real" languages
+### "Real" Languages
 
 - French (Native)
 - English (Advanced)
@@ -49,14 +41,13 @@
 
 ---
 
-## Stuff I plan to learn
+### Stuff I Plan to Learn
 
-### General tools
+#### General Tools
 
 - tmux
 
-
-### System administration tools
+#### System Administration Tools
 
 - Firewalld
 - Ansible
@@ -66,8 +57,7 @@
 - MySQL/MariaDB management
 - Active Directory (Windows)
 
-
-### Security tools
+#### Security Tools
 
 - Nmap
 - Gobuster
@@ -80,16 +70,14 @@
 - `/dev/` `/proc` (`/dev/tcp` redirect and more)
 - More advanced tools available on Kali Linux / BlackArch / Parrot OS
 
-
-### Computer languages
+#### Computer Languages
 
 - JavaScript
 - Python
 - Android development (Kotlin / Java)
 - Crystal (maybe - only for Invidious)
 
-
-### "Real" languages
+#### "Real" Languages
 
 - Russian
 - German

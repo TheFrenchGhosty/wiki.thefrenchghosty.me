@@ -1,4 +1,4 @@
-# Change a machine's DNS server
+# Change a Machine's DNS Server
 
 Changing the DNS server of a linux machine is needlessly complicated, so this guide is sadly necessary.
 
@@ -6,8 +6,7 @@ For a full list of DNS see the Adguard DNS web page that lists all the relevant 
 
 This guide will use the Adguard non-filtering servers, because it's basically the best (Quad9 is also good, but has a tendency to make some application bug out... maybe because of a strong rate limit)
 
-
-# /etc/network/interfaces
+## /etc/network/interfaces
 
 Edit the network interfaces file:
 
@@ -23,8 +22,7 @@ dns-nameservers 94.140.14.140 94.140.14.141
 
 Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers you want to use. Separate multiple DNS servers with a space.
 
-
-# /etc/resolv.conf
+## /etc/resolv.conf
 
 Edit the resolv.conf file:
 
@@ -43,7 +41,7 @@ nameserver 94.140.14.141
 
 Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers you want to use. One line = one DNS server
 
-## Stop dhclient from modifying /etc/resolv.conf
+### Stop Dhclient from Modifying /etc/resolv.conf
 
 If you have dhclient installed (default on Debian) you have to make it so it doesn't touch /etc/resolv.conf
 
@@ -54,12 +52,11 @@ chmod 755 /etc/dhcp/dhclient-enter-hooks.d/leave_my_resolv_conf_alone
 
 (taken from https://wiki.debian.org/resolv.conf )
 
-
-# Systemd-networkd and Systemd-resolved (optional)
+## Systemd-networkd and Systemd-resolved (optional)
 
 Some distro uses systemd-networkd and systemd-resolved and those are unnecessarily awful to configure (since the previous 2 files takes precedent, meaning that you basically have 4 files to edit if you use them).
 
-## /etc/systemd/network/*.network
+### /etc/systemd/network/*.network
 
 Open the existing file (if it exists):
 
@@ -76,8 +73,7 @@ DNS=94.140.14.140 94.140.14.141
 
 Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers you want to use. Separate multiple DNS servers with a space.
 
-
-## /etc/systemd/resolved.conf
+### /etc/systemd/resolved.conf
 
 Note: if all the lines of the files are commented, it shouldn't be necessary to edit it since the first two files will keep "control".
 
@@ -94,8 +90,7 @@ DNS=94.140.14.140 94.140.14.141
 
 Replace 94.140.14.140 and 94.140.14.141 with the IP addresses of the DNS servers you want to use. Separate multiple DNS servers with a space.
 
-
-# Applying the changes (if you don't reboot)
+## Applying the Changes (if You Don't reboot)
 
 Restart networking:
 
@@ -108,7 +103,6 @@ $ sudo systemctl restart systemd-resolved
 $ sudo systemctl restart networking
 ```
 
-
-# The end
+## The End
 
 It is strongly recommended that you reboot (and check that the change is still in place) after that, however it shouldn't be mandatory.

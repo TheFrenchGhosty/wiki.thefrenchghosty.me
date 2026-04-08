@@ -1,6 +1,6 @@
-# Change a machine's hostname
+# Change a Machine's Hostname
 
-# Actually change the hostname
+## Actually Change the Hostname
 
 Using hostnamectl is the best way to change it, editing /etc/hostname directly is also possible, but not recommended.
 
@@ -14,7 +14,7 @@ Example:
 hostnamectl set-hostname thisismyserver
 ```
 
-# Update the network "pointer"
+## Update the Network "pointer"
 
 Even though the hostname is changed now, the networking still uses the old hostname.
 
@@ -46,11 +46,9 @@ others use
 127.0.1.1 previoushostname
 ```
 
-
 What's used really doesn't matter, what matters is that you just have to replace the previous hostname with the new one.
 
-
-# The end
+## The End
 
 It is recommended that you reboot after that, however it isn't mandatory.
 

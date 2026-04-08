@@ -1,4 +1,4 @@
-# Arch Linux - Switch to LTS kernel
+# Arch Linux - Switch to LTS Kernel
 
 Check you current kernel type:
 
@@ -8,14 +8,13 @@ uname -r
 
 If it displays `X.XX.X-arch1-X` (or similar) this guide is for you
 
-# Install the actual LTS kernel
+## Install the Actual LTS Kernel
 
 ```
 pacman -S linux-lts
 ```
 
-
-# Uninstall the original kernel
+## Uninstall the Original Kernel
 
 ```
 pacman -Rc linux
@@ -25,19 +24,19 @@ Do not confirm the un-installation yet, take note of the things uninstalled thin
 
 When you found them, process, and install those alternatives
 
-# Rebuild Grub to make it use this new kernel (if you use Grub)
+## Rebuild Grub to Make it Use This New Kernel (if You Use Grub)
 
 ```
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-# Reboot
+## Reboot
 
 ```
 reboot now
 ```
 
-# Check you new kernel type:
+## Check You New Kernel Type:
 
 ```
 uname -r
