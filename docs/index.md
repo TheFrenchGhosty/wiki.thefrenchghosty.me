@@ -36,6 +36,10 @@
 
 [Change a machine's DNS server](./linux/linux-change-dns.md)
 
+#### MacOS
+
+[Delete All .DS_Store Files from Your home Folder Automatically](./macos/delete-dsstore-files-automatically.md)
+
 #### Android
 
 [ADB Cheat Sheet](./android/adb.md)
@@ -50,6 +54,6 @@
 
 #### Archive
 
-[Bibliogram's Janky Setup](./archive/bibliogram-janky-setup.md)
+[Bibliogram's Janky Setup](./Zarchive/bibliogram-janky-setup.md)
 
-[Things I know / Things I need to learn](./archive/thing-I-know-or-need-to-learn.md)
+[Things I know / Things I need to learn](./Zarchive/thing-I-know-or-need-to-learn.md)
