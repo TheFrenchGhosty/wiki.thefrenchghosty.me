@@ -129,7 +129,7 @@ On recent macOS version, Automator apps don’t _retain_ the permissions you g
 
 Simply toggling it on sometimes _doesn’t take effect_ until you reboot.
 
-### Source:
+### Source
 
 - Me, TheFrenchGhosty, since DS_Store files are a pain anytime I use macOS
 - An LLM (sorry, I didn't even know making stuff in Automator could be that powerful before the LLM told me) that I did babysit a lot, most of what is written was double/triple checked by me
