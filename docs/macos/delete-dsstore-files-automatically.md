@@ -18,8 +18,10 @@ Deleting .DS_Store files automatically is a pain in the ass on macOS, because cr
 
 ```
 #!/bin/bash  
-/usr/bin/find "$HOME" -type f -name .DS_Store -delete
+/usr/bin/find "$HOME" -type f -name .DS_Store -delete 2>/dev/null
 ```
+
+Note: macOS's `find` has a bug when going through a lot of files (which will happen in your home folder), where it will randomly trigger an error window containing `find: fts_read: Invalid argument`. Adding `2>/dev/null` at the end of the script might fix it, but otherwise as a solution, you can instead install the GNU version of `find` from [brew](https://formulae.brew.sh/formula/findutils) and edit the shell script by replacing `/usr/bin/find` with `/opt/homebrew/bin/gfind`
 
 ---
 
@@ -132,4 +134,4 @@ Simply toggling it on sometimes _doesn’t take effect_ until you reboot.
 ### Source
 
 - Me, TheFrenchGhosty, since DS_Store files are a pain anytime I use macOS
-- An LLM (sorry, I didn't even know making stuff in Automator could be that powerful before the LLM told me) that I did babysit a lot, most of what is written was double/triple checked by me
+- An LLM (sorry, I didn't even know making stuff in Automator could be that powerful before the LLM told me) that I did babysit heavily, all of what it gave me was double/triple checked by me, and what is written was almost fully written by me (or fully edited by me)
