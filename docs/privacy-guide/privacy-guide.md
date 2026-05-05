@@ -63,9 +63,9 @@ More: https://libreddit.pussthecat.org/r/PrivacyGuides/comments/rbv0uh/recent_up
 Use:
 
 - Your own self-hosted Nextcloud
-- Any provider supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/)) that isn't: a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech) (Amazon, Apple, Google, Microsoft...), in a [Five Eyes country](https://en.wikipedia.org/wiki/Five_Eyes) - USA, Canada, Australia, United Kingdom, New Zealand - (BackBlaze, Dropbox, Icedrive, [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859), Box, OpenDrive, Crashplan, Wasabi, pCloud, Rsync net, and more...) or in Russia (Yandex...).
+- Any provider supported by [Rclone](https://rclone.org/overview/) (and [just encrypt with it](https://rclone.org/crypt/)) that isn't: a [Big Tech company](https://en.wikipedia.org/wiki/Big_Tech) (Amazon, Apple, Google, Microsoft...), in a [Five Eyes country](https://en.wikipedia.org/wiki/Five_Eyes) - USA, Canada, Australia, United Kingdom, New Zealand - (BackBlaze, Dropbox, Icedrive, [Mega](https://www.techradar.com/news/internet/kim-dotcom-says-you-can-t-trust-mega-teases-his-own-file-hosting-competitor-1300859), Box, OpenDrive, Crashplan, Wasabi, pCloud, Rsync net, and more...) or in Russia (Yandex...) - good ones are Hetzner Storage Box and Jottacloud.
 - [Cryptee](https://crypt.ee/) (Note: expensive, not audited, not supported by Rclone)
-- [Filen](https://filen.io/) (Note: really young, not audited, not supported by Rclone)
+- [Filen](https://filen.io/) (Note: young, not audited, not supported by Rclone)
 
 Do not use:
 
@@ -93,6 +93,17 @@ Do not use:
 #### Email Provider
 
 Moved to [their own page](../privacy-guide/email-providers.md)
+
+#### Email Aliasing
+
+Use:
+
+- Your email provider built in feature
+- [addy.io](https://addy.io/)
+
+Do not use:
+
+- [SimpleLogin](https://simplelogin.io/): Owned by Proton, like Protonmail and ProtonVPN, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet](https://libreddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/) [an advertising company](https://libreddit.pussthecat.org/r/privacy/comments/8y0hee/proton_has_been_using_the_office_space_ceo_and/e285hhg/?context=3) (they admitted it [here](https://web.archive.org/web/20180607213231/https://news.ycombinator.com/item?id=17260310) and proceeded to delete everything mentioning this, including the message where they admitted it), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging) (More: https://digdeeper.club/articles/email.xhtml#protonmail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c)).
 
 #### Search Engines
 
@@ -126,7 +137,7 @@ Use:
 
 Do not use:
 
-- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet](https://libreddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/) [an advertising company](https://libreddit.pussthecat.org/r/privacy/comments/8y0hee/proton_has_been_using_the_office_space_ceo_and/e285hhg/?context=3) (they admitted it [here](https://web.archive.org/web/20180607213231/https://news.ycombinator.com/item?id=17260310) and proceeded to delete everything mentioning this, including the message where they admitted it), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging) (More: https://digdeeper.club/articles/email.xhtml#protonmail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c) / [Librarian (Odysee)](https://librarian.pussthecat.org/@AlphaNerd:8/is-proton-mail-really-private,-secure,:f)).
+- ProtonVPN: like Protonmail, sketchy ([allegedly a honeypot](https://encryp.ch/blog/disturbing-facts-about-protonmail/)), in 2018, Proton, had [its VPN client signed by Tesonet](https://libreddit.pussthecat.org/r/privacytoolsIO/comments/8xnvxc/remove_protonvpn_from_privacytoolsio/) [an advertising company](https://libreddit.pussthecat.org/r/privacy/comments/8y0hee/proton_has_been_using_the_office_space_ceo_and/e285hhg/?context=3) (they admitted it [here](https://web.archive.org/web/20180607213231/https://news.ycombinator.com/item?id=17260310) and proceeded to delete everything mentioning this, including the message where they admitted it), in 2021, [they helped autority](https://techcrunch.com/2021/09/06/protonmail-logged-ip-address-of-french-activist-after-order-by-swiss-authorities/) [by logging the IP address of a French activist, going against their marketing material, and privacy policy](https://en.wikipedia.org/wiki/ProtonMail#Compliance_with_Swiss_court_orders_and_IP_Logging) (More: https://digdeeper.club/articles/email.xhtml#protonmail - Mental Outlaw's video about it: [Invidious (YouTube)](https://redirect.invidious.io/watch?v=IeXaYR4ed9c).
 
 ### Software
 
@@ -137,7 +148,7 @@ Use:
 - [Librewolf](https://librewolf.net/) (Note: follow [this](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration))
 - Firefox properly [configured](https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-Firefox-Configuration) (Note: it directly "encourages" [Mozilla's behaviour](https://digdeeper.club/articles/mozilla.xhtml), including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
 - [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium)
-- [Mull](https://divestos.org/pages/our_apps#mull)
+- [Mullvad Browser](https://mullvad.net/en/download/browser/) (Note: you don't need to be a Mullvad subscriber to use it)
 
 Do not use:
 
@@ -164,7 +175,6 @@ Use:
 
 - [GrapheneOS](https://grapheneos.org/) (Note: really low amount of devices supported)
 - [LineageOS](https://lineageos.org/) (Note: it needs to be "degoogled" first: https://redlib.pussthecat.org/r/degoogle/comments/cldohl/how_to_degoogle_lineageos_in_2019/ )
-- [DivestOS](https://divestos.org/): (Note: A soft-fork of LineageOS that is better than it in every way, however the project is REALLY young, support a lot less devices (a lot of the builds are either broken or untested) and has no track record.)
 - Any FOSS GNU/Linux distribution
 
 Do not use:
@@ -203,7 +213,7 @@ Use:
 
 Use:
 
-- [K-9 Mail](https://f-droid.org/packages/com.fsck.k9/): It directly "encourages" [Mozilla's behavior](https://digdeeper.club/articles/mozilla.xhtml) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
+- [K-9 Mail](https://f-droid.org/packages/com.fsck.k9/) / [Thunderbird](https://f-droid.org/en/packages/net.thunderbird.android/) (both are identical, just with different branding): It directly "encourages" [Mozilla's behavior](https://digdeeper.club/articles/mozilla.xhtml) (including them [working](https://www.xda-developers.com/mozilla-meta-interoperable-private-attribution/) [with Facebook](https://blog.mozilla.org/en/mozilla/privacy-preserving-attribution-for-advertising/))
 - [FairEmail](https://f-droid.org/packages/eu.faircode.email/)
 
 #### File Encryption Software
@@ -267,8 +277,8 @@ Use:
 
 Do not use:
 
-- Signal: Phone number required, centralized server, US-based company, [hostile toward alternative clients](https://github.com/LibreSignal/LibreSignal#readme))
-- Telegram: Phone number required, centralized server, not encrypted by default, use a non-standard in-home encryption, used to be a Russian based company, incertain future. Currently based in [Dubai](https://telegram.org/faq#q-where-is-telegram-based). (More: https://spyware.neocities.org/articles/telegram.html - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=qBTsUVrCDAQ) / [Odysee](https://odysee.com/@Luke:7/don't-use-telegram.-don't-use-telegram.:9) / [PeerTube](https://videos.lukesmith.xyz/w/55RGM34fBAXBxK4v84HxTD)).
+- Signal: Phone number required to register but username available, centralized server, US-based company, [hostile toward alternative clients](https://github.com/LibreSignal/LibreSignal#readme))
+- Telegram: Phone number required, centralized server, not encrypted by default, use a non-standard in-home encryption, used to be a Russian based company, incertain future especially after the CEO arrest in France (which caused them to changed policy regarding user privacy). Currently based in [Dubai](https://telegram.org/faq#q-where-is-telegram-based). (More: https://spyware.neocities.org/articles/telegram.html - Luke Smith's video about it: [Invidious](https://redirect.invidious.io/watch?v=qBTsUVrCDAQ) / [Odysee](https://odysee.com/@Luke:7/don't-use-telegram.-don't-use-telegram.:9) / [PeerTube](https://videos.lukesmith.xyz/w/55RGM34fBAXBxK4v84HxTD)).
 
 #### Video/Voice Chat
 
@@ -276,3 +286,11 @@ Use:
 
 - [Jitsi](https://jitsi.org/jitsi-meet/) (Video chat)
 - [Mumble](https://mumble.info/) (Voice chat)
+
+
+#### Mobile Keyboards
+
+Use:
+
+- [HeliBoard](https://f-droid.org/en/packages/helium314.keyboard/)
+- [AnySoftKeyboard](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/)
